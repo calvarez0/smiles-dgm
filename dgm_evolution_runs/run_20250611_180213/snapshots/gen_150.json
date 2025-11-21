@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T23:02:36.858483+00:00",
+  "current_prompt": "Modify molecule '{smiles}' with a creative but strategic change to improve drug-likeness. Return only SMILES.",
+  "all_time_best_fitness": 0.845131158229415,
+  "generations_since_best": 79,
+  "novelty_archive_size": 1000,
+  "generation": 150,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "COSC12ONOCC1OCNN2NSCl",
+  "best_fitness": 0.48136367466314217,
+  "avg_novelty": 0.9198054983944706,
+  "population": [
+    {
+      "smiles": "NNSC12SOSS[SH]1SSSN2SSCl",
+      "fitness": 0.13652734098908326,
+      "novelty": 0.9221088628660984
+    },
+    {
+      "smiles": "NOOC12SOSS[SH]1SSSN2SSCl",
+      "fitness": 0.1630736961216473,
+      "novelty": 0.9304562935556954
+    },
+    {
+      "smiles": "NSOC12SOSSC1SSSN2OSCl",
+      "fitness": 0.4142312975036521,
+      "novelty": 0.9289671357767975
+    },
+    {
+      "smiles": "CSCC12SCNSN1OCON2COO",
+      "fitness": 0.43953699391717,
+      "novelty": 0.8967326951019804
+    },
+    {
+      "smiles": "NOSC12SSSS[SH]1SSSN2SSCl",
+      "fitness": 0.16504836742525342,
+      "novelty": 0.9281551050242122
+    },
+    {
+      "smiles": "CCOCOOSS[SH]1COO[SH]2SSCOC12OCOSN",
+      "fitness": 0.060453542679884564,
+      "novelty": 0.9256828492720603
+    },
+    {
+      "smiles": "NSOCSC12OCSS[SH]1SOC[SH]2NCOOCOSF",
+      "fitness": 0.05006578903610914,
+      "novelty": 0.9205116413218651
+    },
+    {
+      "smiles": "NNSSONSS12NCOSN1SSSN2OSOONSN",
+      "fitness": 0.04123227320750254,
+      "novelty": 0.9245369633132587
+    },
+    {
+      "smiles": "COSC12ONOCC1OCNN2NSCl",
+      "fitness": 0.48136367466314217,
+      "novelty": 0.9010167006845258
+    },
+    {
+      "smiles": "NSOCSC12OCSS[SH]1SOC[SH]2NCOOCOSF",
+      "fitness": 0.05006578903610914,
+      "novelty": 0.9198867370282122
+    }
+  ]
+}

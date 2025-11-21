@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:58.754217+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 42,
+  "novelty_archive_size": 1000,
+  "generation": 233,
+  "mutation_strategy": "genetic",
+  "best_smiles": "COC(CCCCCl)c1nnnc2c(N)nnnc12",
+  "best_fitness": 0.6140735544305177,
+  "avg_novelty": 0.8945619551915337,
+  "population": [
+    {
+      "smiles": "CCOOC[SH]12=NC=[SH](Cl)C(N)=C1N=CC=C2NCNSSSCNCCl",
+      "fitness": 0.021152018516893235,
+      "novelty": 0.8984322821843022
+    },
+    {
+      "smiles": "COC(CNCCCl)c1nnnc2c(N)nnnc12",
+      "fitness": 0.5233396741656452,
+      "novelty": 0.8932366214430352
+    },
+    {
+      "smiles": "CNSNO[SH]12=CC=NC(C)=C1N=NC=C2OSOSSCSSCSSCl",
+      "fitness": 0.027838303637072303,
+      "novelty": 0.8971391093539561
+    },
+    {
+      "smiles": "CNOOC[SH]12=NC=[SH](Cl)S(N)=C1N=C[SH]=C2NCNSSSCNNCl",
+      "fitness": 0.019695964218100895,
+      "novelty": 0.897141653980496
+    },
+    {
+      "smiles": "COC(CCCCCl)c1nnnc2c(N)nnnc12",
+      "fitness": 0.6140735544305177,
+      "novelty": 0.8920946520211878
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(SCNSSOOOSOF)[SH]2(CONNO)=N[SH]=[SH]1CF",
+      "fitness": 0.015827653846949605,
+      "novelty": 0.8946869257514843
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(SCNSSOOOSOCl)[SH]2(CONNO)=N[SH]=[SH]1CF",
+      "fitness": 0.015653482968140377,
+      "novelty": 0.890965090196938
+    },
+    {
+      "smiles": "COC(CCCCCl)c1nnnc2c(N)nnnc12",
+      "fitness": 0.6140735544305177,
+      "novelty": 0.8917246191184119
+    },
+    {
+      "smiles": "CNOOC[SH]12=NC=[SH](Cl)S(N)=C1N=C[SH]=C2NCNSSSCNCCl",
+      "fitness": 0.017247676215038133,
+      "novelty": 0.8952915040645935
+    },
+    {
+      "smiles": "CNOOC[SH]12=NC=[SH](Cl)S(N)=C1N=C[SH]=C2NCNSSSCNCCl",
+      "fitness": 0.017247676215038133,
+      "novelty": 0.8949070938009333
+    }
+  ]
+}

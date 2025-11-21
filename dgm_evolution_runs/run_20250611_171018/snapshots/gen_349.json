@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:20.073134+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 158,
+  "novelty_archive_size": 1000,
+  "generation": 349,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Cc1nnnc2c(N(CO)CNCOS)nnnc12",
+  "best_fitness": 0.25353475846193946,
+  "avg_novelty": 0.8884735468411785,
+  "population": [
+    {
+      "smiles": "OON(NNNSCNCCF)c1c(OCl)nnc2c(ONNCF)cnnc12",
+      "fitness": 0.04373125720247841,
+      "novelty": 0.8923469461615653
+    },
+    {
+      "smiles": "OON(OONSCOCCl)c1c(NCF)nnc2c(SONF)cnnc12",
+      "fitness": 0.03666442075626725,
+      "novelty": 0.8933115414777815
+    },
+    {
+      "smiles": "OSSN(NNNSCNCCl)c1c(NCF)nnc2c(OONCF)ccnc12",
+      "fitness": 0.020253153581660202,
+      "novelty": 0.8933237305333652
+    },
+    {
+      "smiles": "Nc1nnnc2c(N(CO)CCOSS)nnnc12",
+      "fitness": 0.20028628212936755,
+      "novelty": 0.8739447976921253
+    },
+    {
+      "smiles": "OSON(NNNSNNCCl)c1c(NCCl)nnc2c(OCNCF)ccnc12",
+      "fitness": 0.03049636260094496,
+      "novelty": 0.8942556163734688
+    },
+    {
+      "smiles": "NCSSCN(NS)c1nnnc2c1N=NN=S2S",
+      "fitness": 0.1982896372037817,
+      "novelty": 0.8866494587921424
+    },
+    {
+      "smiles": "NCNCSNNNN(OS)c1c(NCl)nnc2c(CNNF)nnnc12",
+      "fitness": 0.0316566033332471,
+      "novelty": 0.8911332465703088
+    },
+    {
+      "smiles": "Cc1nnnc2c(N(CO)CNCOS)nnnc12",
+      "fitness": 0.25353475846193946,
+      "novelty": 0.8778216727713191
+    },
+    {
+      "smiles": "OCN(NNNSSOCCl)S1=C(NCF)N=Nc2c(SONS)cnnc21",
+      "fitness": 0.019383594355333572,
+      "novelty": 0.8889848667268274
+    },
+    {
+      "smiles": "OCN(NNNSSONCl)S1=C(NCF)N=Nc2c(SONO)cnnc21",
+      "fitness": 0.021349872399325957,
+      "novelty": 0.8929635913128817
+    }
+  ]
+}

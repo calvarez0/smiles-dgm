@@ -1,0 +1,27 @@
+Evolution Summary - Generation 820
+==========================================
+
+Run ID: 20250611_165550
+Generation: 820
+Timestamp: 2025-06-11T21:59:20.762949+00:00
+
+Best Molecule Found:
+- SMILES: N#Cc1ccc(SC2=NN=CS(CSCCl)=N2)cc1
+- Fitness: 0.7924
+- Found in Generation: 60
+
+All-Time Best Fitness: 0.7924
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a daring molecular alchemist.  Given molecule SMILES '{smiles}', transmute it into a novel, chemically valid molecule by radically altering its core structure. Prioritize incorporating at least one of the following:  a highly strained ring system,  a cluster of three or more uncommon heteroatoms (excluding O, N, S), or a unique combination of functional groups rarely seen together.  Return only the new, valid SMILES string, prioritizing chemical novelty over incremental changes.
+
+Performance History (last 10 generations):
+- Fitness: [0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042]
+- Novelty: [0.9038777856459153, 0.9035654262654121, 0.9047695737690489, 0.9048504803702772, 0.9051295222108602, 0.9049636698701177, 0.9031382364892124, 0.9008899132565968, 0.9021290570645674, 0.9027885575796478]
+
+Archive Size: 8200 molecules explored

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:36:37.081889+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 435,
+  "novelty_archive_size": 1000,
+  "generation": 500,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "C=C1C2=NN(C(C)(C)C)C(CC(O)(O)SCF)=NN2C(=CO)N1OCl",
+  "best_fitness": 0.47927293382637826,
+  "avg_novelty": 0.9225548278396625,
+  "population": [
+    {
+      "smiles": "C=c1c2n(c(=NN)n1SCl)N=C(CC(O)(O)SCl)N(C(C)(C)C)N=2",
+      "fitness": 0.35856838437865407,
+      "novelty": 0.9140982677923633
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)N)C(SC(O)(O)SCl)=NN2C(=CN)N1ON",
+      "fitness": 0.30695161064687787,
+      "novelty": 0.9197079401129435
+    },
+    {
+      "smiles": "c1cnnnn1",
+      "fitness": 0.41358942779870683,
+      "novelty": 0.9530107842459383
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)C)C(CC(O)(O)SCF)=NN2C(=CO)N1OCl",
+      "fitness": 0.47927293382637826,
+      "novelty": 0.9175552839631244
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)C)C(SC(O)(O)SCl)=NN2C(=CO)N1OCl",
+      "fitness": 0.4727921768815384,
+      "novelty": 0.9249186860216648
+    },
+    {
+      "smiles": "CC(N)(O)n1nc2c(=O)n(SCl)c(=[SH]N)n-2nc1SC(O)(O)SCl",
+      "fitness": 0.14616296511617785,
+      "novelty": 0.9177416554477453
+    },
+    {
+      "smiles": "CC(N)(O)n1nc2c(=O)n(SCl)c(=[SH]N)n-2nc1SC(O)(O)SCl",
+      "fitness": 0.14616296511617785,
+      "novelty": 0.9175579601604259
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)N)C(SC(O)(S)SCl)=NN2C(=CN)N1ON",
+      "fitness": 0.25034738873606915,
+      "novelty": 0.9173073759311092
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)N)C(SC(O)(O)SCl)=NN2C(=CN)N1ON",
+      "fitness": 0.30695161064687787,
+      "novelty": 0.9191643494280548
+    },
+    {
+      "smiles": "C=C1C2=NN(C(C)(C)C)C(SC(O)(O)SCl)=NN2C(=CO)N1OCl",
+      "fitness": 0.4727921768815384,
+      "novelty": 0.9244859752932546
+    }
+  ]
+}

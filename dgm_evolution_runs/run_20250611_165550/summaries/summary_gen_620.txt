@@ -1,0 +1,27 @@
+Evolution Summary - Generation 620
+==========================================
+
+Run ID: 20250611_165550
+Generation: 620
+Timestamp: 2025-06-11T21:57:57.348042+00:00
+
+Best Molecule Found:
+- SMILES: N#Cc1ccc(SC2=NN=CS(CSCCl)=N2)cc1
+- Fitness: 0.7924
+- Found in Generation: 60
+
+All-Time Best Fitness: 0.7924
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.
+
+Performance History (last 10 generations):
+- Fitness: [0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042, 0.7924325685088042]
+- Novelty: [0.8952488660440288, 0.8949220438649546, 0.8942976823093904, 0.8948449925790996, 0.8965051419326381, 0.8963833602984934, 0.8960821201826489, 0.8965090126451616, 0.8957070644507649, 0.8949855316525787]
+
+Archive Size: 6200 molecules explored

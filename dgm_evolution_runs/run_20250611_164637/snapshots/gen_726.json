@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:50:22.247553+00:00",
+  "current_prompt": "You are a seasoned medicinal chemist specializing in SAR and overcoming fitness plateaus. Given the molecule SMILES '{smiles}', propose 7 diverse mutations (single atom/functional group substitutions, additions, deletions, or ring expansions/contractions) prioritizing improvements in predicted ADME/Tox properties and maximizing structural novelty, while maintaining Lipinski's Rule of Five compliance. Prioritize mutations predicted to improve aqueous solubility and metabolic stability,  with at least 3 significantly different from the parent molecule to escape local optima. Return only a space-separated list of valid SMILES strings. Each mutation should be substantially different from others and the parent, incorporating a balance of conservative and radical modifications. Include at least two mutations predicted to significantly improve at least one ADME property (e.g., solubility, permeability, clearance), one mutation predicted to enhance permeability (e.g., Caco-2), and one designed to directly improve fitness using a scoring function weighted towards improved solubility, metabolic stability, and potency.  If no such improvements are predicted, prioritize novelty and explore mutations predicted to significantly alter interaction with a key target.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 726,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C=C(CF)N1NCCNC1COC(N)=CCOCl",
+  "best_fitness": 0.5786017061989175,
+  "avg_novelty": 0.9074057637128972,
+  "population": [
+    {
+      "smiles": "C=C(NCS)C1CCOCN1CCS(N)=NNCNO",
+      "fitness": 0.14182987030954097,
+      "novelty": 0.9146182898161412
+    },
+    {
+      "smiles": "C=C(NCF)N1CCCCN1CNC(S)=NSCCl",
+      "fitness": 0.16654879450590404,
+      "novelty": 0.9038378516400014
+    },
+    {
+      "smiles": "NCNN=C(N)SCC1COCCN1C(=O)CCCl",
+      "fitness": 0.19713723966814523,
+      "novelty": 0.9071567403800754
+    },
+    {
+      "smiles": "C=C(OF)N1NOCNN1SCC(C)=NCOCl",
+      "fitness": 0.41035091731571,
+      "novelty": 0.8876372499623579
+    },
+    {
+      "smiles": "CNC[SH]=C(C)CSN1NNCSN1C(=S)CF",
+      "fitness": 0.32545932661270466,
+      "novelty": 0.9040435897262383
+    },
+    {
+      "smiles": "C=C(CF)N1NCCNC1COC(N)=CCOCl",
+      "fitness": 0.5786017061989175,
+      "novelty": 0.9042915059204927
+    },
+    {
+      "smiles": "C=C(CS)C1CCNNC1NNS(S)=[SH]NCCF",
+      "fitness": 0.1008904237494189,
+      "novelty": 0.9258292885986201
+    },
+    {
+      "smiles": "O=C(NF)N1CCNNN1SCC(O)=NSNCCl",
+      "fitness": 0.08849573252507856,
+      "novelty": 0.9067937042442309
+    },
+    {
+      "smiles": "S=S(NCl)N1CCCCC1CCC(S)=NSCCl",
+      "fitness": 0.18027424877833026,
+      "novelty": 0.9137634268223763
+    },
+    {
+      "smiles": "CNC[SH]=C(C)CSN1NNCSN1C(=S)NF",
+      "fitness": 0.21280510537545994,
+      "novelty": 0.9060859900184383
+    }
+  ]
+}

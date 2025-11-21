@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:54:39.364613+00:00",
+  "current_prompt": "You are a seasoned medicinal chemist specializing in SAR and overcoming fitness plateaus. Given the molecule SMILES '{smiles}', propose 7 diverse and novel mutations (single atom/functional group substitutions, additions, deletions, or ring expansions/contractions) prioritizing improvements in predicted ADME/Tox properties and maximizing structural novelty, while maintaining Lipinski's Rule of Five compliance. Prioritize mutations predicted to improve aqueous solubility (logS > 0.8), metabolic stability (e.g., reduced CYP450 interaction, predicted half-life > 8 hours), and permeability (Caco-2 Papp > 30 x 10\u207b\u2076 cm/s). Generate mutations with a Tanimoto similarity < 0.7 to the parent and other generated mutations.  Include at least three mutations predicted to improve aqueous solubility, two to improve metabolic stability, and two to enhance permeability. Prioritize mutations predicted to improve fitness by at least 0.05, with a scoring function weighting solubility, metabolic stability, and permeability at 60%, and potency at 40%. If no such mutations are predicted, explore mutations with high novelty (Tanimoto similarity < 0.5 to known actives and <0.6 to the parent) focusing on unexplored regions of chemical space incorporating at least one new scaffold. Explore diverse scaffolds and functional groups, including those not present in the parent molecule, and consider ring systems with varying size and heteroatoms.  Return only a space-separated list of valid SMILES strings.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 982,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCNOCSCCCSF",
+  "best_fitness": 0.3673240743228551,
+  "avg_novelty": 0.9293329667275181,
+  "population": [
+    {
+      "smiles": "NCCOOSONNS",
+      "fitness": 0.13831093798042168,
+      "novelty": 0.9302453902973952
+    },
+    {
+      "smiles": "CCNOCSCCCSF",
+      "fitness": 0.3673240743228551,
+      "novelty": 0.9251019686075221
+    },
+    {
+      "smiles": "OSONCCNSNSF",
+      "fitness": 0.20864646980246837,
+      "novelty": 0.9246344334734891
+    },
+    {
+      "smiles": "CCNOCSSCOCl",
+      "fitness": 0.29608887941649104,
+      "novelty": 0.9224475951842526
+    },
+    {
+      "smiles": "NCNNCCNSNCF",
+      "fitness": 0.10549130659491653,
+      "novelty": 0.9345284514835837
+    },
+    {
+      "smiles": "NSSNSONSSNCl",
+      "fitness": 0.1312426418748004,
+      "novelty": 0.9360321288134549
+    },
+    {
+      "smiles": "NSONCSOSOSF",
+      "fitness": 0.21704880082974554,
+      "novelty": 0.9311207043656304
+    },
+    {
+      "smiles": "NSNNCSNCNNF",
+      "fitness": 0.09555171223631034,
+      "novelty": 0.9364603216139776
+    },
+    {
+      "smiles": "NSOOCSOSNSF",
+      "fitness": 0.1648681599738615,
+      "novelty": 0.9311927917115581
+    },
+    {
+      "smiles": "OSONCSNSNSCl",
+      "fitness": 0.17086763642406194,
+      "novelty": 0.9215658817243183
+    }
+  ]
+}

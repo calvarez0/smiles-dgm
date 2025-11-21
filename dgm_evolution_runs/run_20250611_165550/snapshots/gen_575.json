@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:57:45.423056+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 515,
+  "generation": 575,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSSSCc1nc(Cc2nnnc(NCCO)n2)nnc1C#N",
+  "best_fitness": 0.45705857153705404,
+  "avg_novelty": 0.8989234779003592,
+  "population": [
+    {
+      "smiles": "C=C(C)C1C=C[SH](<-O=1)<-N1=NN=CS12NC(=N)N(C(=O)C(C)(O)C(=S)C1CON(C(=N)[S][Ce]3[CH]=NC=[N]3)[SH](N)N1C)C2=[SH]Cl",
+      "fitness": 0.061291888300890066,
+      "novelty": 0.9286690002242293
+    },
+    {
+      "smiles": "C#CS1=NN=C(Cc2ncnc(NOOO)n2)C=C1ONOCCl",
+      "fitness": 0.18230259256289963,
+      "novelty": 0.8938991748504845
+    },
+    {
+      "smiles": "C=C(C)C1N=[NH]->[Ce](<-[O]=1)<-[N]1=NN=[SH]S12OS(=C)N(C(=C)C(N)(S)C(=O)C1SSN(C(=C)S[Se]3C=CC=N3)[SH](C)N1Cl)C2=[SH]CNOCNOSCl",
+      "fitness": 0.008227155400080581,
+      "novelty": 0.9157278375925642
+    },
+    {
+      "smiles": "CCCNS1=CN=NC(SC2=NN=S(C#N)C(CSOO)=N2)=C1",
+      "fitness": 0.22568379253748497,
+      "novelty": 0.8843977671759391
+    },
+    {
+      "smiles": "C=C(O[Se]1C=NN=[SH]1)N1SON(C(=N)C(C)(C)C(=N)N2C(=CF)C3(N=CN=[N]3->[Ce]3<-[C]=C(N=[SH]3)S(=C)S)NS2=C)N(Cl)C1CC",
+      "fitness": 0.01903173758521979,
+      "novelty": 0.9196106205605045
+    },
+    {
+      "smiles": "C=C(N)C1N=[NH]->[Ce](<-[O]=1)<-[N]1=NN=[SH]S12OC(=C)N(C(=O)C(C)(N)C(=S)[SH]1CSN(C(=N)S[Se]3C=NC=N3)N(O)N1O)C2=[SH]F",
+      "fitness": 0.02237549174994268,
+      "novelty": 0.9142538861132401
+    },
+    {
+      "smiles": "CCNCS1=CC=NC(NC2=NN=S(C#N)C(SCNN)=N2)=N1",
+      "fitness": 0.1703636245568125,
+      "novelty": 0.8881300943517
+    },
+    {
+      "smiles": "CCSNc1nc(Cc2cnnc(OONC)n2)nnc1C#N",
+      "fitness": 0.3815731927886565,
+      "novelty": 0.8689490251676932
+    },
+    {
+      "smiles": "CSSSCc1nc(Cc2nnnc(NCCO)n2)nnc1C#N",
+      "fitness": 0.45705857153705404,
+      "novelty": 0.865024362757826
+    },
+    {
+      "smiles": "C=C([S][Ce]1[N]=NN=[N]1)N1OC[SH](C(=O)C(N)(O)S(=N)N2C(=C)CS3([SH]=NN=[N]3->[Ce]3[CH]=NC(S(=O)S)=[N]3)C2=S)N(F)C1COCSCl",
+      "fitness": 0.04603781756210805,
+      "novelty": 0.9105730102094115
+    }
+  ]
+}

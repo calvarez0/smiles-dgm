@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:52:36.173076+00:00",
+  "current_prompt": "You are a seasoned medicinal chemist specializing in SAR and overcoming fitness plateaus. Given the molecule SMILES '{smiles}', propose 7 diverse and novel mutations (single atom/functional group substitutions, additions, deletions, or ring expansions/contractions) prioritizing improvements in predicted ADME/Tox properties and maximizing structural novelty, while maintaining Lipinski's Rule of Five compliance.  Prioritize mutations predicted to improve aqueous solubility (logS > 0.5) and metabolic stability (e.g., reduced CYP450 interaction), exploring both conservative and radical modifications to escape local optima. Return only a space-separated list of valid SMILES strings. Each mutation should exhibit a Tanimoto similarity < 0.8 to the parent and other generated mutations. Include at least two mutations predicted to improve aqueous solubility, one to improve metabolic stability, one to enhance permeability (Caco-2 Papp > 20 x 10\u207b\u2076 cm/s), and one explicitly designed to improve predicted fitness using a scoring function weighted 60% towards improved solubility and metabolic stability, and 40% towards potency. Prioritize mutations with a predicted fitness improvement of at least 0.05 or exhibiting significant novelty. If no such improvements are predicted, explore mutations predicted to significantly alter interaction with a key target, biasing towards those predicted to increase potency and novelty, focusing on unexplored regions of chemical space defined by analyzing the Tanimoto similarity matrix of existing molecules and newly generated molecules.  Explore a broader range of chemical space by incorporating diverse scaffolds and functional groups, including those not present in the parent molecule or existing database.  Explore ring systems with varying size and heteroatoms.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 859,
+  "mutation_strategy": "genetic",
+  "best_smiles": "OC[IH]SCl",
+  "best_fitness": 0.567932715562132,
+  "avg_novelty": 0.950851889233638,
+  "population": [
+    {
+      "smiles": "OC[IH]SCl",
+      "fitness": 0.567932715562132,
+      "novelty": 0.943129169934423
+    },
+    {
+      "smiles": "CSC[IH]CN",
+      "fitness": 0.3304329226500062,
+      "novelty": 0.9493918040392605
+    },
+    {
+      "smiles": "CN[IH]OCl",
+      "fitness": 0.5391008802273826,
+      "novelty": 0.9490123010624546
+    },
+    {
+      "smiles": "SC[IH]CNSS",
+      "fitness": 0.1363360273243358,
+      "novelty": 0.9512130011818604
+    },
+    {
+      "smiles": "NC[IH]CO",
+      "fitness": 0.35093548108147116,
+      "novelty": 0.9530711834312056
+    },
+    {
+      "smiles": "OCNCCl",
+      "fitness": 0.28100877125707424,
+      "novelty": 0.941761096650344
+    },
+    {
+      "smiles": "OSNC[IH]CS",
+      "fitness": 0.13401217308735575,
+      "novelty": 0.9372568141944358
+    },
+    {
+      "smiles": "CC[IH]CNS",
+      "fitness": 0.23798083242796964,
+      "novelty": 0.951222735742751
+    },
+    {
+      "smiles": "SCC[IH]CS",
+      "fitness": 0.31536296634883454,
+      "novelty": 0.970545614508706
+    },
+    {
+      "smiles": "SNC[IH]NS",
+      "fitness": 0.14308190412984154,
+      "novelty": 0.9619151715909379
+    }
+  ]
+}

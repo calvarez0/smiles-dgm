@@ -1,0 +1,27 @@
+Evolution Summary - Generation 1010
+==========================================
+
+Run ID: 20250611_164637
+Generation: 1010
+Timestamp: 2025-06-11T21:54:59.243781+00:00
+
+Best Molecule Found:
+- SMILES: C=C(c1nn(C)nc1CC)N1NNOCC1SC
+- Fitness: 0.8150
+- Found in Generation: 188
+
+All-Time Best Fitness: 0.8150
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a seasoned medicinal chemist specializing in SAR and overcoming fitness plateaus. Given the molecule SMILES '{smiles}', propose 7 diverse and novel mutations (single atom/functional group substitutions, additions, deletions, or ring expansions/contractions) prioritizing improvements in predicted ADME/Tox properties and maximizing structural novelty, while maintaining Lipinski's Rule of Five compliance and a predicted fitness improvement of at least 0.02.  Prioritize mutations predicted to improve aqueous solubility (logS > 0.9), metabolic stability (predicted half-life > 12 hours), and permeability (Caco-2 Papp > 50 x 10⁻⁶ cm/s). Generate mutations with a Tanimoto similarity < 0.65 to the parent and other generated mutations. Include at least three mutations predicted to improve aqueous solubility, two to improve metabolic stability, and two to enhance permeability.  If no such mutations are predicted, explore mutations with high novelty (Tanimoto similarity < 0.4 to known actives and <0.5 to the parent) focusing on unexplored regions of chemical space incorporating at least one new scaffold and diverse functional groups not present in the parent molecule. Explore ring systems with varying size and heteroatoms, prioritizing those predicted to increase rotational flexibility or reduce aggregation propensity. Return only a space-separated list of valid SMILES strings.
+
+Performance History (last 10 generations):
+- Fitness: [0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816]
+- Novelty: [0.9295947856257433, 0.9319439234216349, 0.9318396578739874, 0.9309213632361997, 0.9321699209300929, 0.9286481268510964, 0.9299378978103505, 0.9281628298251142, 0.928234204676858, 0.9270300430005894]
+
+Archive Size: 10100 molecules explored

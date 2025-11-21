@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:04.243931+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 75,
+  "novelty_archive_size": 1000,
+  "generation": 266,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSC(NCCCS)c1nnnc2c(C)nncc12",
+  "best_fitness": 0.4737537483531284,
+  "avg_novelty": 0.8978454578086513,
+  "population": [
+    {
+      "smiles": "CNS1=CN=Nc2c(C(NCSCCl)SN)nnnc21",
+      "fitness": 0.22265502506059595,
+      "novelty": 0.8887159715412394
+    },
+    {
+      "smiles": "NON(OOOCCl)C1=NN=NS2=C1N=NN=C2NCl",
+      "fitness": 0.1850932769217404,
+      "novelty": 0.9044904405629299
+    },
+    {
+      "smiles": "CCC(CCSSCl)C1=NN=NC2=S1N=NC=S2NCCl",
+      "fitness": 0.1986955882017516,
+      "novelty": 0.8994383913945327
+    },
+    {
+      "smiles": "OCCCNC(SS)c1nnnc2c(OCl)nnnc12",
+      "fitness": 0.28170078617415484,
+      "novelty": 0.893519909366782
+    },
+    {
+      "smiles": "CSC(NCCCS)c1nnnc2c(C)nncc12",
+      "fitness": 0.4737537483531284,
+      "novelty": 0.8914096002091542
+    },
+    {
+      "smiles": "NNN(OOONCl)C1=NN=NS2=C1N=NN=C2OCl",
+      "fitness": 0.15750790656985217,
+      "novelty": 0.9120402578075298
+    },
+    {
+      "smiles": "OCOCNC(OS)c1nnnc2c(OCl)nnnc12",
+      "fitness": 0.25336155887795037,
+      "novelty": 0.8960468821021319
+    },
+    {
+      "smiles": "CO[SH](NCCNCl)C1=NN=NS2=C1N=NN=C2SCl",
+      "fitness": 0.29611099848727107,
+      "novelty": 0.8938842639524245
+    },
+    {
+      "smiles": "CS[SH](CCCOCF)C1=NN=NS2=C1N=NN=S2SCF",
+      "fitness": 0.2801642691780245,
+      "novelty": 0.9037711316928089
+    },
+    {
+      "smiles": "CCC(CCSSCl)C1=NN=NC2=S1N=NC=S2NNF",
+      "fitness": 0.2119261579238429,
+      "novelty": 0.8951377294569803
+    }
+  ]
+}

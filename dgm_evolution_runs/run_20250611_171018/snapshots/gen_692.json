@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:01.579294+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 105,
+  "novelty_archive_size": 1000,
+  "generation": 692,
+  "mutation_strategy": "genetic",
+  "best_smiles": "SNc1nnnc2c([IH]OCl)c[nH]c12",
+  "best_fitness": 0.5814458679465786,
+  "avg_novelty": 0.9146561028343857,
+  "population": [
+    {
+      "smiles": "NSC1=NN=[SH]C2=S1ON=C2[CH]CNO",
+      "fitness": 0.24414956715557412,
+      "novelty": 0.9182978249331971
+    },
+    {
+      "smiles": "CN[SH]1=N[SH]=c2c(OC)nsc2=C1CCCNSCSCNNCO",
+      "fitness": 0.05762089873987192,
+      "novelty": 0.925306292346599
+    },
+    {
+      "smiles": "NCSSN[SH]1=NN=c2c(CO)noc2=C1CNNSSCOSO",
+      "fitness": 0.038059266400428324,
+      "novelty": 0.9254510302834962
+    },
+    {
+      "smiles": "CSOONSSCSOC1=c2onc(SO)c2=N[SH]=[SH]1NSSCO",
+      "fitness": 0.029778394909172536,
+      "novelty": 0.9241970817270767
+    },
+    {
+      "smiles": "SNc1nnnc2c([IH]OCl)c[nH]c12",
+      "fitness": 0.5814458679465786,
+      "novelty": 0.8947279710601077
+    },
+    {
+      "smiles": "COSS[SH]1=N[SH]=c2c(OO)noc2=C1SNSNOSNCON",
+      "fitness": 0.02413394726433888,
+      "novelty": 0.9118881784099006
+    },
+    {
+      "smiles": "CSONSONSOS1=c2onc(SO)c2=NN=[SH]1NSCCO",
+      "fitness": 0.0447545062717801,
+      "novelty": 0.913365300611598
+    },
+    {
+      "smiles": "OSc1nncc2c(S)n[nH]c12",
+      "fitness": 0.4762655595214889,
+      "novelty": 0.909354983952258
+    },
+    {
+      "smiles": "COc1nnnc2c(SON)n[nH]c12",
+      "fitness": 0.52649026667802,
+      "novelty": 0.9010879957007207
+    },
+    {
+      "smiles": "NCSSN[SH]1=NN=c2c(SO)noc2=C1CCNSSCSSOS",
+      "fitness": 0.05246524752998982,
+      "novelty": 0.9228843693189028
+    }
+  ]
+}

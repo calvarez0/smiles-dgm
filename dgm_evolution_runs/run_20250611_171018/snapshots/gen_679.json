@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:12:57.536267+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 92,
+  "novelty_archive_size": 1000,
+  "generation": 679,
+  "mutation_strategy": "genetic",
+  "best_smiles": "NSc1nnnc2c(N)c[nH]c12",
+  "best_fitness": 0.5315654380003898,
+  "avg_novelty": 0.9144345040669627,
+  "population": [
+    {
+      "smiles": "NOC1=NN=[SH]C2=S1ON=C2[IH]ONO",
+      "fitness": 0.22750065292362942,
+      "novelty": 0.9243687417846276
+    },
+    {
+      "smiles": "CSOCSSNSNC1=c2onc(SO)c2=NN=[SH]1NSSCO",
+      "fitness": 0.057980320518795155,
+      "novelty": 0.9295565173090713
+    },
+    {
+      "smiles": "SCc1cncc2c([IH]NCl)c[nH]c12",
+      "fitness": 0.4560693964939353,
+      "novelty": 0.9164809615732512
+    },
+    {
+      "smiles": "NNSONONSC1=c2onc(OO)c2=[SH]N=[SH]1SOO",
+      "fitness": 0.02817218760036426,
+      "novelty": 0.9205613343991571
+    },
+    {
+      "smiles": "NCSOOOSC1=c2onc(SS)c2=CC=[SH]1SCl",
+      "fitness": 0.08647122246862479,
+      "novelty": 0.9158089893972566
+    },
+    {
+      "smiles": "NSc1nnnc2c(N)c[nH]c12",
+      "fitness": 0.5315654380003898,
+      "novelty": 0.9011491000177603
+    },
+    {
+      "smiles": "CN[SH]1=N[SH]=S2C(OO)=NOC2=C1CCCSSCSSSS",
+      "fitness": 0.07829209073108682,
+      "novelty": 0.9141239198073783
+    },
+    {
+      "smiles": "NNc1cnnc2c(SON)n[nH]c12",
+      "fitness": 0.30600985278736625,
+      "novelty": 0.8989221182979393
+    },
+    {
+      "smiles": "CSOCSSNSCC1=c2onc(SO)c2=NN=[SH]1NSSC",
+      "fitness": 0.0873047947553554,
+      "novelty": 0.9288461769432129
+    },
+    {
+      "smiles": "CNc1cnnc2c(SON)n[nH]c12",
+      "fitness": 0.4961353159739894,
+      "novelty": 0.894527181139975
+    }
+  ]
+}

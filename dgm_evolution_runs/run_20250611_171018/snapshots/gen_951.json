@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:14:41.383652+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 22,
+  "novelty_archive_size": 1000,
+  "generation": 951,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C=C1ON(c2ccncn2)NCN1C(=O)c1nncnc1OCl",
+  "best_fitness": 0.8210554067436958,
+  "avg_novelty": 0.9447962606276074,
+  "population": [
+    {
+      "smiles": "O=C1SC(c2cccnc2)CSN1C(=S)c1cnnnc1CO",
+      "fitness": 0.6472632368908049,
+      "novelty": 0.9355630789983317
+    },
+    {
+      "smiles": "NN1OSN2NSOCN2N1SCCO",
+      "fitness": 0.33543690246742397,
+      "novelty": 0.9507098731340166
+    },
+    {
+      "smiles": "CNCNSN1C(C)OSN2NSOSN21",
+      "fitness": 0.29567371416049254,
+      "novelty": 0.9521441478901144
+    },
+    {
+      "smiles": "O=C(c1nncnc1OCl)N1CNN(S2=NC=NN=N2)NC1=[SH]S",
+      "fitness": 0.298654237909844,
+      "novelty": 0.9275752339980364
+    },
+    {
+      "smiles": "C=S(S)N1CCC(C#N)C(N2CCSC2=[SH]O)O1",
+      "fitness": 0.40746468969509614,
+      "novelty": 0.9515391526054884
+    },
+    {
+      "smiles": "C=C1ON(c2ccncn2)NCN1C(=O)c1nncnc1OCl",
+      "fitness": 0.8210554067436958,
+      "novelty": 0.9304116894547577
+    },
+    {
+      "smiles": "O=C1ON(S2=NC=NN=N2)CSN1C(=O)c1ccnnc1Cl",
+      "fitness": 0.7327085494893945,
+      "novelty": 0.934317374202271
+    },
+    {
+      "smiles": "NN1NCN2NNSON2N1SSSSCl",
+      "fitness": 0.18848572666945962,
+      "novelty": 0.955469910531449
+    },
+    {
+      "smiles": "NNCSC1N(N)SSC2NSOCN21",
+      "fitness": 0.13691471698008847,
+      "novelty": 0.9516896819378974
+    },
+    {
+      "smiles": "C=C(S)N1CCC(C#N)C(N2NCSC2=[SH]O)O1",
+      "fitness": 0.44847997727494876,
+      "novelty": 0.9585424635237096
+    }
+  ]
+}

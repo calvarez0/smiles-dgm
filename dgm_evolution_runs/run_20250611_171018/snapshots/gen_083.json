@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:34.606030+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 56,
+  "novelty_archive_size": 810,
+  "generation": 83,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Oc1nnnc2c(N(F)CF)nnnc12",
+  "best_fitness": 0.5296973208435799,
+  "avg_novelty": 0.8914026196015884,
+  "population": [
+    {
+      "smiles": "CCCCN[SH]12=NN=CC(C)=S1N=NN=C2OOOSCN",
+      "fitness": 0.08751291648649677,
+      "novelty": 0.89681772402347
+    },
+    {
+      "smiles": "Oc1nnnc2c1=N[SH]=NC=2N(F)CCF",
+      "fitness": 0.493933592075798,
+      "novelty": 0.9056401642948773
+    },
+    {
+      "smiles": "FNN(F)c1nnnc2c(S)nnnc12",
+      "fitness": 0.409411402525443,
+      "novelty": 0.8872122913211477
+    },
+    {
+      "smiles": "Oc1nnnc2c(N(F)CF)nnnc12",
+      "fitness": 0.5296973208435799,
+      "novelty": 0.8508868391633713
+    },
+    {
+      "smiles": "CC1=NN=NS2=C(N(F)CF)N=NN=C12",
+      "fitness": 0.38726312100795124,
+      "novelty": 0.889142045819953
+    },
+    {
+      "smiles": "CCCCN[SH]12=NN=CC(S)=S1N=NN=C2OSOSCN",
+      "fitness": 0.12340840175783106,
+      "novelty": 0.8918097382795632
+    },
+    {
+      "smiles": "NSONSOO[SH]12=N[SH]=CC(Br)=C1[SH]=NN=C2OOS",
+      "fitness": 0.06128993224315689,
+      "novelty": 0.8969173054462218
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(C(F)NCl)N=NN=C12",
+      "fitness": 0.430032318512302,
+      "novelty": 0.8939193023525631
+    },
+    {
+      "smiles": "NSONSOO[SH]12=N[SH]=CC(Br)=C1C=NN=C2OO",
+      "fitness": 0.08076792919053757,
+      "novelty": 0.9022794029285395
+    },
+    {
+      "smiles": "CCCCN[SH]12=NN=CC(C)=S1N=NN=C2OOOSCNN",
+      "fitness": 0.054101055625724495,
+      "novelty": 0.899401382386179
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:08.429562+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 99,
+  "novelty_archive_size": 1000,
+  "generation": 290,
+  "mutation_strategy": "llm",
+  "best_smiles": "CNCCNC(CO)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.5271151379934048,
+  "avg_novelty": 0.9028124358249506,
+  "population": [
+    {
+      "smiles": "CNCCNC(CN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.5237046027378477,
+      "novelty": 0.8973690090635124
+    },
+    {
+      "smiles": "CNCCNC(CO)c1nnnc2c(C)nnnc12",
+      "fitness": 0.5271151379934048,
+      "novelty": 0.9011940309822405
+    },
+    {
+      "smiles": "CNC(CCNOCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.17369476576873757,
+      "novelty": 0.907509431239639
+    },
+    {
+      "smiles": "Cc1nnnc2c(C(CN)CCNNN)nnnc12",
+      "fitness": 0.2593784888383502,
+      "novelty": 0.8959571268235934
+    },
+    {
+      "smiles": "NNN(COOOCl)S1=CN=NC2=C1N=NN=S2OCl",
+      "fitness": 0.17376893142672004,
+      "novelty": 0.8984801209932135
+    },
+    {
+      "smiles": "CNCCNC(NN)C1=NN=NS2=C(C)N=NN=C12",
+      "fitness": 0.17202409705515906,
+      "novelty": 0.9041997296311615
+    },
+    {
+      "smiles": "NCC(NCNNSNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.09185887551549311,
+      "novelty": 0.907996255259839
+    },
+    {
+      "smiles": "CCN(NCNNCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.13949777886113518,
+      "novelty": 0.910232744325761
+    },
+    {
+      "smiles": "CNCNNC(CO)c1nnnc2c(C)nnnc12",
+      "fitness": 0.2593245135953426,
+      "novelty": 0.903600196988515
+    },
+    {
+      "smiles": "CNCCNC(CN)C1=NN=NS2=C(C)N=NN=C12",
+      "fitness": 0.47113785708148986,
+      "novelty": 0.9015857129420309
+    }
+  ]
+}

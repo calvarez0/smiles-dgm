@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:01.714815+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7641466776403377,
+  "generations_since_best": 10,
+  "generation": 50,
+  "mutation_strategy": "prompt_refinement",
+  "best_smiles": "CNC1=NN=NN=S1SCCF",
+  "best_fitness": 0.7115428292837237,
+  "avg_novelty": 0.8786953480383761,
+  "population": [
+    {
+      "smiles": "CN(CS1=CN=NN=C1CSNO)OSF",
+      "fitness": 0.3213363578583915,
+      "novelty": 0.891318230809365
+    },
+    {
+      "smiles": "COc1nnnnc1OCCNF",
+      "fitness": 0.47572842641617125,
+      "novelty": 0.8306678546372371
+    },
+    {
+      "smiles": "CNCOS1=NN=NN=C1CN(C)CF",
+      "fitness": 0.5372053075820815,
+      "novelty": 0.8932790651007552
+    },
+    {
+      "smiles": "CNc1cnnnc1OCNF",
+      "fitness": 0.4818007045686339,
+      "novelty": 0.833063880347098
+    },
+    {
+      "smiles": "CC[SH](C)CC1=CN=CN=S1SONNOF",
+      "fitness": 0.20942504274017754,
+      "novelty": 0.8923465129598501
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1SCCF",
+      "fitness": 0.7115428292837237,
+      "novelty": 0.8900984058721224
+    },
+    {
+      "smiles": "CNCOS1=NN=NN=C1CN(C)CF",
+      "fitness": 0.5372053075820815,
+      "novelty": 0.8908734530030327
+    },
+    {
+      "smiles": "CC[SH](C)CC1=CN=CN=S1SONNO",
+      "fitness": 0.18631089158164843,
+      "novelty": 0.8850006937060055
+    },
+    {
+      "smiles": "CC[SH](C)CC1=CN=CN=S1SONNOF",
+      "fitness": 0.20942504274017754,
+      "novelty": 0.8889867084650819
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1CCCF",
+      "fitness": 0.7108441767036143,
+      "novelty": 0.8913186754832131
+    }
+  ]
+}

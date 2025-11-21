@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:02.350401+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 109,
+  "novelty_archive_size": 1000,
+  "generation": 696,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Cc1n[nH]c2c(SO)nncc12",
+  "best_fitness": 0.6485440145967796,
+  "avg_novelty": 0.91331266517355,
+  "population": [
+    {
+      "smiles": "NSC1=NN=CC2=S1ON=C2NCNS",
+      "fitness": 0.2361233597862736,
+      "novelty": 0.9118694641233505
+    },
+    {
+      "smiles": "CONOCCSONSNSC1=c2onc(OO)c2=[SH]N=[SH]1SSOCN",
+      "fitness": 0.018450525258877165,
+      "novelty": 0.9185756117527443
+    },
+    {
+      "smiles": "SNc1nnnc2c([IH]OCl)c[nH]c12",
+      "fitness": 0.5814458679465786,
+      "novelty": 0.8942755393315989
+    },
+    {
+      "smiles": "COSOCSSNNCC1=c2onc(CO)c2=NN=[SH]1NSSCNO",
+      "fitness": 0.03215175793022625,
+      "novelty": 0.9276922687923704
+    },
+    {
+      "smiles": "CSOONSSCSOC1=c2onc(SO)c2=N[SH]=[SH]1NSSCOCl",
+      "fitness": 0.03093551295513693,
+      "novelty": 0.9193330726747604
+    },
+    {
+      "smiles": "CSONSONSOS1=c2onc(SO)c2=[SH]N=[SH]1NSCCO",
+      "fitness": 0.0397961779809428,
+      "novelty": 0.9094312113973548
+    },
+    {
+      "smiles": "Cc1n[nH]c2c(SO)nncc12",
+      "fitness": 0.6485440145967796,
+      "novelty": 0.9051756119426392
+    },
+    {
+      "smiles": "CN[SH]1=N[SH]=c2c(OC)nsc2=C1CCCNCCSCNNCOSO",
+      "fitness": 0.04915773943543932,
+      "novelty": 0.9260598483065771
+    },
+    {
+      "smiles": "NCSSN[SH]1=NN=c2c(SO)noc2=C1CCOSSCSSOS",
+      "fitness": 0.06011121733089263,
+      "novelty": 0.9210361766499642
+    },
+    {
+      "smiles": "COc1nnnc2c(CON)n[nH]c12",
+      "fitness": 0.6143525301427886,
+      "novelty": 0.8996778467641406
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:02.482599+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 63,
+  "novelty_archive_size": 1000,
+  "generation": 254,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSC(CCCCCl)c1nnnc2c1C=NN=S2C",
+  "best_fitness": 0.597582368146974,
+  "avg_novelty": 0.8995513264053697,
+  "population": [
+    {
+      "smiles": "NOC(CCNCO)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.204093674131469,
+      "novelty": 0.9022632328711757
+    },
+    {
+      "smiles": "NOC(ONOCCl)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.23329701500534908,
+      "novelty": 0.9072747647354595
+    },
+    {
+      "smiles": "CON(CNCSO)c1ncnc2c1[SH]=NN=S2NS",
+      "fitness": 0.11911498822348167,
+      "novelty": 0.8948814632909317
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c1N=NC=S2N",
+      "fitness": 0.4943906094825838,
+      "novelty": 0.8878566420181107
+    },
+    {
+      "smiles": "CON(NCNOCl)C1=NN=NS2=C1C=NN=S2NCl",
+      "fitness": 0.15806479585452493,
+      "novelty": 0.9029516248115916
+    },
+    {
+      "smiles": "CSC(CNCCS)c1nnnc2c1[SH]=NN=S2CSCl",
+      "fitness": 0.45629573294782916,
+      "novelty": 0.9002086639435433
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c1C=NN=S2C",
+      "fitness": 0.597582368146974,
+      "novelty": 0.8978154651962896
+    },
+    {
+      "smiles": "COC(CNCNS)c1nnnc2c1[SH]=NN=S2CS",
+      "fitness": 0.2663129634386156,
+      "novelty": 0.8994978520367171
+    },
+    {
+      "smiles": "CO[SH](SCCOCl)C1=NN=NS2=C1N=NN=S2SCl",
+      "fitness": 0.30192309802401684,
+      "novelty": 0.9117875470979101
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c1N=NC=S2NCl",
+      "fitness": 0.34895573975395305,
+      "novelty": 0.890976008051969
+    }
+  ]
+}

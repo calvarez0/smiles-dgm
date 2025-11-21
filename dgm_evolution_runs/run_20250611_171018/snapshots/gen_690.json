@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:00.439757+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 103,
+  "novelty_archive_size": 1000,
+  "generation": 690,
+  "mutation_strategy": "llm",
+  "best_smiles": "SNc1nnnc2c([IH]OCl)c[nH]c12",
+  "best_fitness": 0.5814458679465786,
+  "avg_novelty": 0.914917829906507,
+  "population": [
+    {
+      "smiles": "CN[SH]1=N[SH]=c2c(OC)nsc2=C1CCCSSCSCNSCO",
+      "fitness": 0.07324182631258477,
+      "novelty": 0.9238222806466218
+    },
+    {
+      "smiles": "NSC1=NN=CC2=S1ON=C2[CH]ONO",
+      "fitness": 0.3607345332892596,
+      "novelty": 0.9147449624919783
+    },
+    {
+      "smiles": "COc1nnnc2c(SON)n[nH]c12",
+      "fitness": 0.52649026667802,
+      "novelty": 0.9013595958915007
+    },
+    {
+      "smiles": "OCSSN[SH]1=[SH]N=c2c(SO)noc2=C1OSCSSNOOS",
+      "fitness": 0.02885270368377813,
+      "novelty": 0.9251761955463196
+    },
+    {
+      "smiles": "SNc1nnnc2c([IH]OCl)c[nH]c12",
+      "fitness": 0.5814458679465786,
+      "novelty": 0.8949342041639419
+    },
+    {
+      "smiles": "NCSSN[SH]1=NN=c2c(SO)noc2=C1CCNSSCSSOS",
+      "fitness": 0.05246524752998982,
+      "novelty": 0.92361869165195
+    },
+    {
+      "smiles": "COSS[SH]1=N[SH]=c2c(OO)noc2=C1SNONOSNSON",
+      "fitness": 0.030256962325897887,
+      "novelty": 0.9178183348268735
+    },
+    {
+      "smiles": "NCSSN[SH]1=NN=c2c(SO)noc2=C1CCNSSCOSO",
+      "fitness": 0.06002399892689048,
+      "novelty": 0.9242341045929777
+    },
+    {
+      "smiles": "CSONSONSOS1=c2onc(SO)c2=NN=[SH]1NSSCO",
+      "fitness": 0.03358135392393994,
+      "novelty": 0.9126601026314314
+    },
+    {
+      "smiles": "OSc1nncc2c(O)n[nH]c12",
+      "fitness": 0.5622703732227121,
+      "novelty": 0.910809826621476
+    }
+  ]
+}

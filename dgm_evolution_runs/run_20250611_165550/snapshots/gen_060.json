@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:04.144680+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 0,
+  "generation": 60,
+  "mutation_strategy": "llm",
+  "best_smiles": "N#Cc1ccc(SC2=NN=CS(CSCCl)=N2)cc1",
+  "best_fitness": 0.7924325685088042,
+  "avg_novelty": 0.8619061900191051,
+  "population": [
+    {
+      "smiles": "CNC1=NN=NN=S1NCCF",
+      "fitness": 0.6668209280372891,
+      "novelty": 0.8572648964996139
+    },
+    {
+      "smiles": "CNc1nnnnc1SCCF",
+      "fitness": 0.6902705026674436,
+      "novelty": 0.8216646283124952
+    },
+    {
+      "smiles": "N#Cc1ccc(SC2=NN=CS(CSCCl)=N2)cc1",
+      "fitness": 0.7924325685088042,
+      "novelty": 0.9122937223689324
+    },
+    {
+      "smiles": "COC1=NN=CN=S1SSCF",
+      "fitness": 0.692435560620152,
+      "novelty": 0.870539672086885
+    },
+    {
+      "smiles": "CSC1=NN=NN=S1CNCO",
+      "fitness": 0.652935055198747,
+      "novelty": 0.871402354859081
+    },
+    {
+      "smiles": "COC1=NN=NN=S1NCNF",
+      "fitness": 0.4905399971873238,
+      "novelty": 0.8778942392038758
+    },
+    {
+      "smiles": "CSC1=NN=NN=S1COCOF",
+      "fitness": 0.5401701065021227,
+      "novelty": 0.8788519192834104
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1NCCF",
+      "fitness": 0.6668209280372891,
+      "novelty": 0.8550209835709415
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1NCCF",
+      "fitness": 0.6668209280372891,
+      "novelty": 0.8535911825950703
+    },
+    {
+      "smiles": "CNc1nnnnc1SCCF",
+      "fitness": 0.6902705026674436,
+      "novelty": 0.8205383014107454
+    }
+  ]
+}

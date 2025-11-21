@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:08.142512+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 97,
+  "novelty_archive_size": 1000,
+  "generation": 288,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNCCCC(CN)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.6730713827451912,
+  "avg_novelty": 0.9014385340659029,
+  "population": [
+    {
+      "smiles": "CNCCNC(CN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.5237046027378477,
+      "novelty": 0.8987664851262889
+    },
+    {
+      "smiles": "CCC(NCNOCNF)C1=NN=NC2=S1N=NC=C2NNF",
+      "fitness": 0.12919080549209117,
+      "novelty": 0.8983506855675462
+    },
+    {
+      "smiles": "CCC(NNNOCNF)c1nnnc2c(NNF)cnnc12",
+      "fitness": 0.13772103990023613,
+      "novelty": 0.8998714722435669
+    },
+    {
+      "smiles": "CCC(CCNNCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.1855718584377929,
+      "novelty": 0.9136427085330303
+    },
+    {
+      "smiles": "CCC(CCNOCNC)C1=NN=NC2=S1N=NC=C2ONF",
+      "fitness": 0.1836265630473454,
+      "novelty": 0.8968444853052886
+    },
+    {
+      "smiles": "NNN(COOOCl)S1=CN=NC2=C1N=NN=S2OCl",
+      "fitness": 0.17376893142672004,
+      "novelty": 0.899858229430402
+    },
+    {
+      "smiles": "CNCCCC(CN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.6730713827451912,
+      "novelty": 0.8961270933042313
+    },
+    {
+      "smiles": "NNN(COOOCl)S1=CN=NC2=C1N=NN=S2OCl",
+      "fitness": 0.17376893142672004,
+      "novelty": 0.8995564534103999
+    },
+    {
+      "smiles": "NNN(COOOCl)S1=CN=NC2=C1N=NN=S2OCl",
+      "fitness": 0.17376893142672004,
+      "novelty": 0.8992438903619598
+    },
+    {
+      "smiles": "CCC(NCNNCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.15044813164955884,
+      "novelty": 0.9121238373763155
+    }
+  ]
+}

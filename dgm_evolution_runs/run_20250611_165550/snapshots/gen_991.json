@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T22:01:01.021619+00:00",
+  "current_prompt": "You are a rogue molecular architect, tasked with destabilizing the core structure of molecule SMILES '{smiles}'.  Introduce at least two significant, unpredictable modifications, prioritizing unusual bonding patterns and heteroatom combinations (including  P, As, Se, Te, B, Si).  Prioritize chemical novelty over fitness, but ensure SMILES validity. Return only the mutated SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 931,
+  "generation": 991,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C[As](=O)(c1ccccn1)N1CCCOC12N(c1ncccn1)C(=N)C21C=NN=C1F",
+  "best_fitness": 0.6568721154838894,
+  "avg_novelty": 0.9313512189010776,
+  "population": [
+    {
+      "smiles": "C[As](=O)(c1ccccn1)N1CCCOC12N(c1ncccn1)C(=N)C21C=NN=C1F",
+      "fitness": 0.6568721154838894,
+      "novelty": 0.9350030260968352
+    },
+    {
+      "smiles": "C=C1N(c2nccnn2)C2(OCNCN2[As](C)(=O)c2ccccn2)C12C=NN=C2F",
+      "fitness": 0.6072862099042429,
+      "novelty": 0.9278466625283532
+    },
+    {
+      "smiles": "O=C1N(c2cccnc2)C2(CCOCN2[As](O)(=S)c2nccnn2)C12N=NC=C2CF",
+      "fitness": 0.4529738310384048,
+      "novelty": 0.9239850668215199
+    },
+    {
+      "smiles": "C=C1N(c2ncccn2)C2(OCCCN2[As](C)(=O)c2ccccn2)C12C=NN=C2F",
+      "fitness": 0.6239428218915284,
+      "novelty": 0.9324505185907644
+    },
+    {
+      "smiles": "N=C1N(c2cccnc2)C2(NONCN2[As](=O)(S)c2ncccn2)C12C=NN=C2F",
+      "fitness": 0.3192798498001233,
+      "novelty": 0.9332903452800847
+    },
+    {
+      "smiles": "N=C1N(c2cccnc2)C2(NNOCN2[As](=O)(O)c2ncccn2)C12N=[SH]N=C2F",
+      "fitness": 0.2354969123775882,
+      "novelty": 0.9330386198872513
+    },
+    {
+      "smiles": "C=C1N(c2ncccn2)C2(OCCCN2[As](=O)(O)c2ccncn2)C12C=NN=C2F",
+      "fitness": 0.5910692638939639,
+      "novelty": 0.9332957041046835
+    },
+    {
+      "smiles": "C=C1N(c2nccnn2)C2(OCCCN2[As](C)(=O)c2ccccn2)C12C=NN=C2F",
+      "fitness": 0.602380606207355,
+      "novelty": 0.9293462726721915
+    },
+    {
+      "smiles": "C=C1N(c2ncccn2)C2(OCCCN2[As](C)(=O)c2ccccn2)C12C=NN=C2F",
+      "fitness": 0.6239428218915284,
+      "novelty": 0.9321770561267214
+    },
+    {
+      "smiles": "C=C1N(c2ncccn2)C2(OCCCN2[As](C)(=O)c2ccncn2)C12C=NN=C2F",
+      "fitness": 0.602380606207355,
+      "novelty": 0.9330789169023704
+    }
+  ]
+}

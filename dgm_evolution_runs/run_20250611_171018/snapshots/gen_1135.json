@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:15:57.544111+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 206,
+  "novelty_archive_size": 1000,
+  "generation": 1135,
+  "mutation_strategy": "genetic",
+  "best_smiles": "[nH]1sn2[nH]sson2s1",
+  "best_fitness": 0.62860658900127,
+  "avg_novelty": 0.9651225055391823,
+  "population": [
+    {
+      "smiles": "[nH]1on2oss[nH]n2s1",
+      "fitness": 0.6091003286437932,
+      "novelty": 0.9657033809640316
+    },
+    {
+      "smiles": "[nH]1on2[nH]sson2o1",
+      "fitness": 0.5748591072774402,
+      "novelty": 0.9651624560225032
+    },
+    {
+      "smiles": "[nH]1on2oso[nH]n2s1",
+      "fitness": 0.6145200071041685,
+      "novelty": 0.9624341683836484
+    },
+    {
+      "smiles": "[nH]1on2oss[nH]n2s1",
+      "fitness": 0.6091003286437932,
+      "novelty": 0.9655449475563889
+    },
+    {
+      "smiles": "[nH]1on2oss[nH]n2s1",
+      "fitness": 0.6091003286437932,
+      "novelty": 0.9654598325222249
+    },
+    {
+      "smiles": "[nH]1on2[nH]sson2o1",
+      "fitness": 0.5748591072774402,
+      "novelty": 0.9649930632560685
+    },
+    {
+      "smiles": "[nH]1on2oso[nH]n2s1",
+      "fitness": 0.6145200071041685,
+      "novelty": 0.9622598766111019
+    },
+    {
+      "smiles": "[nH]1sn2[nH]sson2s1",
+      "fitness": 0.62860658900127,
+      "novelty": 0.9692196007614902
+    },
+    {
+      "smiles": "[nH]1on2oss[nH]n2s1",
+      "fitness": 0.6091003286437932,
+      "novelty": 0.965266391152519
+    },
+    {
+      "smiles": "[nH]1on2oss[nH]n2s1",
+      "fitness": 0.6091003286437932,
+      "novelty": 0.9651813381618456
+    }
+  ]
+}

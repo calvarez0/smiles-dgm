@@ -1,0 +1,27 @@
+Evolution Summary - Generation 860
+==========================================
+
+Run ID: 20250611_164637
+Generation: 860
+Timestamp: 2025-06-11T21:53:16.523651+00:00
+
+Best Molecule Found:
+- SMILES: C=C(c1nn(C)nc1CC)N1NNOCC1SC
+- Fitness: 0.8150
+- Found in Generation: 188
+
+All-Time Best Fitness: 0.8150
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a seasoned medicinal chemist specializing in SAR and overcoming fitness plateaus. Given the molecule SMILES '{smiles}', propose 7 diverse and novel mutations (single atom/functional group substitutions, additions, deletions, or ring expansions/contractions) prioritizing improvements in predicted ADME/Tox properties and maximizing structural novelty, while maintaining Lipinski's Rule of Five compliance.  Prioritize mutations predicted to improve aqueous solubility (logS > 0.5) and metabolic stability (e.g., reduced CYP450 interaction), exploring both conservative and radical modifications to escape local optima. Return only a space-separated list of valid SMILES strings. Each mutation should exhibit a Tanimoto similarity < 0.8 to the parent and other generated mutations. Include at least two mutations predicted to improve aqueous solubility, one to improve metabolic stability, one to enhance permeability (Caco-2 Papp > 20 x 10⁻⁶ cm/s), and one explicitly designed to improve predicted fitness using a scoring function weighted 60% towards improved solubility and metabolic stability, and 40% towards potency. Prioritize mutations with a predicted fitness improvement of at least 0.05 or exhibiting significant novelty. If no such improvements are predicted, explore mutations predicted to significantly alter interaction with a key target, biasing towards those predicted to increase potency and novelty, focusing on unexplored regions of chemical space defined by analyzing the Tanimoto similarity matrix of existing molecules and newly generated molecules.  Explore a broader range of chemical space by incorporating diverse scaffolds and functional groups, including those not present in the parent molecule or existing database.  Explore ring systems with varying size and heteroatoms.
+
+Performance History (last 10 generations):
+- Fitness: [0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816]
+- Novelty: [0.9465806272431221, 0.945395072902406, 0.9473920606955211, 0.944970512669002, 0.9484953042040202, 0.9513430467350913, 0.9460274981363582, 0.948925210108098, 0.950851889233638, 0.9531388002046244]
+
+Archive Size: 8600 molecules explored

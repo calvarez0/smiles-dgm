@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:48:39.706655+00:00",
+  "current_prompt": "You are a seasoned medicinal chemist experienced in structure-activity relationship (SAR) studies. Given the molecule SMILES '{smiles}', propose 3-5 diverse mutations (single atom/functional group substitutions, additions, or deletions) prioritizing improvements in predicted ADME/Tox properties and maintaining structural novelty.  Explore both conservative (analogous substitutions) and more radical modifications to escape local fitness optima. Return only a space-separated list of valid SMILES strings. Prioritize mutations predicted to improve Lipinski's rule of five compliance and minimize predicted toxicity.  Include at least one mutation predicted to significantly improve a specific ADME property (e.g., solubility, permeability).",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 526,
+  "mutation_strategy": "genetic",
+  "best_smiles": "NC(=O)OS1=CN(O)N=C1CCOCl",
+  "best_fitness": 0.702865502862538,
+  "avg_novelty": 0.899471298537654,
+  "population": [
+    {
+      "smiles": "CS(CCN1SOSON1C(=N)OON)=NNF",
+      "fitness": 0.12289820037313484,
+      "novelty": 0.9101570282655771
+    },
+    {
+      "smiles": "C=C(S)Cc1nn(S)nc1CCOCF",
+      "fitness": 0.5918636597599477,
+      "novelty": 0.8861505917612722
+    },
+    {
+      "smiles": "Cn1cc(CNNCl)c(CC(O)=S)n1",
+      "fitness": 0.3956873125439258,
+      "novelty": 0.8873373772133175
+    },
+    {
+      "smiles": "NC(=O)OS1=CN(O)N=C1CCOCl",
+      "fitness": 0.702865502862538,
+      "novelty": 0.894104712478253
+    },
+    {
+      "smiles": "FNN=C(S)CCN1SSSON1C(=S)S",
+      "fitness": 0.08317418298028696,
+      "novelty": 0.9210563858748472
+    },
+    {
+      "smiles": "COOC(=N)N1OSSSN1CCC(N)=NCF",
+      "fitness": 0.11420393006871161,
+      "novelty": 0.9101566330574287
+    },
+    {
+      "smiles": "CC(=N)[SH]1OSSCN1SNC(S)=NCNNN",
+      "fitness": 0.044518523351707424,
+      "novelty": 0.9086736659897479
+    },
+    {
+      "smiles": "CNNN=S(C)CON1OSSON1C(=N)SSC",
+      "fitness": 0.20977741938806407,
+      "novelty": 0.9120771330528917
+    },
+    {
+      "smiles": "O=C(O)Nc1nn(S)cc1CNNCl",
+      "fitness": 0.2973749971592585,
+      "novelty": 0.8920144292488748
+    },
+    {
+      "smiles": "C=C(N)Cc1nn(C)nc1CNOS",
+      "fitness": 0.3568185906918014,
+      "novelty": 0.8729850284343302
+    }
+  ]
+}

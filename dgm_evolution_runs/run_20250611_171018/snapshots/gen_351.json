@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:21.391684+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 160,
+  "novelty_archive_size": 1000,
+  "generation": 351,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Nc1nnnc2c(N(CO)CCOSS)nnnc12",
+  "best_fitness": 0.20028628212936755,
+  "avg_novelty": 0.887595414195206,
+  "population": [
+    {
+      "smiles": "OON(NNNSCNCCF)c1c(OCl)nnc2c(ONNCF)cnnc12",
+      "fitness": 0.04373125720247841,
+      "novelty": 0.8912477799999186
+    },
+    {
+      "smiles": "OON(OONSCSCCl)c1c(NCF)cnc2c(SONF)cnnc12",
+      "fitness": 0.0363185895862079,
+      "novelty": 0.8931852232564593
+    },
+    {
+      "smiles": "NCSSNN(NS)c1nnnc2c1N=NN=S2SF",
+      "fitness": 0.13889956860084293,
+      "novelty": 0.8823164754249828
+    },
+    {
+      "smiles": "OSON(NNNSNNCCl)c1c(NNCl)nnc2c(OCNCF)ccnc12",
+      "fitness": 0.02194112147914619,
+      "novelty": 0.8951798416825739
+    },
+    {
+      "smiles": "OCN(NNNSSONCl)S1=C(NCF)N=Nc2c(SONO)cnnc21",
+      "fitness": 0.021349872399325957,
+      "novelty": 0.8920169984343547
+    },
+    {
+      "smiles": "Nc1nnnc2c(N(CO)CCOSS)nnnc12",
+      "fitness": 0.20028628212936755,
+      "novelty": 0.8732620391343636
+    },
+    {
+      "smiles": "OCN(NNNSCOCCl)S1=C(NCF)N=Nc2c(SONS)cnnc21",
+      "fitness": 0.02367427728661542,
+      "novelty": 0.8866344323641088
+    },
+    {
+      "smiles": "CON(NNNSCNCN)c1c(NCl)nnc2c(CNNF)nnnc12",
+      "fitness": 0.05703659534333428,
+      "novelty": 0.8867396393533704
+    },
+    {
+      "smiles": "Cc1nnnc2c(N(CNCOS)NO)nnnc12",
+      "fitness": 0.1637114372720526,
+      "novelty": 0.8805522871785907
+    },
+    {
+      "smiles": "OSSN(NNNSCNCCl)c1c(OCF)nnc2c(OOOCF)ccnc12",
+      "fitness": 0.025849254468342134,
+      "novelty": 0.8948194251233386
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+Evolution Summary - Generation 10
+==========================================
+
+Run ID: 20250611_171018
+Generation: 10
+Timestamp: 2025-06-11T22:10:23.691491+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: Nc1cncc2c(Cl)ccnc12
+- Fitness: 0.6719
+- Found in Generation: 10
+- Generations since found: 0
+
+ALL-TIME BEST FITNESS: 0.6719
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 0 generations
+- Plateau threshold: 30 generations
+- Status: ✅ Recent progress
+- Novelty archive size: 80 stepping stones
+- Highly novel molecules preserved: 80
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+BEST PERFORMING PROMPT (achieved fitness 0.6719):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.5629544406745024, 0.5629544406745024, 0.5857003735891695, 0.5987148140412792, 0.5987148140412792, 0.5987148140412792, 0.5987148140412792, 0.6058167298330609, 0.6058167298330609, 0.6718606972163413]
+- Average novelty: [0.7354121923487178, 0.7074514184095787, 0.7204375261064153, 0.7408335277006908, 0.7513606107190335, 0.7692799546104921, 0.7856902493057862, 0.7868154994311904, 0.8052972682880414, 0.8253839708644554]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 100
+- Novel molecules (novelty ≥ 0.7): 80
+- Chemical diversity maintained: Medium
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

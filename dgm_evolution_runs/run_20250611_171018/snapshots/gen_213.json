@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:55.023148+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 22,
+  "novelty_archive_size": 1000,
+  "generation": 213,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCCN(CC)c1nnnc2c(O)nnnc12",
+  "best_fitness": 0.7987766969494807,
+  "avg_novelty": 0.8903100081496674,
+  "population": [
+    {
+      "smiles": "NS1=C2N=[SH][SH]=C(NCNCSOONCCl)[SH]2(COOCO)=N[SH]=[SH]1",
+      "fitness": 0.013734854388198648,
+      "novelty": 0.9084416683562169
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(SSNSSOSSCF)[SH]2(ONONS)=[SH]N=N1",
+      "fitness": 0.04967554829574861,
+      "novelty": 0.8956415153416719
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(OSNSSCSSCF)[SH]2(ONONS)=[SH]N=N1",
+      "fitness": 0.04051779693589274,
+      "novelty": 0.8903404137801524
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(NCNSSOONCCl)[SH]2(COOCO)=N[SH]=[SH]1S",
+      "fitness": 0.012652704897315216,
+      "novelty": 0.9005072875645076
+    },
+    {
+      "smiles": "CCN(CSCCF)c1nnnc2c(N)nnnc12",
+      "fitness": 0.590681900221511,
+      "novelty": 0.8767324549264438
+    },
+    {
+      "smiles": "CCSN(CC)c1nnnc2c(S)nnnc12",
+      "fitness": 0.649959092536747,
+      "novelty": 0.8902531455561172
+    },
+    {
+      "smiles": "CCCN(CC)c1nnnc2c(O)nnnc12",
+      "fitness": 0.7987766969494807,
+      "novelty": 0.8856998748402314
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(NCNSSOONSCl)[SH]2(CONCO)=N[SH]=[SH]1F",
+      "fitness": 0.014295682232653767,
+      "novelty": 0.8959326717196179
+    },
+    {
+      "smiles": "NCN(CSCCF)c1nnnc2c(O)nnnc12",
+      "fitness": 0.5192769948201882,
+      "novelty": 0.8744003132955007
+    },
+    {
+      "smiles": "CCCN(CC)c1nnnc2c(O)nnnc12",
+      "fitness": 0.7987766969494807,
+      "novelty": 0.8851507361162136
+    }
+  ]
+}

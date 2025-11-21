@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:46:46.293840+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.778955062144714,
+  "generation": 30,
+  "mutation_strategy": "llm",
+  "best_smiles": "CSn1nnnc1CNSCl",
+  "best_fitness": 0.7401678311249912,
+  "avg_novelty": 0.8873698202721446,
+  "population": [
+    {
+      "smiles": "CNC1=CN(C)N=NC=C1ONF",
+      "fitness": 0.5015819815075613,
+      "novelty": 0.8731375694906642
+    },
+    {
+      "smiles": "NCn1nnnc1SSSCSCl",
+      "fitness": 0.4789830851781705,
+      "novelty": 0.9142480457368093
+    },
+    {
+      "smiles": "CSn1nnnc1CNSCl",
+      "fitness": 0.7401678311249912,
+      "novelty": 0.8891367497006255
+    },
+    {
+      "smiles": "NSn1nnnc1CNSCl",
+      "fitness": 0.6767795951687924,
+      "novelty": 0.8991479977348296
+    },
+    {
+      "smiles": "CNC1=CN(C)N=NN=C1OCF",
+      "fitness": 0.6887496116692127,
+      "novelty": 0.8820876807219095
+    },
+    {
+      "smiles": "NCn1nnnc1OCNCF",
+      "fitness": 0.3201675021310487,
+      "novelty": 0.9006146358899207
+    },
+    {
+      "smiles": "CNC1=CN(C)N=NC=C1OCl",
+      "fitness": 0.7123118142426919,
+      "novelty": 0.8608288966962252
+    },
+    {
+      "smiles": "NSn1nnnc1OCNCF",
+      "fitness": 0.26576962961273887,
+      "novelty": 0.8875132750290646
+    },
+    {
+      "smiles": "CNC1=CN(C)N=NC=C1OCF",
+      "fitness": 0.7186945486777345,
+      "novelty": 0.8604584075977177
+    },
+    {
+      "smiles": "NCn1nnnc1SSSCS",
+      "fitness": 0.3428593610448618,
+      "novelty": 0.9065249441236803
+    }
+  ]
+}

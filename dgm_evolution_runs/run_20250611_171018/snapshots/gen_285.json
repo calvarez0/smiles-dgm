@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:07.847771+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 94,
+  "novelty_archive_size": 1000,
+  "generation": 285,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNCCCC(CN)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.6730713827451912,
+  "avg_novelty": 0.899404537027042,
+  "population": [
+    {
+      "smiles": "NON(COOOCl)C1=[SH]N=NS2=C1N=NN=C2OCl",
+      "fitness": 0.186683454760941,
+      "novelty": 0.8984641103879888
+    },
+    {
+      "smiles": "NNN(COOOCl)S1=[SH]N=NC2=C1N=NN=S2OCl",
+      "fitness": 0.14630312764971512,
+      "novelty": 0.9069930421516982
+    },
+    {
+      "smiles": "Cc1nnnc2c(N(CN)CCCCN)nnnc12",
+      "fitness": 0.49578958482397417,
+      "novelty": 0.897601825894078
+    },
+    {
+      "smiles": "NCC(SCCCO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.46851854270976906,
+      "novelty": 0.8917199589325205
+    },
+    {
+      "smiles": "CNCCCC(CN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.6730713827451912,
+      "novelty": 0.8984095295279885
+    },
+    {
+      "smiles": "CNC(OCCNO)c1nnnc2c(OS)nnnc12",
+      "fitness": 0.15841901331412717,
+      "novelty": 0.8957085788639033
+    },
+    {
+      "smiles": "CCC(CCNNCNF)C1=CN=NC2=S1N=NC=C2NNF",
+      "fitness": 0.1361647008637438,
+      "novelty": 0.91328181244967
+    },
+    {
+      "smiles": "CCC(CCNOCNF)C1=NN=NC2=S1N=NC=C2NNF",
+      "fitness": 0.1574237215120371,
+      "novelty": 0.898329234505904
+    },
+    {
+      "smiles": "CNC(OCCNO)c1nnnc2c(OS)nnnc12",
+      "fitness": 0.15841901331412717,
+      "novelty": 0.8954019446268464
+    },
+    {
+      "smiles": "NON(COOOCl)C1=[SH]N=NS2=C1N=NN=C2OCl",
+      "fitness": 0.186683454760941,
+      "novelty": 0.8981353329298221
+    }
+  ]
+}

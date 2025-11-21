@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:07.853420+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 126,
+  "novelty_archive_size": 1000,
+  "generation": 713,
+  "mutation_strategy": "genetic",
+  "best_smiles": "SNc1nncc2c([IH]OCl)c[nH]c12",
+  "best_fitness": 0.5898116720365436,
+  "avg_novelty": 0.9160646310416082,
+  "population": [
+    {
+      "smiles": "Cc1n[nH]c2c(NS)nnnc12",
+      "fitness": 0.5531253896012902,
+      "novelty": 0.9060619902663064
+    },
+    {
+      "smiles": "CSCOCNCNOSNSC1=c2onc(SO)c2=[SH]N=[SH]1SCOCNF",
+      "fitness": 0.017535343167131706,
+      "novelty": 0.9190608988631868
+    },
+    {
+      "smiles": "CO[SH]1=N[SH]=c2c(OO)nsc2=C1CCNNCCSCOCNOCOSF",
+      "fitness": 0.03392089952048483,
+      "novelty": 0.919415523026486
+    },
+    {
+      "smiles": "NCc1noc2c1=NN=[SH](NNSCSO)C=2NONSSCSOOCOO",
+      "fitness": 0.018586242165156728,
+      "novelty": 0.9235302136079554
+    },
+    {
+      "smiles": "CNc1nnnc2c(OOC)n[nH]c12",
+      "fitness": 0.5145983959994744,
+      "novelty": 0.9043103471868756
+    },
+    {
+      "smiles": "CSCOOSSCSOC1=c2onc(OO)c2=N[SH]=[SH]1OSCCSCl",
+      "fitness": 0.056323926006818535,
+      "novelty": 0.921244408438499
+    },
+    {
+      "smiles": "NSCOCOSCOSNSC1=S2ON=C(SO)C2=[SH]N=[SH]1SCOCNF",
+      "fitness": 0.024455425913448684,
+      "novelty": 0.9189593006382666
+    },
+    {
+      "smiles": "NCNCN[SH]1=NN=c2c(NO)noc2=C1CSOSCCSCCSCl",
+      "fitness": 0.06662795122376171,
+      "novelty": 0.9201826541176361
+    },
+    {
+      "smiles": "CONCSN[SH]1=N[SH]=c2c(SO)noc2=S1CSOSSNSSC",
+      "fitness": 0.028388544885191894,
+      "novelty": 0.9194478808091231
+    },
+    {
+      "smiles": "SNc1nncc2c([IH]OCl)c[nH]c12",
+      "fitness": 0.5898116720365436,
+      "novelty": 0.9084330934617469
+    }
+  ]
+}

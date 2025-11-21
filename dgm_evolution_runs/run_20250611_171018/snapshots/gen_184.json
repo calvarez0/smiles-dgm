@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:50.151022+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 157,
+  "novelty_archive_size": 1000,
+  "generation": 184,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSN(COCl)c1ncnc2c(N)nnnc12",
+  "best_fitness": 0.6335457855781559,
+  "avg_novelty": 0.889198688197663,
+  "population": [
+    {
+      "smiles": "CC1=C2C=N[SH]=S(NOCSSCSCCF)[SH]2(CCONS)=NC=N1",
+      "fitness": 0.08754926751888713,
+      "novelty": 0.8957512031067125
+    },
+    {
+      "smiles": "OC1=C2N=CC=C(NONSSCOOSF)[SH]2(SNOOSCl)=N[SH]=N1",
+      "fitness": 0.028058538439248597,
+      "novelty": 0.8935419004087412
+    },
+    {
+      "smiles": "CSN(COCl)c1ncnc2c(N)nnnc12",
+      "fitness": 0.6335457855781559,
+      "novelty": 0.8784572575067102
+    },
+    {
+      "smiles": "Cc1cnnc2c1=N[SH]=NC=2N(CF)SONF",
+      "fitness": 0.19210274379783462,
+      "novelty": 0.8776732165390736
+    },
+    {
+      "smiles": "FCCNOCS[SH]12=N[SH]=NC(S)=S1C=NC=C2COCSSCOCCF",
+      "fitness": 0.06426994542531175,
+      "novelty": 0.8875338622221292
+    },
+    {
+      "smiles": "SC1=C2N=CC=C(NONSSCOCSCl)[SH]2(SNOOSCl)=N[SH]=N1",
+      "fitness": 0.026581042230031156,
+      "novelty": 0.8916792160135434
+    },
+    {
+      "smiles": "OC1=C2C=N[SH]=C(NCCSCCONCF)[SH]2(CCSNS)=NC=N1",
+      "fitness": 0.05847044563918379,
+      "novelty": 0.8947727942364536
+    },
+    {
+      "smiles": "CCOOS[SH]12=NC=NC(O)=C1N=N[SH]=C2COCSCCSNSCl",
+      "fitness": 0.034316083489651796,
+      "novelty": 0.8886985925578919
+    },
+    {
+      "smiles": "NCONC[SH]12=N[SH]=NC(S)=C1N=[SH][SH]=C2NOCSSOCOOCl",
+      "fitness": 0.027025549697500092,
+      "novelty": 0.9007688592129529
+    },
+    {
+      "smiles": "NCSN(CS)c1ncnc2c(N)nnnc12",
+      "fitness": 0.38884232817125636,
+      "novelty": 0.8831099801724204
+    }
+  ]
+}

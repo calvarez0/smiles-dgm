@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:18.614683+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 211,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSc1nn(C)nc1S(=N)N1COONN1OF",
+  "best_fitness": 0.5809961661100966,
+  "avg_novelty": 0.906200006033389,
+  "population": [
+    {
+      "smiles": "C=C(C1=NN(N)N=S1NO)C1CCCCN1OCl",
+      "fitness": 0.518545734425371,
+      "novelty": 0.9062737442339631
+    },
+    {
+      "smiles": "Nn1nc(NS)c(S(=S)N2NNONN2Cl)n1",
+      "fitness": 0.2040176684266998,
+      "novelty": 0.9113544254477912
+    },
+    {
+      "smiles": "Nn1nc(NS)c(S(=S)N2CNONN2Cl)n1",
+      "fitness": 0.24848174782671464,
+      "novelty": 0.9072490650560899
+    },
+    {
+      "smiles": "NN1N=C(C(=O)N2OSSON2Cl)S(OO)=N1",
+      "fitness": 0.1775868823977765,
+      "novelty": 0.9103382097167291
+    },
+    {
+      "smiles": "CNc1nn(C)nc1C(=S)N1CONNN1CF",
+      "fitness": 0.4699712849102519,
+      "novelty": 0.89505280237986
+    },
+    {
+      "smiles": "O=C(c1nn(S)nc1OO)N1CNOCN1O",
+      "fitness": 0.2813313754610364,
+      "novelty": 0.9162815377860482
+    },
+    {
+      "smiles": "CSc1nn(C)nc1S(=N)N1COONN1OF",
+      "fitness": 0.5809961661100966,
+      "novelty": 0.8991786908601885
+    },
+    {
+      "smiles": "CCc1nn(N)nc1C(=S)N1CCNNN1CO",
+      "fitness": 0.35739526717377024,
+      "novelty": 0.9039152031376374
+    },
+    {
+      "smiles": "NSS1=NN(N)N=C1C(=O)N1CSSCN1CF",
+      "fitness": 0.32256466794736466,
+      "novelty": 0.9017853369690143
+    },
+    {
+      "smiles": "Nn1nc(NS)c(S(=S)N2NNONN2Cl)n1",
+      "fitness": 0.2040176684266998,
+      "novelty": 0.9105710447465677
+    }
+  ]
+}

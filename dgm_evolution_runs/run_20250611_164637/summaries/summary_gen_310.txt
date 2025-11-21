@@ -1,0 +1,27 @@
+Evolution Summary - Generation 310
+==========================================
+
+Run ID: 20250611_164637
+Generation: 310
+Timestamp: 2025-06-11T21:47:34.096159+00:00
+
+Best Molecule Found:
+- SMILES: C=C(c1nn(C)nc1CC)N1NNOCC1SC
+- Fitness: 0.8150
+- Found in Generation: 188
+
+All-Time Best Fitness: 0.8150
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.
+
+Performance History (last 10 generations):
+- Fitness: [0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816, 0.8149928801505816]
+- Novelty: [0.8940755042337827, 0.8928591301815036, 0.8973328535491281, 0.8981454704382532, 0.8968264860720716, 0.8971808791478322, 0.897785055247318, 0.8958607629740876, 0.8944328548995951, 0.8929135351534901]
+
+Archive Size: 3100 molecules explored

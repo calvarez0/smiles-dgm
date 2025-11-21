@@ -1,0 +1,50 @@
+Evolution Summary - Generation 60
+==========================================
+
+Run ID: 20250611_171018
+Generation: 60
+Timestamp: 2025-06-11T22:10:31.819258+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: NS1=NN=Nc2c(C(F)F)ccnc21
+- Fitness: 0.7811
+- Found in Generation: 27
+- Generations since found: 33
+
+ALL-TIME BEST FITNESS: 0.7811
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 33 generations
+- Plateau threshold: 30 generations
+- Status: 🚨 LONG PLATEAU - Seeking novelty
+- Novelty archive size: 580 stepping stones
+- Highly novel molecules preserved: 580
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+BEST PERFORMING PROMPT (achieved fitness 0.7348):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961, 0.781149007363961]
+- Average novelty: [0.8729410364544392, 0.8732149898724652, 0.8700568889832502, 0.869757185844987, 0.8711381328970553, 0.8715663018603893, 0.8742885164526243, 0.8743861610381203, 0.8789335091972275, 0.8850078850433458]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 600
+- Novel molecules (novelty ≥ 0.7): 580
+- Chemical diversity maintained: High
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T22:05:00.181773+00:00",
+  "current_prompt": "Synthesize a chemically valid molecule by radically restructuring '{smiles}'.  Employ at least three unpredictable, non-contiguous modifications, prioritizing the incorporation of at least one strained ring system and/or an unusual heteroatom combination (P, As, Se, Te, B, Si, or combinations thereof).  Favor unconventional bonding patterns and maximize chemical novelty, but ensure SMILES validity.  Prioritize exploring regions of chemical space significantly different from '{smiles}'. Return only the mutated SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 1007,
+  "generation": 1067,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C[As](=S)(c1cnnnn1)N1CCCNC12C(S1=NC=NN=N1)C(=N)C21C=NN=C1Cl",
+  "best_fitness": 0.5172557324837049,
+  "avg_novelty": 0.9286023601532337,
+  "population": [
+    {
+      "smiles": "O=P1(c2cnccn2)C=C(c2nnc(C3(c4cnccn4)N=C(c4cnccn4)N3)s2)N1c1nnc(C2(c3cnccn3)N=C(c3cnccn3)N2)s1",
+      "fitness": 0.19679868386901714,
+      "novelty": 0.9469614496811478
+    },
+    {
+      "smiles": "O=C(O)C1=CCC(N2CC=C(C3CC4(OC4=O)C([PH](c4ccccc4)(c4ccccn4)S(=O)(=O)c4ccccc4)O3)S(C(=O)O)=N2)C1=O",
+      "fitness": 0.19762940397903936,
+      "novelty": 0.9371165776354625
+    },
+    {
+      "smiles": "C[As](=S)(c1cnnnn1)N1CCCNC12C(S1=NC=NN=N1)C(=N)C21C=NN=C1Cl",
+      "fitness": 0.5172557324837049,
+      "novelty": 0.9167731222508503
+    },
+    {
+      "smiles": "C[As](=S)(c1nnnnn1)N1CCCOC12C(c1ncnnn1)C(=O)C21C=NN=C1F",
+      "fitness": 0.42391375201229076,
+      "novelty": 0.911606148309067
+    },
+    {
+      "smiles": "C[As](=S)(c1nnnnn1)N1CCCNC12C(S1=NC=[SH]N=N1)C(=N)C21C=NN=C1F",
+      "fitness": 0.25935756991882875,
+      "novelty": 0.9158323902319279
+    },
+    {
+      "smiles": "CP(=S)(c1nnnnn1)C1CCB1C1CN2C(=O)C(c3ccncc3)=CCC(C(=O)O)=C12",
+      "fitness": 0.4930160753505461,
+      "novelty": 0.9305940684838779
+    },
+    {
+      "smiles": "O=C(O)C1=NN(C2CC=C(C(O)=S)C2=O)CC=C1N1CC2(OC2=O)C([PH](c2ccccc2)(c2ccncc2)S(=O)(=O)c2ccccc2)O1",
+      "fitness": 0.18727034696659386,
+      "novelty": 0.9405543577681397
+    },
+    {
+      "smiles": "O=C(O)C1=CCC(N2N=C(C(=O)O)C(C3CC4(OC4=O)C([PH](c4ccccc4)(c4ccncc4)S(=O)(=O)c4ccccc4)O3)=CN2)C1=O",
+      "fitness": 0.16357094116481966,
+      "novelty": 0.941897488648087
+    },
+    {
+      "smiles": "CP(=S)(c1nnnnn1)C1CCB1C1CN2C(=O)C(c3ccnnc3)=CNC(C(=O)O)=C12",
+      "fitness": 0.4129728701644598,
+      "novelty": 0.9291466873564524
+    },
+    {
+      "smiles": "C[As](=S)(c1nnnnn1)N1CCCNC12C(S1=NC=NN=N1)C(=N)C21C=NN=C1F",
+      "fitness": 0.4850135457911869,
+      "novelty": 0.9155413111673247
+    }
+  ]
+}

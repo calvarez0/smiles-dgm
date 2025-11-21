@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:59:28.190903+00:00",
+  "current_prompt": "You are a daring molecular alchemist.  Given molecule SMILES '{smiles}', transmute it into a novel, chemically valid molecule by radically altering its core structure. Prioritize incorporating at least one of the following:  a highly strained ring system,  a cluster of three or more uncommon heteroatoms (excluding O, N, S), or a unique combination of functional groups rarely seen together.  Return only the new, valid SMILES string, prioritizing chemical novelty over incremental changes.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 786,
+  "generation": 846,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C#Cc1nnc(Cc2nncc(SSSS)n2)cc1OCCSCCONF",
+  "best_fitness": 0.1106326098383072,
+  "avg_novelty": 0.9003732433648475,
+  "population": [
+    {
+      "smiles": "N#Cc1nnc(Sc2nncc(ONNN)n2)cc1OSCSSOOCF",
+      "fitness": 0.07247799540199838,
+      "novelty": 0.8829840224858242
+    },
+    {
+      "smiles": "C=C1N(C(C)(C)O)N=NC2(C(=S)C(S)=CC(=N)n3c(-c4nnc(N(O)C5NSS6=NN=NN=C56)n4C(=N)N=C(C)[S][Ge]4[N]=NN=[O]->4)nnc32)S(=NCl)N(S)C1(N)O",
+      "fitness": 0.016379112931342917,
+      "novelty": 0.9131952545037653
+    },
+    {
+      "smiles": "N#Cc1nnc(Cc2nnnc(SNSSCF)c2SN)cc1OONCNCNOCl",
+      "fitness": 0.05000311480448963,
+      "novelty": 0.879683376160598
+    },
+    {
+      "smiles": "C=C1N(C(C)(C)O)N=NC2(C(=S)C(S)=NC(=N)n3c(-c4nnc(N(O)C5OSS6=NN=NN=C56)n4C(=N)N=C(C)[S][Ge]4[N]=NN=[O]->4)nnc32)S(=NCl)N(S)C1(N)OCl",
+      "fitness": 0.017066037305184845,
+      "novelty": 0.9190222486158344
+    },
+    {
+      "smiles": "C#Cc1nnc(Nc2nncc(NNCN)n2)nc1CNNONNCSN",
+      "fitness": 0.05192865834515441,
+      "novelty": 0.8906808534915297
+    },
+    {
+      "smiles": "C#Cc1nnc(Cc2nncc(SSSS)n2)cc1OCCSCCONF",
+      "fitness": 0.1106326098383072,
+      "novelty": 0.8887107780554779
+    },
+    {
+      "smiles": "N#Cc1nnc(Sc2nncc(ONSN)n2)cc1OSCSSCOCF",
+      "fitness": 0.10698793375406891,
+      "novelty": 0.8818201448100049
+    },
+    {
+      "smiles": "NS->C=S1NOC2([SH]3OOC(C(=S)C(O)(O)C(=O)N4C(=S)NC5([SH]=NN=N5->N5N=NC(=N->5)S(N)=O)C4=NSNF)N(O)N3SO)N=NN(Cl)C(=O)N=C2C1NF",
+      "fitness": 0.010171422325359432,
+      "novelty": 0.9188174799996673
+    },
+    {
+      "smiles": "C[CH]->N=S1OOC2(N3ON[SH](C(=O)C(N)(N)C(=O)N4C(=S)NS5([SH]=CN=C5->N5<-O=C(C=[SH]5)C(=N)N)C4=NSCl)C(S)[SH]3CS)N=NN(Cl)C(=O)[SH]=C2N1SF",
+      "fitness": 0.014286082387224489,
+      "novelty": 0.9119645122438217
+    },
+    {
+      "smiles": "C=C1N=C(C)C(=N)C2(C=CN(C(C)(C)S)C(=C)C(C)(N)N(N)C2=NCF)C2=NN=S(c3nnc(C(N)N4CSc5nnnnc54)n3C(=C)N=C(N)N[As]3N=NN=N3)N12",
+      "fitness": 0.046993284554857497,
+      "novelty": 0.9168537632819519
+    }
+  ]
+}

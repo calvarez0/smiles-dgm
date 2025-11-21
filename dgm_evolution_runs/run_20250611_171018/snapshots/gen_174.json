@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:48.226278+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 147,
+  "novelty_archive_size": 1000,
+  "generation": 174,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Cc1cnnc2c1=N[SH]=NC=2N(NSN)SF",
+  "best_fitness": 0.38238221241315834,
+  "avg_novelty": 0.8912597585975603,
+  "population": [
+    {
+      "smiles": "Cc1cnnc2c1=N[SH]=NC=2N(NSN)SF",
+      "fitness": 0.38238221241315834,
+      "novelty": 0.8885455515598865
+    },
+    {
+      "smiles": "Nc1nnnc2c1=N[SH]=NC=2N(CS)SSCl",
+      "fitness": 0.3026163329131797,
+      "novelty": 0.8784956243929514
+    },
+    {
+      "smiles": "CC1=C2C=N[SH]=C(NCCSSCOOCF)[SH]2(CCONS)=NC=N1",
+      "fitness": 0.05757933422618089,
+      "novelty": 0.9016097906551819
+    },
+    {
+      "smiles": "FCCOCSSCONC1=CC=NC2=C(S)N=[SH]N=[SH]12SNOCSCl",
+      "fitness": 0.057235152426648186,
+      "novelty": 0.89343196587148
+    },
+    {
+      "smiles": "FCCOCSSCNCC1=CN=CC2=C(S)N=[SH]N=[SH]12SCONSCl",
+      "fitness": 0.05780682420371397,
+      "novelty": 0.8896819410267504
+    },
+    {
+      "smiles": "Nc1nnnc2c1=N[SH]=NC=2N(CS)SCCl",
+      "fitness": 0.2888605352201715,
+      "novelty": 0.8820698025643549
+    },
+    {
+      "smiles": "CCONS[SH]12=N[SH]=NC(O)=C1N=N[SH]=C2COCSSCSNSCl",
+      "fitness": 0.03909032514490883,
+      "novelty": 0.8929014907029423
+    },
+    {
+      "smiles": "NCONS[SH]12=N[SH]=NC(O)=C1N=N[SH]=C2COCSSOSOSCl",
+      "fitness": 0.029759812536281946,
+      "novelty": 0.890908501139046
+    },
+    {
+      "smiles": "NCONS[SH]12=N[SH]=NC(O)=C1N=N[SH]=C2COSSSOSOSCl",
+      "fitness": 0.028385444357570407,
+      "novelty": 0.8945888303798758
+    },
+    {
+      "smiles": "CC1=C2C=N[SH]=C(NCCSSCONCF)[SH]2(CCONS)=NC=N1",
+      "fitness": 0.04995377001722544,
+      "novelty": 0.9003640876831356
+    }
+  ]
+}

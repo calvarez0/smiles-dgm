@@ -1,0 +1,58 @@
+Evolution Summary - Generation 20
+==========================================
+
+Run ID: 20250611_180213
+Generation: 20
+Timestamp: 2025-06-11T23:02:16.228815+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: OC1=NC2=Cc3cncnc3N=S2N=N1
+- Fitness: 0.7173
+- Found in Generation: 15
+- Generations since found: 5
+
+ALL-TIME BEST FITNESS: 0.7173
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 5 generations
+- Plateau threshold: 30 generations
+- Status: ✅ Recent progress
+- Novelty archive size: 200 stepping stones
+- Highly novel molecules preserved: 200
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+BEST PERFORMING PROMPT (achieved fitness 0.6773):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.6772511247191514, 0.6772511247191514, 0.6772511247191514, 0.6772511247191514, 0.717314261293909, 0.717314261293909, 0.717314261293909, 0.717314261293909, 0.717314261293909, 0.717314261293909]
+- Average novelty: [0.9030099000539449, 0.9065407488774865, 0.9076730914531959, 0.9019798824658215, 0.9067032422562367, 0.913431336744112, 0.912366734983633, 0.9096974558645663, 0.9135646021469072, 0.9171905001406238]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 200
+- Novel molecules (novelty ≥ 0.7): 200
+- Top molecules found: 10
+- Chemical diversity maintained: High
+
+TOP 5 MOLECULES FOUND SO FAR:
+1. OC1=NC2=Cc3cncnc3N=S2N=N1 (fitness: 0.7173, gen: 15)
+2. OC1=NC2=Nc3cncnc3N=S2N=N1 (fitness: 0.7104, gen: 16)
+3. OC1=NC2=Nc3cncnc3N=S2N=N1 (fitness: 0.7104, gen: 17)
+4. OC1=NC2=Nc3cncnc3N=S2N=N1 (fitness: 0.7104, gen: 18)
+5. OC1=NC2=Nc3cncnc3N=S2N=N1 (fitness: 0.7104, gen: 19)
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:38.848922+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 88,
+  "novelty_archive_size": 1000,
+  "generation": 115,
+  "mutation_strategy": "genetic",
+  "best_smiles": "NC1=NN=NS2=C(N(Cl)OSCl)C=NN=C12",
+  "best_fitness": 0.36225232670914354,
+  "avg_novelty": 0.8958136068400151,
+  "population": [
+    {
+      "smiles": "NC1=S2C=NN=C(OOO)[SH]2(SSCNONNSCSSCl)=NC=C1O",
+      "fitness": 0.028399163249610036,
+      "novelty": 0.8993455877302488
+    },
+    {
+      "smiles": "OC1=NC=NS2=C(N(F)OOF)N=NN=C12",
+      "fitness": 0.34189125132808673,
+      "novelty": 0.8914907430686839
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(N(Cl)OSCl)C=NN=C12",
+      "fitness": 0.36225232670914354,
+      "novelty": 0.8839162130002455
+    },
+    {
+      "smiles": "OOSC1=NN=CS2=C(Br)C=[SH]N=[SH]12SSCNOSNSCCSCl",
+      "fitness": 0.019783332262745396,
+      "novelty": 0.8963853751066382
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(SSSSCONSCl)[SH]2(ONCCN)=CN=N1",
+      "fitness": 0.060025243185198265,
+      "novelty": 0.9079533894529119
+    },
+    {
+      "smiles": "NC1=C2N=NC=C(OSSSCOOSCF)[SH]2(NCNCS)=CN=N1",
+      "fitness": 0.03897829087726594,
+      "novelty": 0.9033630527702915
+    },
+    {
+      "smiles": "COCC1=NC=CC2=C(Br)C=[SH][SH]=[SH]12SSSCOCSCCSSCF",
+      "fitness": 0.07380384940675488,
+      "novelty": 0.909892449547594
+    },
+    {
+      "smiles": "CNNCN[SH]12=CN=NC(S)=C1N=NN=C2SOCSCNOSCl",
+      "fitness": 0.06796260075255009,
+      "novelty": 0.9024811817046875
+    },
+    {
+      "smiles": "OC1=NC=NS2=C(N(F)OOF)N=NN=C12",
+      "fitness": 0.34189125132808673,
+      "novelty": 0.8908160107314825
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(N(F)OSCl)C=NN=C12",
+      "fitness": 0.35768643059713784,
+      "novelty": 0.8724920652873662
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:37:23.890601+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 585,
+  "novelty_archive_size": 1000,
+  "generation": 650,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "Cc1ccnc2c1=NS1=NN=NN=C1C=2SCF",
+  "best_fitness": 0.8171256422865042,
+  "avg_novelty": 0.9393620279847188,
+  "population": [
+    {
+      "smiles": "CC1=NN=NC2=C(SCl)C3=NN=NN=S3N=[SH]12O",
+      "fitness": 0.7208083460076885,
+      "novelty": 0.9389191993516094
+    },
+    {
+      "smiles": "CC1=NC=NS2=C(N)C3=NC=NN=S3N=[SH]12Cl",
+      "fitness": 0.3882910917404022,
+      "novelty": 0.939323688812934
+    },
+    {
+      "smiles": "CC1=NN=NC2=C(SCl)C3=NN=NN=S3C=S12",
+      "fitness": 0.6830451467731582,
+      "novelty": 0.9394549365318638
+    },
+    {
+      "smiles": "CC1=NC=CC2=C(C)c3ncnnc3N=[SH]12Cl",
+      "fitness": 0.734454403345359,
+      "novelty": 0.9368170242201482
+    },
+    {
+      "smiles": "CC1=NC=NS2=C(C)C3=NN=NN=S3N=[SH]12Cl",
+      "fitness": 0.40451040440334,
+      "novelty": 0.94352134401948
+    },
+    {
+      "smiles": "Cc1ccnc2c1=NS1=NN=NN=C1C=2SCF",
+      "fitness": 0.8171256422865042,
+      "novelty": 0.932389766361074
+    },
+    {
+      "smiles": "CC1=NN=NC2=C(SCl)C3=NN=NN=S3N=[SH]12OS",
+      "fitness": 0.585170660219033,
+      "novelty": 0.936859899096682
+    },
+    {
+      "smiles": "CC1=[SH]C=CC2=C(C)C3=NC=NN=S3N=[SH]12Cl",
+      "fitness": 0.5106381757209957,
+      "novelty": 0.9437753896445165
+    },
+    {
+      "smiles": "CC1=NN=NC2=C(SCl)C3=NN=NN=S3N=S12",
+      "fitness": 0.7302396251539249,
+      "novelty": 0.9434426102254607
+    },
+    {
+      "smiles": "CC1=NN=NC2=C(SCl)C3=NN=NN=S3C=S12",
+      "fitness": 0.6830451467731582,
+      "novelty": 0.9391164215834188
+    }
+  ]
+}

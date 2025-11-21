@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:14:43.125609+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 29,
+  "novelty_archive_size": 1000,
+  "generation": 958,
+  "mutation_strategy": "genetic",
+  "best_smiles": "O=C(c1ncnnc1Cl)n1s[nH]n(S2=NN=NN=N2)oc1=O",
+  "best_fitness": 0.8126135346053067,
+  "avg_novelty": 0.9452873525973642,
+  "population": [
+    {
+      "smiles": "C=C(S)N1NCC(C#N)C(N2NSSC2=[SH]O)[SH]1S",
+      "fitness": 0.1698028960785861,
+      "novelty": 0.9589115496022258
+    },
+    {
+      "smiles": "O=C(c1ncnnc1Cl)n1s[nH]n(S2=NN=NN=N2)oc1=O",
+      "fitness": 0.8126135346053067,
+      "novelty": 0.9306210723622297
+    },
+    {
+      "smiles": "C=C(S)N1CCC(C#N)C(N2NCSC2=[SH]O)[SH]1SO",
+      "fitness": 0.19458987246854198,
+      "novelty": 0.9522571883651514
+    },
+    {
+      "smiles": "NSSSSN1N(N)NNN2ONSO[SH]21",
+      "fitness": 0.1013323995243779,
+      "novelty": 0.9642211971100535
+    },
+    {
+      "smiles": "C=C(c1cnnnc1CO)N1SNC(c2cccnc2)SC1=O",
+      "fitness": 0.7994960280899084,
+      "novelty": 0.9346028086712397
+    },
+    {
+      "smiles": "C=C1ON(c2ccnnc2)OCN1C(=O)c1nncnc1OCl",
+      "fitness": 0.7808550085283983,
+      "novelty": 0.9298082531063453
+    },
+    {
+      "smiles": "C=C1ON(S2=CC=NN=N2)NCN1C(=O)c1nncnc1OCF",
+      "fitness": 0.7556753383259803,
+      "novelty": 0.9222598841947338
+    },
+    {
+      "smiles": "CNONCN1C(S)OSN2OSOSN21",
+      "fitness": 0.21884848062376502,
+      "novelty": 0.9509044796576047
+    },
+    {
+      "smiles": "COONSN1C(C)SCN2OOOSN21",
+      "fitness": 0.2615567542135009,
+      "novelty": 0.9496080738709215
+    },
+    {
+      "smiles": "C=C(S)N1NCC(C#N)C(N2NCSC2=[SH]O)[SH]1S",
+      "fitness": 0.22560459130628321,
+      "novelty": 0.9596790190331367
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+Evolution Summary - Generation 50
+==========================================
+
+Run ID: 20250611_173452
+Generation: 50
+Timestamp: 2025-06-11T22:35:04.431729+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: Sc1c(OBr)nnc2c1S1=NN=NC=C1C2
+- Fitness: 0.8082
+- Found in Generation: 45
+- Generations since found: 5
+
+ALL-TIME BEST FITNESS: 0.8082
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 5 generations
+- Plateau threshold: 30 generations
+- Status: ✅ Recent progress
+- Novelty archive size: 499 stepping stones
+- Highly novel molecules preserved: 499
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.
+
+BEST PERFORMING PROMPT (achieved fitness 0.0000):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.7757405259065766, 0.7757405259065766, 0.7774962370083908, 0.7982129169543059, 0.8082333906715259, 0.8082333906715259, 0.8082333906715259, 0.8082333906715259, 0.8082333906715259, 0.8082333906715259]
+- Average novelty: [0.9065754451314463, 0.905740157517769, 0.9006636718676001, 0.9093925827072642, 0.8979074348321598, 0.9090530037043786, 0.9073022528509332, 0.9131753113305449, 0.9088010137174308, 0.9121674579728205]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 500
+- Novel molecules (novelty ≥ 0.7): 499
+- Chemical diversity maintained: High
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

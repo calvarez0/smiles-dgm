@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:02.209502+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 60,
+  "novelty_archive_size": 1000,
+  "generation": 251,
+  "mutation_strategy": "genetic",
+  "best_smiles": "COC(CNNOCl)c1nnnc2c1N=NN=S2OC",
+  "best_fitness": 0.5475126632407449,
+  "avg_novelty": 0.900293616183437,
+  "population": [
+    {
+      "smiles": "NOC(NCOCCl)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.23606147749738687,
+      "novelty": 0.9093160229651048
+    },
+    {
+      "smiles": "COC(NCCOCl)C1=NN=NS2=C1C=NN=S2NCl",
+      "fitness": 0.23453717149287678,
+      "novelty": 0.9036332379435886
+    },
+    {
+      "smiles": "CON(CNCCO)c1ncnc2c1[SH]=NN=S2NS",
+      "fitness": 0.14545479185574567,
+      "novelty": 0.9017283914136492
+    },
+    {
+      "smiles": "CO[SH](CCCNCl)C1=NN=NS2=C1N=NN=S2SCl",
+      "fitness": 0.2357252265338696,
+      "novelty": 0.9061077919402145
+    },
+    {
+      "smiles": "COC(CNCCS)c1nnnc2c1[SH]=NN=S2CS",
+      "fitness": 0.42199631079573474,
+      "novelty": 0.9029937036199404
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c1C=NC=S2N",
+      "fitness": 0.4949674321571357,
+      "novelty": 0.8949523227428712
+    },
+    {
+      "smiles": "NOC(NCNCO)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.16264966837770353,
+      "novelty": 0.9042746868647737
+    },
+    {
+      "smiles": "COC(CNNOCl)c1nnnc2c1N=NN=S2OC",
+      "fitness": 0.5475126632407449,
+      "novelty": 0.8925595368506032
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c1C=NC=S2C",
+      "fitness": 0.4594465994312773,
+      "novelty": 0.9007076650828483
+    },
+    {
+      "smiles": "CON(CNNOCl)c1nnnc2c1N=NN=S2OC",
+      "fitness": 0.40741809094792125,
+      "novelty": 0.886662802410776
+    }
+  ]
+}

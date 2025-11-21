@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:17.859546+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 145,
+  "novelty_archive_size": 1000,
+  "generation": 336,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CS1=NN=Nc2c(N(CO)CNOON)nnnc21",
+  "best_fitness": 0.25082197438869863,
+  "avg_novelty": 0.8920295302617038,
+  "population": [
+    {
+      "smiles": "FNONc1ccnc2c(N(OS)SSNNNSF)cnnc12",
+      "fitness": 0.06045698543314885,
+      "novelty": 0.9018703996425134
+    },
+    {
+      "smiles": "NON(NNNSCNCCl)c1c(NCF)nnc2c(ONNF)cnnc12",
+      "fitness": 0.0321896730873075,
+      "novelty": 0.8942845053918907
+    },
+    {
+      "smiles": "CNC(NNNOSON)c1cnnc2c1N=CC=S2NNSCF",
+      "fitness": 0.058435860143033785,
+      "novelty": 0.8926774448107685
+    },
+    {
+      "smiles": "FONONOON(OS)c1nnnc2c(NOOF)ccnc12",
+      "fitness": 0.13483711328647152,
+      "novelty": 0.899433958765225
+    },
+    {
+      "smiles": "CS1=NN=Nc2c(N(CO)CNOON)nnnc21",
+      "fitness": 0.25082197438869863,
+      "novelty": 0.881152284069982
+    },
+    {
+      "smiles": "FNNSOCCN(SS)c1cnnc2c(NONF)ccnc12",
+      "fitness": 0.07216160189355901,
+      "novelty": 0.8945422260661635
+    },
+    {
+      "smiles": "Cc1nnnc2c(N(CO)CNONN)nnnc12",
+      "fitness": 0.18359409868328383,
+      "novelty": 0.8779692648079386
+    },
+    {
+      "smiles": "CC1=C2N=NN=C(C(OCCNN)SNCCl)[SH]2(NCO)=NN=N1",
+      "fitness": 0.044315614724329454,
+      "novelty": 0.88715786777343
+    },
+    {
+      "smiles": "NON(NNNSCNCCl)c1c(NCl)nnc2c(ONNF)cnnc12",
+      "fitness": 0.03478299039160188,
+      "novelty": 0.8943766576797111
+    },
+    {
+      "smiles": "NON(NNNOCNCCl)c1c(NCl)nnc2c(ONNF)cnnc12",
+      "fitness": 0.043637637106052014,
+      "novelty": 0.8968306936094143
+    }
+  ]
+}

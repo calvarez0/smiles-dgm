@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:02.307985+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7641466776403377,
+  "generations_since_best": 12,
+  "generation": 52,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNC1=NN=NN=S1SSCF",
+  "best_fitness": 0.7487631468312728,
+  "avg_novelty": 0.8837159755371417,
+  "population": [
+    {
+      "smiles": "CN(CF)Cc1nnnnc1OCNN",
+      "fitness": 0.2547290089078819,
+      "novelty": 0.830024585632591
+    },
+    {
+      "smiles": "CNCOS1=NN=NN=C1CN(C)SF",
+      "fitness": 0.5678036042311985,
+      "novelty": 0.8883118359467056
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1SCCF",
+      "fitness": 0.7115428292837237,
+      "novelty": 0.8834143965227113
+    },
+    {
+      "smiles": "CC[SH](C)CC1=CN=CN=S1SONOOF",
+      "fitness": 0.1795984953520529,
+      "novelty": 0.8855248486120552
+    },
+    {
+      "smiles": "CN(CS1=CN=NN=C1CSNO)SSF",
+      "fitness": 0.3257330845234961,
+      "novelty": 0.8936216835672784
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1CCCO",
+      "fitness": 0.6569038097941161,
+      "novelty": 0.8992767176695087
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1SSCF",
+      "fitness": 0.7487631468312728,
+      "novelty": 0.8874487011717527
+    },
+    {
+      "smiles": "CN(CS1=CN=NN=C1CSNO)SSF",
+      "fitness": 0.3257330845234961,
+      "novelty": 0.8915646184236499
+    },
+    {
+      "smiles": "CN(CS1=CN=NN=C1CSNO)SSF",
+      "fitness": 0.3257330845234961,
+      "novelty": 0.8898434512066158
+    },
+    {
+      "smiles": "CN(CS1=CN=NN=C1CSNO)SSF",
+      "fitness": 0.3257330845234961,
+      "novelty": 0.8881289166185491
+    }
+  ]
+}

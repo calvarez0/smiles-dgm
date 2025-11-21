@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:12:16.423998+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 360,
+  "novelty_archive_size": 1000,
+  "generation": 551,
+  "mutation_strategy": "genetic",
+  "best_smiles": "ClCc1nncc2c(Cl)n[nH]c12",
+  "best_fitness": 0.7178172119624614,
+  "avg_novelty": 0.9174526395135623,
+  "population": [
+    {
+      "smiles": "CSC1=[SH]CC2=C1[SH]=CN=C2NCl",
+      "fitness": 0.34668199522609744,
+      "novelty": 0.9157907234911838
+    },
+    {
+      "smiles": "FSC1=N[SH]=[SH]c2c(SCl)c[nH]c21",
+      "fitness": 0.6867560214749185,
+      "novelty": 0.9157798926745034
+    },
+    {
+      "smiles": "ClCc1nncc2c(Cl)n[nH]c12",
+      "fitness": 0.7178172119624614,
+      "novelty": 0.9099611152583903
+    },
+    {
+      "smiles": "FOc1c[nH]c2c1[SH]=[SH]C=C2SCl",
+      "fitness": 0.709338827947941,
+      "novelty": 0.9288522611658409
+    },
+    {
+      "smiles": "FSC1=N[SH]=[SH]c2c(SCl)n[nH]c21",
+      "fitness": 0.6854568991132524,
+      "novelty": 0.9245655829213234
+    },
+    {
+      "smiles": "CSC1=[SH]CC2=C1[SH]=CN=C2SCl",
+      "fitness": 0.518287020615332,
+      "novelty": 0.9207720824775376
+    },
+    {
+      "smiles": "ClCC1=NN=CS2=C1NN=C2Cl",
+      "fitness": 0.5254126157716343,
+      "novelty": 0.9147260533056367
+    },
+    {
+      "smiles": "ClCC1=NN=CS2=C1NN=C2Cl",
+      "fitness": 0.5254126157716343,
+      "novelty": 0.9145599508808491
+    },
+    {
+      "smiles": "CSC1=[SH]CC2=C1[SH]=CN=C2NCl",
+      "fitness": 0.34668199522609744,
+      "novelty": 0.9155312452282376
+    },
+    {
+      "smiles": "CSC1=[SH]Cc2c1ccnc2NCl",
+      "fitness": 0.4422281128710692,
+      "novelty": 0.913987487732121
+    }
+  ]
+}

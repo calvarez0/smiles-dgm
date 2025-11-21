@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T23:02:23.217190+00:00",
+  "current_prompt": "Modify molecule '{smiles}' with a creative but strategic change to improve drug-likeness. Return only SMILES.",
+  "all_time_best_fitness": 0.7339946731175905,
+  "generations_since_best": 3,
+  "novelty_archive_size": 500,
+  "generation": 50,
+  "mutation_strategy": "prompt_refinement",
+  "best_smiles": "CC1=NC2=Nc3cnccc3N=S2N=N1",
+  "best_fitness": 0.6579263352012727,
+  "avg_novelty": 0.9228865782003431,
+  "population": [
+    {
+      "smiles": "SC1=NN=S2N=C3N=NN=NS3=NC2=N1",
+      "fitness": 0.6300453025981301,
+      "novelty": 0.922426509386209
+    },
+    {
+      "smiles": "CS12ONOSC1NSNN2SCl",
+      "fitness": 0.4895668254272317,
+      "novelty": 0.9394434409277135
+    },
+    {
+      "smiles": "SC1=NN=S2N=C3C=CN=CS3=NC2=N1",
+      "fitness": 0.6289843555470077,
+      "novelty": 0.9233082928734548
+    },
+    {
+      "smiles": "ON1NSCC2ONCSC21COF",
+      "fitness": 0.5873228348257096,
+      "novelty": 0.9244905394982214
+    },
+    {
+      "smiles": "NS12NNNNC1OSSN2CF",
+      "fitness": 0.18003380022883422,
+      "novelty": 0.9295938745259392
+    },
+    {
+      "smiles": "ON1CSCC2ONNSC21COF",
+      "fitness": 0.5873228348257096,
+      "novelty": 0.925898646615742
+    },
+    {
+      "smiles": "NN1SSCC2COCOC21CNF",
+      "fitness": 0.31115625873962344,
+      "novelty": 0.9365523748807517
+    },
+    {
+      "smiles": "CC1=NC2=Nc3cnccc3N=S2N=N1",
+      "fitness": 0.6579263352012727,
+      "novelty": 0.8920580003163074
+    },
+    {
+      "smiles": "CS12SNOSC1OSNN2CCl",
+      "fitness": 0.2486802719692597,
+      "novelty": 0.9446731825944061
+    },
+    {
+      "smiles": "CC1=NC2=Nc3cnccc3N=S2N=N1",
+      "fitness": 0.6579263352012727,
+      "novelty": 0.8904209203846871
+    }
+  ]
+}

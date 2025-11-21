@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:30.943441+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 27,
+  "novelty_archive_size": 520,
+  "generation": 54,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Nc1ccnc2c(N(F)Cl)cnnc12",
+  "best_fitness": 0.7265719039283182,
+  "avg_novelty": 0.869757185844987,
+  "population": [
+    {
+      "smiles": "Nc1ccnc2c(N(F)Cl)cnnc12",
+      "fitness": 0.7265719039283182,
+      "novelty": 0.8113004881230401
+    },
+    {
+      "smiles": "Nc1nnnc2c(Br)nncc12",
+      "fitness": 0.6887270469527074,
+      "novelty": 0.8305046899885239
+    },
+    {
+      "smiles": "NCS1=CN=[SH]C2=C(Br)C=NN=[SH]21CSNF",
+      "fitness": 0.19669332588623656,
+      "novelty": 0.8950883063058017
+    },
+    {
+      "smiles": "Oc1nnnc2c(N(F)CF)nnnc12",
+      "fitness": 0.5296973208435799,
+      "novelty": 0.8822558040908597
+    },
+    {
+      "smiles": "COS1=NN=[SH]C2=C(Br)N=NN=[SH]21CONOO",
+      "fitness": 0.14163594589682912,
+      "novelty": 0.910489484998783
+    },
+    {
+      "smiles": "NOOC1=NN=NC2=C(Br)C=NN=[SH]12NCF",
+      "fitness": 0.30431458112605736,
+      "novelty": 0.8879366865546547
+    },
+    {
+      "smiles": "NOOC1=NN=NS2=C(Br)C=NN=[SH]12NSS",
+      "fitness": 0.11174564852637499,
+      "novelty": 0.9017575587967976
+    },
+    {
+      "smiles": "Nc1ncnc2c(N(Cl)CF)nnnc12",
+      "fitness": 0.5839946136109844,
+      "novelty": 0.8426795539582992
+    },
+    {
+      "smiles": "NOSN[SH]12=NN=CC(Br)=C1N=NN=C2SON",
+      "fitness": 0.24672994848975427,
+      "novelty": 0.8960541372572748
+    },
+    {
+      "smiles": "NC(F)c1cncc2c(O)ccnc12",
+      "fitness": 0.6686042244407571,
+      "novelty": 0.8395051483758342
+    }
+  ]
+}

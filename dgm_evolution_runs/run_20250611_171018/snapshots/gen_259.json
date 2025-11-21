@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:02.931825+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 68,
+  "novelty_archive_size": 1000,
+  "generation": 259,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSC(NCCCCl)c1nnnc2c(C)nncc12",
+  "best_fitness": 0.4939620755336612,
+  "avg_novelty": 0.8985770433647827,
+  "population": [
+    {
+      "smiles": "CO[SH](SCCSCl)C1=NN=NS2=C1N=NN=C2SCl",
+      "fitness": 0.30483150270793785,
+      "novelty": 0.9071585965535993
+    },
+    {
+      "smiles": "NOC(OOOCCl)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.18593738637032312,
+      "novelty": 0.9110023166936343
+    },
+    {
+      "smiles": "OCNCNC(OS)C1=NN=NS2=C1N=NN=C2OCl",
+      "fitness": 0.18112235636131754,
+      "novelty": 0.9037703681625031
+    },
+    {
+      "smiles": "CSN(CNNCS)c1nnnc2c1[SH]=NN=S2CSCl",
+      "fitness": 0.16874655321902546,
+      "novelty": 0.8954417221707579
+    },
+    {
+      "smiles": "CSC(CCSCCl)C1=NN=NC2=S1N=NC=S2NCl",
+      "fitness": 0.30529319055409027,
+      "novelty": 0.90439373000113
+    },
+    {
+      "smiles": "CSC(NCCCCl)c1nnnc2c(C)nncc12",
+      "fitness": 0.4939620755336612,
+      "novelty": 0.8887362161712914
+    },
+    {
+      "smiles": "CS[SH](CCCOCF)C1=NN=NS2=C1N=NN=S2SCl",
+      "fitness": 0.288017789889359,
+      "novelty": 0.8985004518583014
+    },
+    {
+      "smiles": "CNS1=CN=Nc2c(C(CCOCCl)SC)nnnc21",
+      "fitness": 0.46824860733853374,
+      "novelty": 0.8884669775005958
+    },
+    {
+      "smiles": "CSC(CCSCCl)c1nnnc2c1N=NC=S2NCl",
+      "fitness": 0.34061667976768517,
+      "novelty": 0.8932818260011769
+    },
+    {
+      "smiles": "CSN(CNNCS)c1nnnc2c1[SH]=NN=S2CSCl",
+      "fitness": 0.16874655321902546,
+      "novelty": 0.8950182285348376
+    }
+  ]
+}

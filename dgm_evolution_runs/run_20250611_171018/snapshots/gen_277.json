@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:06.361646+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 86,
+  "novelty_archive_size": 1000,
+  "generation": 277,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCCCCC(SN)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.6296689338232155,
+  "avg_novelty": 0.8980419111166682,
+  "population": [
+    {
+      "smiles": "NCC(OCCCO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.43738409484512264,
+      "novelty": 0.8943870888871693
+    },
+    {
+      "smiles": "CCC(CCCNCCl)C1=NN=NC2=S1N=NC=C2NNF",
+      "fitness": 0.1491010671523601,
+      "novelty": 0.9002162017549236
+    },
+    {
+      "smiles": "SCC(CNSCCl)C1=NN=NC2=S1N=NC=C2NCCl",
+      "fitness": 0.1496038486532749,
+      "novelty": 0.8975590040514773
+    },
+    {
+      "smiles": "NNN(SOOOCl)C1=[SH]N=NS2=C1N=NN=C2OCl",
+      "fitness": 0.09474541262663681,
+      "novelty": 0.8984123904981819
+    },
+    {
+      "smiles": "CN[SH](CCCOCF)C1=NN=NS2=C1N=NN=C2SNF",
+      "fitness": 0.20963389982015085,
+      "novelty": 0.8953968548459552
+    },
+    {
+      "smiles": "NON(OOOCCl)C1=NN=NC2=S1N=NN=C2NCl",
+      "fitness": 0.1850932769217404,
+      "novelty": 0.8993676367494388
+    },
+    {
+      "smiles": "SCC(CNSCCl)C1=NN=NC2=S1N=NC=S2NCCl",
+      "fitness": 0.14450640235073775,
+      "novelty": 0.8992679864793593
+    },
+    {
+      "smiles": "CCCCCC(SN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.6296689338232155,
+      "novelty": 0.8998556879206807
+    },
+    {
+      "smiles": "SCC(CNSCCl)C1=NN=NC2=S1N=NC=C2NCCl",
+      "fitness": 0.1496038486532749,
+      "novelty": 0.8969666211051744
+    },
+    {
+      "smiles": "NON(OOOCCl)C1=NN=NC2=S1N=NN=C2NCl",
+      "fitness": 0.1850932769217404,
+      "novelty": 0.8989896388743202
+    }
+  ]
+}

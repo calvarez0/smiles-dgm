@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:21.467036+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 232,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCc1nn(C)nc1C(=O)N1CSONN1OF",
+  "best_fitness": 0.7677772446470594,
+  "avg_novelty": 0.8986947643984807,
+  "population": [
+    {
+      "smiles": "N=C(S1=NN(S)N=C1OO)[SH]1NNOON1ON",
+      "fitness": 0.09823563980552519,
+      "novelty": 0.9159054113311194
+    },
+    {
+      "smiles": "CSc1nn(S)nc1C(=N)[SH]1NNSCN1SNCl",
+      "fitness": 0.11521374087063012,
+      "novelty": 0.8947986802486272
+    },
+    {
+      "smiles": "Cn1nc(NN)c(C(=O)N2CCCNC2OCl)n1",
+      "fitness": 0.4787546704958591,
+      "novelty": 0.8837918683689255
+    },
+    {
+      "smiles": "COc1nn(S)nc1C(=S)C1CCCNN1OCl",
+      "fitness": 0.48327778316965014,
+      "novelty": 0.9005661633688499
+    },
+    {
+      "smiles": "CNc1nn(S)nc1C(=S)C1CCCNN1NC",
+      "fitness": 0.34825813285478363,
+      "novelty": 0.9003791538513105
+    },
+    {
+      "smiles": "COc1nn(C)nc1C(=S)N1CCNCN1NCl",
+      "fitness": 0.5561788306581046,
+      "novelty": 0.8866382172405358
+    },
+    {
+      "smiles": "C=C(c1nn(N)nc1OS)N1NNSNN1C",
+      "fitness": 0.1922494112008874,
+      "novelty": 0.90067054547043
+    },
+    {
+      "smiles": "N=C(c1nn(S)nc1SO)[SH]1NNSCN1SN",
+      "fitness": 0.13427380023058036,
+      "novelty": 0.9090428990705827
+    },
+    {
+      "smiles": "CCc1nn(C)nc1C(=O)N1CSONN1OF",
+      "fitness": 0.7677772446470594,
+      "novelty": 0.8855587503233032
+    },
+    {
+      "smiles": "CNON1OSNN[SH]1C(=N)S1=NN(S)N=C1OO",
+      "fitness": 0.06543454316136439,
+      "novelty": 0.9095959547111242
+    }
+  ]
+}

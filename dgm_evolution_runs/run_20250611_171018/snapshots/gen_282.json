@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:07.551229+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 91,
+  "novelty_archive_size": 1000,
+  "generation": 282,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCCCCC(CN)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.7773778670243628,
+  "avg_novelty": 0.8974987787987223,
+  "population": [
+    {
+      "smiles": "CNC(OCCNO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.2159719296165208,
+      "novelty": 0.8945294867488484
+    },
+    {
+      "smiles": "NNC(OCCCO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.1572086364898287,
+      "novelty": 0.8947470150583454
+    },
+    {
+      "smiles": "CCC(CCNNCCF)C1=NN=NC2=S1N=NC=C2NNF",
+      "fitness": 0.20913590879989094,
+      "novelty": 0.9011174232666542
+    },
+    {
+      "smiles": "NNN(COOOCl)C1=[SH]N=NS2=C1N=NN=C2OCl",
+      "fitness": 0.12479556711225742,
+      "novelty": 0.8966881669993612
+    },
+    {
+      "smiles": "CCCCCC(CN)c1nnnc2c(C)nnnc12",
+      "fitness": 0.7773778670243628,
+      "novelty": 0.9039759264266506
+    },
+    {
+      "smiles": "FCONCC[SH](NS)c1nnnc2c(SNF)nnnc12",
+      "fitness": 0.13290255241315438,
+      "novelty": 0.9007601626068857
+    },
+    {
+      "smiles": "CNC(OCCNO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.2159719296165208,
+      "novelty": 0.8940012247492981
+    },
+    {
+      "smiles": "CNC(OCCNO)c1nnnc2c(NS)nnnc12",
+      "fitness": 0.17961406529086485,
+      "novelty": 0.8955871031996957
+    },
+    {
+      "smiles": "NCC(SCCCO)c1nnnc2c(NCl)nnnc12",
+      "fitness": 0.46851854270976906,
+      "novelty": 0.8932161619607005
+    },
+    {
+      "smiles": "FCONCC[SH](NS)c1nnnc2c(SNF)nnnc12",
+      "fitness": 0.13290255241315438,
+      "novelty": 0.9003651169707836
+    }
+  ]
+}

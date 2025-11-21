@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:56.533268+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 32,
+  "novelty_archive_size": 1000,
+  "generation": 223,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCN(CSCCF)c1nnnc2c(N)nnnc12",
+  "best_fitness": 0.590681900221511,
+  "avg_novelty": 0.8904322875935563,
+  "population": [
+    {
+      "smiles": "CC1=C2N=NC=C(OSOSSCSSCS)[SH]2(ONSNS)=[SH]C=N1",
+      "fitness": 0.03690250680196428,
+      "novelty": 0.897927858976252
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(SSNSSOSCCF)[SH]2(SNONS)=[SH]N=N1",
+      "fitness": 0.049772414538870505,
+      "novelty": 0.8914133235616983
+    },
+    {
+      "smiles": "CCCN(NN)c1nnnc2c(S)nnnc12",
+      "fitness": 0.361268240116974,
+      "novelty": 0.8872298968024895
+    },
+    {
+      "smiles": "NCN(CNO)c1nnnc2c(O)nnnc12",
+      "fitness": 0.3315805247355643,
+      "novelty": 0.8797711424629481
+    },
+    {
+      "smiles": "CNOOC[SH]12=NC=[SH](SCl)S(N)=C1N=[SH]C=C2NCNNSOONCCl",
+      "fitness": 0.012533366689969913,
+      "novelty": 0.8954587716882992
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(NCNSSOOOSOF)[SH]2(CONCO)=N[SH]=[SH]1Cl",
+      "fitness": 0.013513432978305963,
+      "novelty": 0.8957552433481334
+    },
+    {
+      "smiles": "CCN(CSCCF)c1nnnc2c(N)nnnc12",
+      "fitness": 0.590681900221511,
+      "novelty": 0.8702685663689748
+    },
+    {
+      "smiles": "NS1=C2N=C[SH]=C(NCNSSSONCCl)[SH]2(COOCO)=N[SH]=[SH]1Cl",
+      "fitness": 0.013056461358468963,
+      "novelty": 0.8951484740446526
+    },
+    {
+      "smiles": "CNOOC[SH]12=NC=[SH](SCl)S(N)=C1N=[SH][SH]=C2NCNNSOONCCl",
+      "fitness": 0.012445423972148375,
+      "novelty": 0.8952224855949755
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(OSOSSCSSCS)[SH]2(ONSNS)=[SH]N=N1",
+      "fitness": 0.03556272062965064,
+      "novelty": 0.8961271130871392
+    }
+  ]
+}

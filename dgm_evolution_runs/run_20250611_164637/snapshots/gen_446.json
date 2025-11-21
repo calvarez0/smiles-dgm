@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:48:13.880218+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 446,
+  "mutation_strategy": "genetic",
+  "best_smiles": "NC(=O)Nc1nn(S)nc1OSSF",
+  "best_fitness": 0.42329516560599434,
+  "avg_novelty": 0.9004137081816281,
+  "population": [
+    {
+      "smiles": "NC(=O)Nc1nn(S)nc1OSSF",
+      "fitness": 0.42329516560599434,
+      "novelty": 0.8754362316393778
+    },
+    {
+      "smiles": "CC(=O)N1OOCC[SH]1CCNSCOF",
+      "fitness": 0.24468657969582056,
+      "novelty": 0.8984861043271696
+    },
+    {
+      "smiles": "CC(=S)N1OOONN1CCNSCOF",
+      "fitness": 0.23031112200056983,
+      "novelty": 0.8993551331437192
+    },
+    {
+      "smiles": "CC(=O)N1SNSNN1ONCOOSCCCF",
+      "fitness": 0.13847043147449528,
+      "novelty": 0.9073391444159109
+    },
+    {
+      "smiles": "NN[SH]1=C(SNOS)C(S(=S)N2SCNCN2SCSOOOCCCl)=[SH]N1NOCl",
+      "fitness": 0.012890173823264305,
+      "novelty": 0.9116213837351403
+    },
+    {
+      "smiles": "CN1N=S(SSNNNOONNONCSNCl)S(S(=S)N2CCNCN2SSONNS)=N1",
+      "fitness": 0.00784291876323136,
+      "novelty": 0.9019438019208562
+    },
+    {
+      "smiles": "NC(=O)N1OOCC[SH]1CCNSCOF",
+      "fitness": 0.21183682024789657,
+      "novelty": 0.9038731167243522
+    },
+    {
+      "smiles": "C=C(C1=[SH]N(C)[SH](NC)=C1CONO)[SH]1CCCCN1SCNSOCCC(=O)OO",
+      "fitness": 0.01865811724942023,
+      "novelty": 0.9042503974094143
+    },
+    {
+      "smiles": "NC(=O)N1OOSC[SH]1CCNSCOF",
+      "fitness": 0.16716953746399357,
+      "novelty": 0.9004902891603414
+    },
+    {
+      "smiles": "CN1N=S(SSNNNOONNONCSNCl)S(S(=S)N2CCNCN2SSONCS)=N1",
+      "fitness": 0.00835930753411943,
+      "novelty": 0.9013414793400015
+    }
+  ]
+}

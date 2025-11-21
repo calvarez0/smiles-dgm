@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:09.847223+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 107,
+  "novelty_archive_size": 1000,
+  "generation": 298,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNNCOC(CN)c1ncnc2c(C)nnnc12",
+  "best_fitness": 0.33572603573971777,
+  "avg_novelty": 0.8957712392882542,
+  "population": [
+    {
+      "smiles": "CNC(CCSOCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.1632819527207032,
+      "novelty": 0.8958669587402515
+    },
+    {
+      "smiles": "CNNCOC(CN)c1ncnc2c(C)nnnc12",
+      "fitness": 0.33572603573971777,
+      "novelty": 0.8816594058846654
+    },
+    {
+      "smiles": "CNCCNN(NN)C1=CN=NS2=C(C)N=[SH]N=C12",
+      "fitness": 0.14712897737113426,
+      "novelty": 0.8979283052720539
+    },
+    {
+      "smiles": "CNNCNC(ON)C1=NC=NC2=C(N)N=NN=S12",
+      "fitness": 0.21949689731633001,
+      "novelty": 0.8983549263537479
+    },
+    {
+      "smiles": "NNN(CCNOCNO)c1cnnc2c(NOF)cnnc12",
+      "fitness": 0.12611017124950474,
+      "novelty": 0.9002201283687086
+    },
+    {
+      "smiles": "CNCCNC(NN)C1=CN=NS2=C(C)N=[SH]N=C12",
+      "fitness": 0.11467609148603088,
+      "novelty": 0.900144620563346
+    },
+    {
+      "smiles": "CNCNNC(NO)c1nnnc2c(N)nnnc12",
+      "fitness": 0.17851822562903052,
+      "novelty": 0.8896181502190846
+    },
+    {
+      "smiles": "NNC(CNNOCNF)c1cnnc2c(NNCl)cnnc12",
+      "fitness": 0.08727381783764378,
+      "novelty": 0.8999690294656382
+    },
+    {
+      "smiles": "NOC(CCNOCNF)c1cnnc2c(NNCCl)cnnc12",
+      "fitness": 0.09058403951273869,
+      "novelty": 0.8971837005782858
+    },
+    {
+      "smiles": "CNCNNN(NS)c1nnnc2c(C)nnnc12",
+      "fitness": 0.17227661358781848,
+      "novelty": 0.8967671674367608
+    }
+  ]
+}

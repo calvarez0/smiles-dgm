@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:00.319347+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.7641466776403377,
+  "generations_since_best": 4,
+  "generation": 44,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNc1nnnnc1OCCCF",
+  "best_fitness": 0.6562692815241687,
+  "avg_novelty": 0.857391665022587,
+  "population": [
+    {
+      "smiles": "CN(CC1=CN=NN=S1CONO)OS",
+      "fitness": 0.3658852541867222,
+      "novelty": 0.8985866387554848
+    },
+    {
+      "smiles": "CNCOS1=CC=NN=C1CN(C)CF",
+      "fitness": 0.4115700410960387,
+      "novelty": 0.890363788022525
+    },
+    {
+      "smiles": "ON(CF)Nc1nncnc1NONNF",
+      "fitness": 0.17591155868504782,
+      "novelty": 0.8707045182402129
+    },
+    {
+      "smiles": "CNc1nnnnc1OCCCF",
+      "fitness": 0.6562692815241687,
+      "novelty": 0.8136426152408368
+    },
+    {
+      "smiles": "CNc1nnnnc1OCCCCl",
+      "fitness": 0.5488709405285677,
+      "novelty": 0.8131019987797471
+    },
+    {
+      "smiles": "CN(CF)CC1=CN=CC=S1SONNO",
+      "fitness": 0.15856923762847297,
+      "novelty": 0.8884890715854777
+    },
+    {
+      "smiles": "NSCc1nnncc1CSNCl",
+      "fitness": 0.5813323370531791,
+      "novelty": 0.8392151590153283
+    },
+    {
+      "smiles": "COc1nnnnc1OCCF",
+      "fitness": 0.6194383551783682,
+      "novelty": 0.8375230172000578
+    },
+    {
+      "smiles": "CSSCc1nnccc1CSCS",
+      "fitness": 0.4836682568065898,
+      "novelty": 0.8684263818321861
+    },
+    {
+      "smiles": "CNSOc1ccnnc1CN(C)CF",
+      "fitness": 0.4483701914601485,
+      "novelty": 0.8538634615540134
+    }
+  ]
+}

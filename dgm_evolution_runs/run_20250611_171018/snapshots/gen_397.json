@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:38.973353+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 206,
+  "novelty_archive_size": 1000,
+  "generation": 397,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCCSNN(ON)c1nnnc2c(C)nnnc12",
+  "best_fitness": 0.41127631499829004,
+  "avg_novelty": 0.8870053773189268,
+  "population": [
+    {
+      "smiles": "OSSN(OOSSOCNNCl)c1c(NOSF)nnc2c1N=CN=S2OSNNCl",
+      "fitness": 0.02010025931040978,
+      "novelty": 0.8913391423000924
+    },
+    {
+      "smiles": "FCCc1nnc2c(SSSNF)nnnc2c1N(NCNSNNNSBr)OSSF",
+      "fitness": 0.02657301065837557,
+      "novelty": 0.8999608164627216
+    },
+    {
+      "smiles": "OSN(OSNSOCCOSF)c1c(OSCl)nnc2c(SOCCl)nnnc12",
+      "fitness": 0.0951762381551726,
+      "novelty": 0.8903208148832956
+    },
+    {
+      "smiles": "OSSN(CNOONNNNCl)c1c(COCl)nnc2c1N=CN=S2OOOCCl",
+      "fitness": 0.018171478666536484,
+      "novelty": 0.8994617246644504
+    },
+    {
+      "smiles": "COONN(OC)C1=c2nnnc(CSOO)c2=NN=S1NCCF",
+      "fitness": 0.22067232725192507,
+      "novelty": 0.881591606649665
+    },
+    {
+      "smiles": "CCCSNN(ON)c1nnnc2c(C)nnnc12",
+      "fitness": 0.41127631499829004,
+      "novelty": 0.8658157682788894
+    },
+    {
+      "smiles": "CCN(NOCNN)c1nnnc2c(S)nccc12",
+      "fitness": 0.18102690948233321,
+      "novelty": 0.8718750929853801
+    },
+    {
+      "smiles": "CNNc1c(CF)nc2c(NONS)nnnc2c1N(CO)CONSOONS",
+      "fitness": 0.02895700417897038,
+      "novelty": 0.8840197493544091
+    },
+    {
+      "smiles": "CSC(NNOSCNNOBr)c1c(NCl)nnc2c(SNSNF)nnnc12",
+      "fitness": 0.04078857470867301,
+      "novelty": 0.8922916406241344
+    },
+    {
+      "smiles": "CCNC1=S(N(CS)COCSOOOC)c2nnnc(NONS)c2N=C1F",
+      "fitness": 0.05144587329141138,
+      "novelty": 0.8933774169862294
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:15.086307+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 131,
+  "novelty_archive_size": 1000,
+  "generation": 322,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CS1=NN=Nc2c(N(SN)SNONN)nnnc21",
+  "best_fitness": 0.22986570039080748,
+  "avg_novelty": 0.8945635201551345,
+  "population": [
+    {
+      "smiles": "CNCONNNC(CS)c1cnnc2c1N=NC=S2NNNCl",
+      "fitness": 0.060474124269486874,
+      "novelty": 0.8922671671812598
+    },
+    {
+      "smiles": "CCN[SH]12=NN=NC(C)=C1N=CN=C2C(OCCOC)SNSCl",
+      "fitness": 0.2199213309373069,
+      "novelty": 0.8917424639711861
+    },
+    {
+      "smiles": "FNCONSCN(OS)c1cnnc2c(NNNF)cnnc12",
+      "fitness": 0.05863892112010958,
+      "novelty": 0.89381098108322
+    },
+    {
+      "smiles": "SNC(CNOSCNCl)c1cnnc2c1N=NC=S2OONCl",
+      "fitness": 0.051363083144147025,
+      "novelty": 0.8928537424807756
+    },
+    {
+      "smiles": "COCONNNC(NS)c1cnnc2c1N=NC=S2NNNCl",
+      "fitness": 0.05905041298877462,
+      "novelty": 0.8969827241214507
+    },
+    {
+      "smiles": "COC(NNNOCNF)c1c(CCl)nnc2c(ONCF)cnnc12",
+      "fitness": 0.07953554995256792,
+      "novelty": 0.8999124662526062
+    },
+    {
+      "smiles": "SNN(CNOOCNCl)c1cnnc2c1N=NN=S2OONCl",
+      "fitness": 0.08452881559615746,
+      "novelty": 0.8967774213618904
+    },
+    {
+      "smiles": "CS1=NN=Nc2c(N(SN)SNONN)nnnc21",
+      "fitness": 0.22986570039080748,
+      "novelty": 0.8916204916399925
+    },
+    {
+      "smiles": "FCNCOONCN(NS)c1cnnc2c1N=NC=S2OONCl",
+      "fitness": 0.04750227977566539,
+      "novelty": 0.8925302170389362
+    },
+    {
+      "smiles": "SNN(CNOOCNCl)c1cnnc2c1N=NC=S2OONCl",
+      "fitness": 0.06592293797308932,
+      "novelty": 0.897137526420029
+    }
+  ]
+}

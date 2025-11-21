@@ -1,0 +1,27 @@
+Evolution Summary - Generation 180
+==========================================
+
+Run ID: 20250611_164637
+Generation: 180
+Timestamp: 2025-06-11T21:47:14.436400+00:00
+
+Best Molecule Found:
+- SMILES: CNN1COCCN1C(=O)c1nn(C)cc1SCCF
+- Fitness: 0.7876
+- Found in Generation: 165
+
+All-Time Best Fitness: 0.7876
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.
+
+Performance History (last 10 generations):
+- Fitness: [0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887, 0.7876228138112887]
+- Novelty: [0.9050671589713506, 0.9076402327710037, 0.9069901148459338, 0.9059208157221971, 0.9083401294477866, 0.909572869464856, 0.9096740739396983, 0.9095468300987507, 0.9098658922774255, 0.9077420483535695]
+
+Archive Size: 1800 molecules explored

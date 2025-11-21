@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:14:35.937210+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 9,
+  "novelty_archive_size": 1000,
+  "generation": 938,
+  "mutation_strategy": "genetic",
+  "best_smiles": "O=C1OC(c2cnccn2)CCN1C(=O)c1ccnnc1Cl",
+  "best_fitness": 0.8293592528222118,
+  "avg_novelty": 0.9489086540336025,
+  "population": [
+    {
+      "smiles": "OSSN1N(S)NSN2NCNON21",
+      "fitness": 0.19621285483704334,
+      "novelty": 0.9582497987432689
+    },
+    {
+      "smiles": "COCC1N(N)ONON2SNSNN12",
+      "fitness": 0.3310078686378339,
+      "novelty": 0.9541859464413535
+    },
+    {
+      "smiles": "Cc1cnccc1C(=S)N1OCC(c2ccccc2)OC1=O",
+      "fitness": 0.7968742837847035,
+      "novelty": 0.9436344302949911
+    },
+    {
+      "smiles": "O=C1NN(c2ccncc2)NCN1C(=O)c1nncnc1OCl",
+      "fitness": 0.7862475134938555,
+      "novelty": 0.9311359025396803
+    },
+    {
+      "smiles": "CN1OSN2NSNON2N1SSS",
+      "fitness": 0.29125758480827024,
+      "novelty": 0.9630273555821829
+    },
+    {
+      "smiles": "N#CN1SCC(C(=O)S)CC1N1CCSC1=S",
+      "fitness": 0.35937636254166044,
+      "novelty": 0.9654420935166828
+    },
+    {
+      "smiles": "O=C(O)N(C(=S)C1=NC=NCS1)S(=O)(=S)c1ncccc1OCl",
+      "fitness": 0.7519291103682544,
+      "novelty": 0.9403271450670797
+    },
+    {
+      "smiles": "O=C1OC(c2cnccn2)CCN1C(=O)c1ccnnc1Cl",
+      "fitness": 0.8293592528222118,
+      "novelty": 0.936720912608758
+    },
+    {
+      "smiles": "N=C(c1ccnnc1Cl)N1CCC(c2ccccc2)NC1=O",
+      "fitness": 0.659898019567727,
+      "novelty": 0.9353852495542878
+    },
+    {
+      "smiles": "CN1CSC2NSNCN2N1SSS",
+      "fitness": 0.3944697759846853,
+      "novelty": 0.9609777059877406
+    }
+  ]
+}

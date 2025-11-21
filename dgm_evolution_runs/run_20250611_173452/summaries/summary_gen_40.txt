@@ -1,0 +1,50 @@
+Evolution Summary - Generation 40
+==========================================
+
+Run ID: 20250611_173452
+Generation: 40
+Timestamp: 2025-06-11T22:35:02.834104+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: COC1SCCC2CCCNC21CCl
+- Fitness: 0.7410
+- Found in Generation: 14
+- Generations since found: 26
+
+ALL-TIME BEST FITNESS: 0.7410
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 26 generations
+- Plateau threshold: 30 generations
+- Status: ✅ Recent progress
+- Novelty archive size: 399 stepping stones
+- Highly novel molecules preserved: 399
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+BEST PERFORMING PROMPT (achieved fitness 0.0000):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176, 0.7409730454985176]
+- Average novelty: [0.9079561278956273, 0.9081746579940729, 0.9061629345623501, 0.9019638825714953, 0.9036170363375426, 0.9046578669319553, 0.9043529567228301, 0.9045849975578291, 0.8991154511272381, 0.89697818636858]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 400
+- Novel molecules (novelty ≥ 0.7): 399
+- Chemical diversity maintained: High
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

@@ -1,0 +1,27 @@
+Evolution Summary - Generation 20
+==========================================
+
+Run ID: 20250611_164637
+Generation: 20
+Timestamp: 2025-06-11T21:46:45.984082+00:00
+
+Best Molecule Found:
+- SMILES: CSn1cnnc1OSOCl
+- Fitness: 0.7072
+- Found in Generation: 18
+
+All-Time Best Fitness: 0.7072
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+Performance History (last 10 generations):
+- Fitness: [0.6203210066637794, 0.6203210066637794, 0.6376922848671949, 0.6376922848671949, 0.6376922848671949, 0.6376922848671949, 0.6376922848671949, 0.70722009050832, 0.70722009050832, 0.70722009050832]
+- Novelty: [0.8610746829632788, 0.8672581783803406, 0.8690291896075296, 0.8665491814229478, 0.8711671766231504, 0.8690503324089534, 0.8621883635901394, 0.8626685348572913, 0.8659658210166793, 0.8582442423840145]
+
+Archive Size: 200 molecules explored

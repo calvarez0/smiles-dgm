@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:14:49.651035+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 46,
+  "novelty_archive_size": 1000,
+  "generation": 975,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "O=c1on(S2=NN=NN=N2)[nH]on1C(=S)c1nnnnc1Cl",
+  "best_fitness": 0.7198491762310936,
+  "avg_novelty": 0.9405040461453427,
+  "population": [
+    {
+      "smiles": "O=c1on(S2=NN=NN=N2)[nH]on1C(=S)c1nnnnc1Cl",
+      "fitness": 0.7198491762310936,
+      "novelty": 0.9326407474497697
+    },
+    {
+      "smiles": "CC(=O)N1OCN(C#N)C(N2NSNC2=CO)[SH]1SCl",
+      "fitness": 0.18658530912596177,
+      "novelty": 0.9412602413018906
+    },
+    {
+      "smiles": "O=C(c1nncnc1OCCl)n1[nH][nH]n(S2=NC=NN=C2)oc1=O",
+      "fitness": 0.6463240787259357,
+      "novelty": 0.922121063670068
+    },
+    {
+      "smiles": "C=C1SN(c2cnnnn2)SNN1C(=O)c1nncnc1SCF",
+      "fitness": 0.5830118614756529,
+      "novelty": 0.9244464637485447
+    },
+    {
+      "smiles": "CN1OSN2SCNSN2N1NNCNNS",
+      "fitness": 0.09130382062217643,
+      "novelty": 0.9552641465535942
+    },
+    {
+      "smiles": "C=C(c1nnnnc1NO)N1SNC(c2cnnnn2)SC1=O",
+      "fitness": 0.48075369088477365,
+      "novelty": 0.9343754329356545
+    },
+    {
+      "smiles": "CS[SH]1C(N2NNCC2=[SH]O)C(C#N)CON1C(C)=NO",
+      "fitness": 0.07804715073057951,
+      "novelty": 0.9504433119995563
+    },
+    {
+      "smiles": "C=C(C)N1NCC(C#N)N(N2NCCC2=CS)[SH]1SCl",
+      "fitness": 0.4579489325333317,
+      "novelty": 0.9467345134552271
+    },
+    {
+      "smiles": "CNONCN1C(C)CCN2OOOSN21",
+      "fitness": 0.22510493200172293,
+      "novelty": 0.9490650500244121
+    },
+    {
+      "smiles": "NCNSSN1[SH](O)NNN2NNNS[SH]21",
+      "fitness": 0.09744022871680341,
+      "novelty": 0.9486894903147098
+    }
+  ]
+}

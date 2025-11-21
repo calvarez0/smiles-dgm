@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:37.568324+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 77,
+  "novelty_archive_size": 1000,
+  "generation": 104,
+  "mutation_strategy": "genetic",
+  "best_smiles": "FCN(CF)S1=NN=NS2=C(S)N=NN=C12",
+  "best_fitness": 0.4812977714763925,
+  "avg_novelty": 0.9007472757940913,
+  "population": [
+    {
+      "smiles": "COCC1=NN=CC2=C(Br)C=[SH][SH]=[SH]12SSSNOCOSCO",
+      "fitness": 0.040125401357419765,
+      "novelty": 0.9030391427847471
+    },
+    {
+      "smiles": "FCN(CF)S1=NN=NS2=C(S)N=NN=C12",
+      "fitness": 0.4812977714763925,
+      "novelty": 0.8997273244920766
+    },
+    {
+      "smiles": "OC1=NN=NS2=C(C(F)OOF)N=NN=C12",
+      "fitness": 0.4664448957394699,
+      "novelty": 0.8947612282351745
+    },
+    {
+      "smiles": "OOOC1=NN=CS2=C(Br)C=[SH]N=[SH]12SSCNOSNSCSSCl",
+      "fitness": 0.01982337108658335,
+      "novelty": 0.9001784965298448
+    },
+    {
+      "smiles": "CNCCN[SH]12=CN=NC(C)=C1N=NN=C2OOSSCNNSCl",
+      "fitness": 0.03729849624297507,
+      "novelty": 0.9058584450255592
+    },
+    {
+      "smiles": "NCCCN[SH]12=CN=NC(N)=C1N=NC=C2OSOSCOOSCl",
+      "fitness": 0.06649960590748669,
+      "novelty": 0.9099322124711509
+    },
+    {
+      "smiles": "CCCCN[SH]12=CN=NC(C)=C1N=NN=C2OOOSCNOSCl",
+      "fitness": 0.08580595967500672,
+      "novelty": 0.9010878514013733
+    },
+    {
+      "smiles": "CCCCN[SH]12=CN=NC(C)=C1N=NN=C2SOOSCNNSCl",
+      "fitness": 0.05478254585442749,
+      "novelty": 0.9037311746038241
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(C(F)OOF)N=NN=C12",
+      "fitness": 0.45630588358625535,
+      "novelty": 0.8889406446626865
+    },
+    {
+      "smiles": "COCC1=NN=CC2=C(Br)C=[SH][SH]=[SH]12OSSNOCOSCO",
+      "fitness": 0.0409619470293368,
+      "novelty": 0.9002162377344778
+    }
+  ]
+}

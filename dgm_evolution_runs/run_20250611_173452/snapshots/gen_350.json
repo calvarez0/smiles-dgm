@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:35:57.646749+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 285,
+  "novelty_archive_size": 1000,
+  "generation": 350,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "CC(C)(C)S(=O)(=O)c1cc(Br)ccc1Cn1ccc(=O)n(C(=O)O)c1=S",
+  "best_fitness": 0.7049413497608216,
+  "avg_novelty": 0.9236739924262494,
+  "population": [
+    {
+      "smiles": "CC(S)[Se](=O)OC(=O)C12O[Se](=O)C1(C)S(=O)(=O)N(C)C=C2C(=O)O[Si](C)(C)C",
+      "fitness": 0.3450193223453907,
+      "novelty": 0.9376864513517279
+    },
+    {
+      "smiles": "C=C1ON2O[SH](NSNOS)[SH](N)SN2C1NSNOSCl",
+      "fitness": 0.06198221839819935,
+      "novelty": 0.9176033230888817
+    },
+    {
+      "smiles": "CC(C)(C)S(=O)(=O)c1cc(Br)ccc1Cn1ccc(=O)n(C(=O)O)c1=S",
+      "fitness": 0.7049413497608216,
+      "novelty": 0.9396984937917787
+    },
+    {
+      "smiles": "O=C(O)N1CCN(C(=O)c2cc(Cl)nc(N3CCN(c4ncnc5c(Cl)cccc45)C3=S)n2)CC1",
+      "fitness": 0.39777193721472276,
+      "novelty": 0.9454452952896398
+    },
+    {
+      "smiles": "O=C1CC2SC(NNNOO)N(NOCF)NN2N1CNCl",
+      "fitness": 0.10127820258175345,
+      "novelty": 0.9037361811497728
+    },
+    {
+      "smiles": "O=C(O)N1C=NSc2c1n(C(F)(F)F)c(=O)n2C(F)(F)F",
+      "fitness": 0.5814169554773285,
+      "novelty": 0.9417853033333446
+    },
+    {
+      "smiles": "CONNO[SH]1SN2SC(=O)N(CNF)N2NN1NNCF",
+      "fitness": 0.047919325751924396,
+      "novelty": 0.9103838790794434
+    },
+    {
+      "smiles": "C=S1ON2NN(SNSOC)[SH](SCCl)SN2N1OOOOONCl",
+      "fitness": 0.028682115614410694,
+      "novelty": 0.9116626054811914
+    },
+    {
+      "smiles": "CC1C(Cl)CCN1CC1N=C(S)N(C2CCN(CC(=O)O)CC2)C1=S",
+      "fitness": 0.4115073849349241,
+      "novelty": 0.9218102265786946
+    },
+    {
+      "smiles": "NONNNC1SC2CC(=O)N(CNCl)N2NN1NOCF",
+      "fitness": 0.1270260048165033,
+      "novelty": 0.90692816511802
+    }
+  ]
+}

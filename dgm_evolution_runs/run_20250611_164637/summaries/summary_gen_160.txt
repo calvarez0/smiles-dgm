@@ -1,0 +1,27 @@
+Evolution Summary - Generation 160
+==========================================
+
+Run ID: 20250611_164637
+Generation: 160
+Timestamp: 2025-06-11T21:47:10.063517+00:00
+
+Best Molecule Found:
+- SMILES: CSn1nnnc1SNSCl
+- Fitness: 0.7790
+- Found in Generation: 27
+
+All-Time Best Fitness: 0.7790
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.
+
+Performance History (last 10 generations):
+- Fitness: [0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714, 0.778955062144714]
+- Novelty: [0.8852907307606502, 0.88785859298583, 0.8881091407337909, 0.890493720022304, 0.8946222967917052, 0.9001976301967751, 0.904053791824025, 0.8992749138244079, 0.9029959409956296, 0.8924598446136539]
+
+Archive Size: 1600 molecules explored

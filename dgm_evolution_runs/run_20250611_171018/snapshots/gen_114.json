@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:38.788985+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.781149007363961,
+  "generations_since_best": 87,
+  "novelty_archive_size": 1000,
+  "generation": 114,
+  "mutation_strategy": "genetic",
+  "best_smiles": "NC1=NN=NS2=C(N(F)OSCl)C=NN=C12",
+  "best_fitness": 0.35768643059713784,
+  "avg_novelty": 0.8943120571709315,
+  "population": [
+    {
+      "smiles": "OOSC1=NN=CS2=C(Br)C=[SH]N=[SH]12SSCNOONSCCSCl",
+      "fitness": 0.021228177958081535,
+      "novelty": 0.8999696661219853
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(SSSSCONSCl)[SH]2(ONCCN)=CN=N1",
+      "fitness": 0.060025243185198265,
+      "novelty": 0.9091422011677608
+    },
+    {
+      "smiles": "OC1=NC=NS2=C(N(F)OOF)N=NN=C12",
+      "fitness": 0.34189125132808673,
+      "novelty": 0.8924406487926867
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(N(F)OSCl)C=NN=C12",
+      "fitness": 0.35768643059713784,
+      "novelty": 0.8752959925218973
+    },
+    {
+      "smiles": "COCC1=NC=CC2=C(Br)C=[SH][SH]=[SH]12SSSCOCOCCSSCF",
+      "fitness": 0.0836458240352033,
+      "novelty": 0.9139140668285191
+    },
+    {
+      "smiles": "NC1=C2N=NC=C(OSSSCOOSCF)[SH]2(NCNCS)=CN=N1",
+      "fitness": 0.03897829087726594,
+      "novelty": 0.9043414366134327
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(N(F)OSCl)C=NN=C12",
+      "fitness": 0.35768643059713784,
+      "novelty": 0.874606968635974
+    },
+    {
+      "smiles": "NC1=S2C=NN=C(OOO)[SH]2(SSCNONNSCSSCl)=NC=C1S",
+      "fitness": 0.02787069746015458,
+      "novelty": 0.898962018768957
+    },
+    {
+      "smiles": "CNNCN[SH]12=CN=NC(O)=C1N=NN=C2SOCSCNOSCl",
+      "fitness": 0.06897887430167063,
+      "novelty": 0.9006151724264323
+    },
+    {
+      "smiles": "NC1=NN=NS2=C(N(F)OSCl)C=NN=C12",
+      "fitness": 0.35768643059713784,
+      "novelty": 0.8738323998316706
+    }
+  ]
+}

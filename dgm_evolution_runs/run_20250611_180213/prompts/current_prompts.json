@@ -1,0 +1,5 @@
+{
+  "current_prompt": "Modify molecule '{smiles}' with a creative but strategic change to improve drug-likeness. Return only SMILES.",
+  "best_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "timestamp": "2025-06-11T23:05:07.949284+00:00"
+}

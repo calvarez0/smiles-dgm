@@ -1,0 +1,7 @@
+{
+  "generation": 150,
+  "old_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "new_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "performance_summary": "\n    Generation 150 Performance Analysis:\n    - All-time best fitness: 0.7790\n    - Average fitness over last 50 generations: 0.7790\n    - Fitness trend (slope): 0.000000\n    - Average novelty: 0.8858  \n    - Novelty trend (slope): -0.000268\n    - Best molecule so far: CSn1nnnc1SNSCl (fitness: 0.7790)\n    \n    Current prompt: \"You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.\"\n    ",
+  "timestamp": "2025-06-11T21:47:05.222561+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:36:14.391422+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 335,
+  "novelty_archive_size": 1000,
+  "generation": 400,
+  "mutation_strategy": "diversity_restart",
+  "best_smiles": "CN1CN2OS(=N)CN2OC1SSCF",
+  "best_fitness": 0.7741846728643237,
+  "avg_novelty": 0.9300991370388558,
+  "population": [
+    {
+      "smiles": "C=C(S)N(C)c1nc(=S)n(C(O)=S)c2sc(=O)n(C(C)(C)F)c12",
+      "fitness": 0.6179402719694115,
+      "novelty": 0.922616641039006
+    },
+    {
+      "smiles": "FS(F)(Cl)NC1=Nn2c(c(=S)n(SCl)c2=CS)=CN1S(F)(F)F",
+      "fitness": 0.39467989715594065,
+      "novelty": 0.934195345528974
+    },
+    {
+      "smiles": "CSn1c(=S)c2cn(C(F)(F)S)c(NS(F)(F)F)nn-2c1=[SH]F",
+      "fitness": 0.36404390430599115,
+      "novelty": 0.9253314158713073
+    },
+    {
+      "smiles": "F[SH]=c1n2nc(NS(F)(F)Cl)n(S(F)(F)F)cc-2c(=S)n1SCl",
+      "fitness": 0.3011438604314958,
+      "novelty": 0.9320513092219694
+    },
+    {
+      "smiles": "C=C(S)N=Nc1nc(NNC2=S(N=C(C#N)C#N)N(C(F)(F)F)C(C(C)(F)F)=N2)c(Cl)n1C(F)(F)Cl",
+      "fitness": 0.057265491586797015,
+      "novelty": 0.9290697875003903
+    },
+    {
+      "smiles": "C=C(S)N(C)c1nc(=O)n(C(O)=S)c2sc(=O)n(C(C)(F)S)c12",
+      "fitness": 0.5429778711323077,
+      "novelty": 0.9228837158268857
+    },
+    {
+      "smiles": "C=C(S)N(C)c1nc(=O)n(C(O)=S)c2sc(=O)n(C(C)(C)F)c12",
+      "fitness": 0.6282407014559769,
+      "novelty": 0.9226354091486144
+    },
+    {
+      "smiles": "CN1CN2OS(=N)CN2OC1SSCF",
+      "fitness": 0.7741846728643237,
+      "novelty": 0.9136095903998881
+    },
+    {
+      "smiles": "CSSSN1NN2NC(=S)NN2NC1SNOF",
+      "fitness": 0.19196919800819348,
+      "novelty": 0.9168009168835568
+    },
+    {
+      "smiles": "c1cnccn1",
+      "fitness": 0.45255714309799316,
+      "novelty": 0.9817972389679673
+    }
+  ]
+}

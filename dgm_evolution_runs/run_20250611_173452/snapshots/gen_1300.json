@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:41:37.147447+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.9455724332387465,
+  "generations_since_best": 545,
+  "novelty_archive_size": 1000,
+  "generation": 1300,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "C[Si](C)(N)c1nnnnc1N1C(=N)c2ncnnc2ON=NC1=O",
+  "best_fitness": 0.6058293350232992,
+  "avg_novelty": 0.95111173615175,
+  "population": [
+    {
+      "smiles": "OSN1ONNN2SCSS[SH]21OF",
+      "fitness": 0.26052488529887774,
+      "novelty": 0.9508764661412386
+    },
+    {
+      "smiles": "C[Si](C)(N)c1nnnnc1N1C(=N)c2ncnnc2ON=NC1=O",
+      "fitness": 0.6058293350232992,
+      "novelty": 0.9246947887226988
+    },
+    {
+      "smiles": "ON1OONN2SCNS[SH]12NF",
+      "fitness": 0.14228048430184753,
+      "novelty": 0.9536728115305632
+    },
+    {
+      "smiles": "NN[SH]12NSCSN1NOON2S",
+      "fitness": 0.11966260322008404,
+      "novelty": 0.957209217270106
+    },
+    {
+      "smiles": "FN[SH]12SSCSN1NCCN2SCl",
+      "fitness": 0.31016643927265986,
+      "novelty": 0.9529681730713259
+    },
+    {
+      "smiles": "ON1OONN2CCCN[SH]21NF",
+      "fitness": 0.21551822639148815,
+      "novelty": 0.9549829780358746
+    },
+    {
+      "smiles": "OC1NCCN2NONC[SH]12CCl",
+      "fitness": 0.28544829709802905,
+      "novelty": 0.9535090201169657
+    },
+    {
+      "smiles": "CSN1OCNN2SCSS[SH]21NF",
+      "fitness": 0.3068696102480025,
+      "novelty": 0.9495887803517243
+    },
+    {
+      "smiles": "OCN1OONN2SNSO[SH]12NO",
+      "fitness": 0.1181344677376983,
+      "novelty": 0.9587348864468638
+    },
+    {
+      "smiles": "ON1OONN2CCCN[SH]21NF",
+      "fitness": 0.21551822639148815,
+      "novelty": 0.9548802398301415
+    }
+  ]
+}

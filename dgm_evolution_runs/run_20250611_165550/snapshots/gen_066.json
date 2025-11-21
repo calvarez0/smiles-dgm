@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:04.902366+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 6,
+  "generation": 66,
+  "mutation_strategy": "genetic",
+  "best_smiles": "COc1cncnc1CSCCl",
+  "best_fitness": 0.7023805434288056,
+  "avg_novelty": 0.8778656013218079,
+  "population": [
+    {
+      "smiles": "OSC1=NN=NN=S1CSCOCl",
+      "fitness": 0.47840186915945193,
+      "novelty": 0.8897804946075246
+    },
+    {
+      "smiles": "N#Cc1ccc(SC2=NN=CS(OSCCF)=N2)cc1S",
+      "fitness": 0.4946991186607511,
+      "novelty": 0.9078621811646114
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1CSCOF",
+      "fitness": 0.5771121792232362,
+      "novelty": 0.8515560792219201
+    },
+    {
+      "smiles": "NSC1=NN=NN=S1COCSF",
+      "fitness": 0.46141915008574347,
+      "novelty": 0.8814303898725848
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1OCCCl",
+      "fitness": 0.6998031186643866,
+      "novelty": 0.8577640357727095
+    },
+    {
+      "smiles": "N#Cc1ccc(CC2=NC=CS(CSCCF)=N2)cc1S",
+      "fitness": 0.6339347048554065,
+      "novelty": 0.9047857130977501
+    },
+    {
+      "smiles": "N#Cc1ccc(SC2=NC=NS(CSCCl)=N2)cc1SCl",
+      "fitness": 0.6657290410441503,
+      "novelty": 0.9238899665459808
+    },
+    {
+      "smiles": "COc1cncnc1CSCCl",
+      "fitness": 0.7023805434288056,
+      "novelty": 0.8490362000094471
+    },
+    {
+      "smiles": "CSC1=NN=NN=S1COCSF",
+      "fitness": 0.5613545547757315,
+      "novelty": 0.8630837047411292
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1CSCOF",
+      "fitness": 0.5771121792232362,
+      "novelty": 0.8494672481844221
+    }
+  ]
+}

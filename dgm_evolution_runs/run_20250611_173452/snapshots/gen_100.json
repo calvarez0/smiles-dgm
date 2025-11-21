@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:35:10.199642+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 35,
+  "novelty_archive_size": 999,
+  "generation": 100,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "OCc1nnc2c(c1S)C1=NN=NN=S1C2SCF",
+  "best_fitness": 0.8303370204537835,
+  "avg_novelty": 0.9107702443438983,
+  "population": [
+    {
+      "smiles": "COc1nnc2c(c1O)c1cncnc1n2SCl",
+      "fitness": 0.7663202431299286,
+      "novelty": 0.8978762617565358
+    },
+    {
+      "smiles": "O=C(O)Cn1c(C(=O)O)ncnc1=S",
+      "fitness": 0.6717266763712686,
+      "novelty": 0.9426054445506792
+    },
+    {
+      "smiles": "OCc1nnc2c(c1S)C1=NN=NN=S1C2SCF",
+      "fitness": 0.8303370204537835,
+      "novelty": 0.9131758207643405
+    },
+    {
+      "smiles": "Oc1c(SBr)nnc2c1c1nnnnc1n2OCl",
+      "fitness": 0.7184857811651048,
+      "novelty": 0.8912421966771198
+    },
+    {
+      "smiles": "CSSON1C(=N)NN2NN(SNOS)[SH](NOCO)S[SH]21SCOCl",
+      "fitness": 0.04353060603208441,
+      "novelty": 0.9131164237058332
+    },
+    {
+      "smiles": "NCc1nnc2c(c1S)c1nnnnc1n2NCF",
+      "fitness": 0.42900042975685504,
+      "novelty": 0.8978568325261197
+    },
+    {
+      "smiles": "CSSCN1C(=N)NN2SN(CONO)[SH](NOSO)S[SH]21OSS",
+      "fitness": 0.0634949540915842,
+      "novelty": 0.9163596467244072
+    },
+    {
+      "smiles": "NCNn1c2nnnnc2c2c(S)c(CN)nnc21",
+      "fitness": 0.3272777374804561,
+      "novelty": 0.9028725788755935
+    },
+    {
+      "smiles": "CSSON1C(=N)NN2NN(SOOS)[SH](NSCO)S[SH]21SCOCl",
+      "fitness": 0.0335939510306579,
+      "novelty": 0.9123670315453359
+    },
+    {
+      "smiles": "CCOCN1NN2NC(=S)N(OSSC)[SH]2(SSOF)S[SH]1COSSF",
+      "fitness": 0.07671839891258728,
+      "novelty": 0.9202302063130177
+    }
+  ]
+}

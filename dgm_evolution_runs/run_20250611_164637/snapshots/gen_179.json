@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:11.871104+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.7876228138112887,
+  "generation": 179,
+  "mutation_strategy": "genetic",
+  "best_smiles": "C=S(C1=NN(C)N=S1CC)N1CCOCC1SC",
+  "best_fitness": 0.742307174583317,
+  "avg_novelty": 0.9098658922774255,
+  "population": [
+    {
+      "smiles": "Cn1nc(SS)c(S(=S)N2CNSSC2O)n1",
+      "fitness": 0.41288900860741945,
+      "novelty": 0.9129717707342703
+    },
+    {
+      "smiles": "C=S(C1=NN(C)N=S1CN)N1CCOCN1Cl",
+      "fitness": 0.5788464361196699,
+      "novelty": 0.9035999778884685
+    },
+    {
+      "smiles": "C=S(C1=NN(C)N=S1CC)N1CCOCC1OC",
+      "fitness": 0.7240615066386229,
+      "novelty": 0.9066834158034941
+    },
+    {
+      "smiles": "C=S(C1=NN(C)N=S1CO)N1CCOCN1Cl",
+      "fitness": 0.5806328494650003,
+      "novelty": 0.9029467860194994
+    },
+    {
+      "smiles": "NNN1SONON1S(=O)c1nn(N)cc1SN",
+      "fitness": 0.17096117111888898,
+      "novelty": 0.9152579137541555
+    },
+    {
+      "smiles": "C=S(C1=NN(C)N=S1CC)N1CCOCC1SC",
+      "fitness": 0.742307174583317,
+      "novelty": 0.9034972354836572
+    },
+    {
+      "smiles": "NNN1SONON1S(=O)c1nn(N)cc1SNOOS",
+      "fitness": 0.057234624753129675,
+      "novelty": 0.9119745709070998
+    },
+    {
+      "smiles": "CNN1SOOON1S(=O)c1nn(N)nc1SNCl",
+      "fitness": 0.19333410725972913,
+      "novelty": 0.9125340919071212
+    },
+    {
+      "smiles": "C=S(C1=NN(C)N=S1NC)N1NNOCC1S",
+      "fitness": 0.39420440874725005,
+      "novelty": 0.9159692488192028
+    },
+    {
+      "smiles": "NNN1SONON1S(=O)c1nn(N)cc1SNF",
+      "fitness": 0.13260151744110105,
+      "novelty": 0.9132239114572867
+    }
+  ]
+}

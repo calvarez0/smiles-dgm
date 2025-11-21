@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:31.520136+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.8149928801505816,
+  "generation": 299,
+  "mutation_strategy": "genetic",
+  "best_smiles": "Cn1nc(CS)c(S(=S)N2CCCSN2SNCN)n1",
+  "best_fitness": 0.3702434799458595,
+  "avg_novelty": 0.896075932506743,
+  "population": [
+    {
+      "smiles": "COc1nn(S)nc1C(=N)N1NNSSN1NOCl",
+      "fitness": 0.12303730280188205,
+      "novelty": 0.8924175409014891
+    },
+    {
+      "smiles": "CCSN1NOOOC1C(=N)S1=NN(S)N=C1SNSSNCSSCF",
+      "fitness": 0.039029853721432195,
+      "novelty": 0.8959265007173949
+    },
+    {
+      "smiles": "CSc1nn(N)nc1C(=N)N1CCCSN1OCCF",
+      "fitness": 0.2662074824039855,
+      "novelty": 0.8794655402534631
+    },
+    {
+      "smiles": "Cn1nc(CS)c(S(=S)N2CCCSN2SNCN)n1",
+      "fitness": 0.3702434799458595,
+      "novelty": 0.8889884726230256
+    },
+    {
+      "smiles": "Nn1nc(OO)c(C(=O)[SH]2SOOC[SH]2ONF)n1",
+      "fitness": 0.09395387535525108,
+      "novelty": 0.8900200574786572
+    },
+    {
+      "smiles": "CCSN1COONN1C(=O)C1=NN(C)N=S1SCCSOSSSCCl",
+      "fitness": 0.09931346390428482,
+      "novelty": 0.8896871869046864
+    },
+    {
+      "smiles": "OSSNSN1OSSN[SH]1C(=S)S1=NN(O)C=S1SONCSOCCl",
+      "fitness": 0.02283585655094747,
+      "novelty": 0.9085277166563771
+    },
+    {
+      "smiles": "COc1nn(O)nc1C(=N)N1NNSCN1NNCF",
+      "fitness": 0.08928101109899035,
+      "novelty": 0.8901459764069984
+    },
+    {
+      "smiles": "N=C(S1=CN(S)C=S1SOCCOCS)[SH]1SNOSN1SSCSOCCl",
+      "fitness": 0.018137691674727077,
+      "novelty": 0.9228693501823434
+    },
+    {
+      "smiles": "CNSCNSN1OSCO[SH]1C(=S)S1=NN(S)C=S1COCSCOSO",
+      "fitness": 0.043878036804218645,
+      "novelty": 0.9027109829429951
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Evolution Summary - Generation 20
+==========================================
+
+Run ID: 20250611_165550
+Generation: 20
+Timestamp: 2025-06-11T21:55:58.477645+00:00
+
+Best Molecule Found:
+- SMILES: CN(Cl)Cc1cccnc1CO
+- Fitness: 0.7202
+- Found in Generation: 20
+
+All-Time Best Fitness: 0.7202
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+Performance History (last 10 generations):
+- Fitness: [0.656447579791292, 0.6875389697655087, 0.7039973355335674, 0.7039973355335674, 0.7039973355335674, 0.7092079637986467, 0.7092079637986467, 0.7092079637986467, 0.7092079637986467, 0.7202261749654568]
+- Novelty: [0.8416015360722456, 0.8475670762900375, 0.8525468781441174, 0.8529309572403045, 0.8604858975529807, 0.8631835052444103, 0.8621408306126959, 0.8711121437073303, 0.8589459607956453, 0.8562082392146146]
+
+Archive Size: 200 molecules explored

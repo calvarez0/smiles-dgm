@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:37.404396+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 199,
+  "novelty_archive_size": 1000,
+  "generation": 390,
+  "mutation_strategy": "llm",
+  "best_smiles": "CCN(CNSCN)c1nnnc2c(N)nccc12",
+  "best_fitness": 0.37950471883726744,
+  "avg_novelty": 0.8888415033639548,
+  "population": [
+    {
+      "smiles": "CCNC1=S(N(CO)CONSOONS)c2nnnc(NONS)c2N=C1F",
+      "fitness": 0.025746681773875957,
+      "novelty": 0.8911013262280454
+    },
+    {
+      "smiles": "FCCc1nnc2c(SSSCF)nnnc2c1N(NCNSCNNOBr)OSSF",
+      "fitness": 0.04745087188080403,
+      "novelty": 0.896377515443779
+    },
+    {
+      "smiles": "OSON(OOSSOCNNF)c1c(NNSF)nnc2c1N=CN=S2OSNNCl",
+      "fitness": 0.019026637945572494,
+      "novelty": 0.8952617720492985
+    },
+    {
+      "smiles": "COOON(OC)C1=c2nnnc(CSOO)c2=NN=S1NOCF",
+      "fitness": 0.25322077916650415,
+      "novelty": 0.8900878425920187
+    },
+    {
+      "smiles": "CCN(CNSCN)c1nnnc2c(N)nccc12",
+      "fitness": 0.37950471883726744,
+      "novelty": 0.8689686338586603
+    },
+    {
+      "smiles": "CCCSNN(OS)c1nnnc2c(C)nnnc12",
+      "fitness": 0.259928786083999,
+      "novelty": 0.868661942981601
+    },
+    {
+      "smiles": "OON(OSNSNCSOSF)c1c(OSCl)nnc2c(SOCF)nnnc12",
+      "fitness": 0.06770490967687329,
+      "novelty": 0.8911202129883083
+    },
+    {
+      "smiles": "FNONSc1nnnc2c([SH](NNOSCCNOBr)SS)c(NCl)nnc12",
+      "fitness": 0.02853993890066573,
+      "novelty": 0.8969138849143969
+    },
+    {
+      "smiles": "OSSN(CNOONNNNF)c1c(CNCl)nnc2c1N=CN=S2OONCCl",
+      "fitness": 0.012441401131359584,
+      "novelty": 0.8938822233808716
+    },
+    {
+      "smiles": "FCCc1nnc2c(SSSCF)nnnc2c1N(NCNSCNNOBr)OSSF",
+      "fitness": 0.04745087188080403,
+      "novelty": 0.8960396792025696
+    }
+  ]
+}

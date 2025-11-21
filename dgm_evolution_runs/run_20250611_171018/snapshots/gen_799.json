@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:41.837805+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 212,
+  "novelty_archive_size": 1000,
+  "generation": 799,
+  "mutation_strategy": "genetic",
+  "best_smiles": "COc1nnnc2c(N)nsc12",
+  "best_fitness": 0.6728692406107586,
+  "avg_novelty": 0.9194220246502635,
+  "population": [
+    {
+      "smiles": "COc1nnnc2c(N)nsc12",
+      "fitness": 0.6728692406107586,
+      "novelty": 0.9061687494301396
+    },
+    {
+      "smiles": "COc1nsc2c1=CN=[SH](NOCNCNNOSSC)C=2OSONNNNCNONOONCl",
+      "fitness": 0.0071968712048722525,
+      "novelty": 0.9240054618554475
+    },
+    {
+      "smiles": "COC1=NSS2=C(NNOCONCSNNCOOONO)[SH](SCNOOO)=NN=C12",
+      "fitness": 0.012019757764823174,
+      "novelty": 0.9231670892049307
+    },
+    {
+      "smiles": "OCNSCS[SH]1=NN=C2C(NS)=NCS2=C1SCOS[O][Ce]<-[NH2]SCNCNSSCSOSF",
+      "fitness": 0.016122195543275635,
+      "novelty": 0.923296660294071
+    },
+    {
+      "smiles": "CCC1=NSC2=S1C=NN=C2NC",
+      "fitness": 0.5300396165324252,
+      "novelty": 0.917876703958129
+    },
+    {
+      "smiles": "COc1nsc2c1=CN=[SH](NSCNCNONSSC)C=2OOONONNNOONOONF",
+      "fitness": 0.00730753402879433,
+      "novelty": 0.9213778206220704
+    },
+    {
+      "smiles": "CNSSSNNSOOC[SH]1=N[SH]=c2c(SS)nsc2=C1OSSONCNCNSOOOOCF",
+      "fitness": 0.00774215537040827,
+      "novelty": 0.9233002744045218
+    },
+    {
+      "smiles": "COc1nsc2c1=CN=[SH](NSCNCNSNSSC)C=2OOONONNNOONOONF",
+      "fitness": 0.007526748822287763,
+      "novelty": 0.9208265041463672
+    },
+    {
+      "smiles": "CNNOCOCNOS[CH2][Ce][O]OONSC1=S2ON=C(NN)C2=NN=[SH]1CCSCCSCl",
+      "fitness": 0.00972884161255983,
+      "novelty": 0.919946915240647
+    },
+    {
+      "smiles": "CCc1nncc2c(C)nsc12",
+      "fitness": 0.6713138447787869,
+      "novelty": 0.9142540673463104
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:35:17.546091+00:00",
+  "current_prompt": "Synthesize a novel molecule based on the core structure of '{smiles}', incorporating at least two unconventional functional groups not present in the original. Return only the valid SMILES string.",
+  "all_time_best_fitness": 0.8866528922236546,
+  "generations_since_best": 85,
+  "novelty_archive_size": 1000,
+  "generation": 150,
+  "mutation_strategy": "novelty_push",
+  "best_smiles": "C=C(CN1C(=NCl)N=NC=S1C(=O)NOC)SC",
+  "best_fitness": 0.6384328285429465,
+  "avg_novelty": 0.9140213883635704,
+  "population": [
+    {
+      "smiles": "C=C(CN1C(=NCl)N=NC=S1C(=O)NOC)SC",
+      "fitness": 0.6384328285429465,
+      "novelty": 0.8963126627202819
+    },
+    {
+      "smiles": "O=C(COO)C1=NN=CS(=NO)C1CC(O)=S",
+      "fitness": 0.37695419121481866,
+      "novelty": 0.9237233954930996
+    },
+    {
+      "smiles": "CNSC(=O)NC1C(=NCl)N=CN=C1C(=O)SONF",
+      "fitness": 0.2888903817997653,
+      "novelty": 0.9100762866863032
+    },
+    {
+      "smiles": "C=C(SC)SN1C(=NCl)N=NC=S1C(=O)NOC",
+      "fitness": 0.48764170144947555,
+      "novelty": 0.9007508174306212
+    },
+    {
+      "smiles": "CCN=S1N=NN=C(C(=O)COO)C1CC(N)=S",
+      "fitness": 0.4223857200020647,
+      "novelty": 0.9185633745208278
+    },
+    {
+      "smiles": "CC(=S)O[SH]1C(=NCl)N=CN=C1C(=O)OOOS",
+      "fitness": 0.2663904859263705,
+      "novelty": 0.9123260696945602
+    },
+    {
+      "smiles": "NC(=O)O[SH]1C(C(=O)OOO)=NC=NS1=NCl",
+      "fitness": 0.2931252550656653,
+      "novelty": 0.9163028745638022
+    },
+    {
+      "smiles": "C=C1C[SH]2CN(NONO)N(SSCNNF)S[SH]2(OCS)N1OCSCNCF",
+      "fitness": 0.019537411983571333,
+      "novelty": 0.9251896562066079
+    },
+    {
+      "smiles": "C=C1CN2CN(NOOO)N(SOCNCF)S[SH]2(CCS)N1SCSCCCl",
+      "fitness": 0.019741006098926206,
+      "novelty": 0.9208007130573447
+    },
+    {
+      "smiles": "NSSSCON1C(=O)CN2SN(NSNO)C(OONCCl)S[SH]21SCSF",
+      "fitness": 0.018665846162984737,
+      "novelty": 0.9161680332622557
+    }
+  ]
+}

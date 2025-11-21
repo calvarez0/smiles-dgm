@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:05.881249+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7924325685088042,
+  "generations_since_best": 15,
+  "generation": 75,
+  "mutation_strategy": "genetic",
+  "best_smiles": "N#Cc1ccc(SC2=NC=NS(CSNCl)=N2)nc1NCl",
+  "best_fitness": 0.6018702058990401,
+  "avg_novelty": 0.8826894289753062,
+  "population": [
+    {
+      "smiles": "N#Cc1ccc(SC2=NC=NS(CSNCl)=N2)nc1NCl",
+      "fitness": 0.6018702058990401,
+      "novelty": 0.897442650323201
+    },
+    {
+      "smiles": "N#Cc1ccc(Sc2ncnc(CSOCl)n2)cc1SCF",
+      "fitness": 0.5262113687793536,
+      "novelty": 0.8980192548194517
+    },
+    {
+      "smiles": "CSc1cnnnc1NCCCl",
+      "fitness": 0.5910448995086158,
+      "novelty": 0.8469183687138324
+    },
+    {
+      "smiles": "N#CC1=NC=C(CC2=NC=CS(CCNCN)=N2)C=S1S",
+      "fitness": 0.22338046729925495,
+      "novelty": 0.9137317099137523
+    },
+    {
+      "smiles": "C#Cc1ncc(OC2=NC=CS(CSNCN)=N2)cc1S",
+      "fitness": 0.24876315763475296,
+      "novelty": 0.8964313217551237
+    },
+    {
+      "smiles": "COc1nncnc1NCNCl",
+      "fitness": 0.5130486507944352,
+      "novelty": 0.8501013921476948
+    },
+    {
+      "smiles": "COc1nncnc1NNNCl",
+      "fitness": 0.43425824041535266,
+      "novelty": 0.8658862689172485
+    },
+    {
+      "smiles": "N#CC1=NC=S(CC2=NC=CS(CSNCN)=N2)C=C1CO",
+      "fitness": 0.2679596133447802,
+      "novelty": 0.9078475643540467
+    },
+    {
+      "smiles": "C#Cc1ncc(CC2=NC=CS(CSOCN)=N2)cc1SOO",
+      "fitness": 0.18074312043968702,
+      "novelty": 0.9019725848537304
+    },
+    {
+      "smiles": "COc1nncnc1NCNCl",
+      "fitness": 0.5130486507944352,
+      "novelty": 0.84854317395498
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:35.224244+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 188,
+  "novelty_archive_size": 1000,
+  "generation": 379,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCOCCN(CC)c1nnnc2c(N)ncnc12",
+  "best_fitness": 0.740138661106658,
+  "avg_novelty": 0.8839901191759745,
+  "population": [
+    {
+      "smiles": "FCCc1nnc2c(SNOCF)nnnc2c1N(NNNSCNNOBr)OS",
+      "fitness": 0.036483587290293905,
+      "novelty": 0.8927066492517967
+    },
+    {
+      "smiles": "OON(OONSNCNOSF)c1c(OOF)nnc2c(SONF)nnnc12",
+      "fitness": 0.03963642856568642,
+      "novelty": 0.8943086469215563
+    },
+    {
+      "smiles": "OSSN(ONOSNNNNF)c1c(CNCl)nnc2c1N=CN=S2ONNCCl",
+      "fitness": 0.01819910962267929,
+      "novelty": 0.8967168261401867
+    },
+    {
+      "smiles": "CCOSNN(CN)c1nnnc2c(N)nnnc12",
+      "fitness": 0.1880604828707317,
+      "novelty": 0.8597083036618801
+    },
+    {
+      "smiles": "NCNC1=S(N(CO)SONSSONS)c2nnnc(CONO)c2N=C1F",
+      "fitness": 0.024403209472773496,
+      "novelty": 0.8958076785487505
+    },
+    {
+      "smiles": "CNONN(OS)C1=c2nnnc(SONO)c2=NN=S1COCF",
+      "fitness": 0.14941501257043163,
+      "novelty": 0.886026218052669
+    },
+    {
+      "smiles": "OSON(OOSSNSNNF)c1c(NNCl)nnc2c1N=CN=S2OSNCCl",
+      "fitness": 0.015969810224388207,
+      "novelty": 0.896947655683745
+    },
+    {
+      "smiles": "OON(NNOSCSNNBr)c1c(CCl)nnc2c(ONONF)nnnc12",
+      "fitness": 0.022364087433943466,
+      "novelty": 0.8921751698234286
+    },
+    {
+      "smiles": "CNSCCN(OC)c1nnnc2c(N)nnnc12",
+      "fitness": 0.3855883771040471,
+      "novelty": 0.856982009364294
+    },
+    {
+      "smiles": "CCOCCN(CC)c1nnnc2c(N)ncnc12",
+      "fitness": 0.740138661106658,
+      "novelty": 0.8685220343114382
+    }
+  ]
+}

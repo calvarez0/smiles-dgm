@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-06-11T21:56:02.487160+00:00",
+  "current_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
+  "all_time_best_fitness": 0.7641466776403377,
+  "generations_since_best": 18,
+  "generation": 58,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNC1=NN=CN=S1CSCF",
+  "best_fitness": 0.7500190913366647,
+  "avg_novelty": 0.8683391335079935,
+  "population": [
+    {
+      "smiles": "CNC1=NN=NN=S1NCCF",
+      "fitness": 0.6668209280372891,
+      "novelty": 0.8653286058603673
+    },
+    {
+      "smiles": "COC1=NN=CN=S1SSCF",
+      "fitness": 0.692435560620152,
+      "novelty": 0.8765611850423825
+    },
+    {
+      "smiles": "CSC1=NN=NN=S1CNCOF",
+      "fitness": 0.5771121792232362,
+      "novelty": 0.8764545723130838
+    },
+    {
+      "smiles": "CNC1=NN=NN=S1SOCF",
+      "fitness": 0.5622588429356393,
+      "novelty": 0.8603356638208877
+    },
+    {
+      "smiles": "CSC1=NN=NN=S1CNCO",
+      "fitness": 0.652935055198747,
+      "novelty": 0.8764724059895638
+    },
+    {
+      "smiles": "COC1=NN=NN=S1NCNF",
+      "fitness": 0.4905399971873238,
+      "novelty": 0.8837092632043935
+    },
+    {
+      "smiles": "NNC1=NN=NN=S1SCNF",
+      "fitness": 0.2007411611569781,
+      "novelty": 0.8881645722525392
+    },
+    {
+      "smiles": "CNC1=NN=CN=S1CSCF",
+      "fitness": 0.7500190913366647,
+      "novelty": 0.8688995109020952
+    },
+    {
+      "smiles": "CNc1nnnnc1SCCF",
+      "fitness": 0.6902705026674436,
+      "novelty": 0.8250148418294876
+    },
+    {
+      "smiles": "CNC1=NN=CN=S1SSCF",
+      "fitness": 0.7426668925260459,
+      "novelty": 0.8624507138651348
+    }
+  ]
+}

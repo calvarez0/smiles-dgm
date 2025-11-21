@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:12:55.851960+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 86,
+  "novelty_archive_size": 1000,
+  "generation": 673,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCc1nncc2c([IH]NCl)n[nH]c12",
+  "best_fitness": 0.6619777528129406,
+  "avg_novelty": 0.9124410428053172,
+  "population": [
+    {
+      "smiles": "OOS[SH]1=N[SH]=c2c(OS)noc2=C1SNONOSNF",
+      "fitness": 0.03244843524598145,
+      "novelty": 0.9187083082919889
+    },
+    {
+      "smiles": "ONC1=CN=[SH]C2=S1ON=C2[IH]CCSCF",
+      "fitness": 0.15581686179964152,
+      "novelty": 0.9144936577457066
+    },
+    {
+      "smiles": "OOc1noc2c1=[SH]N=[SH](NCl)C=2CCCSSCSSSS",
+      "fitness": 0.044771170102139955,
+      "novelty": 0.9115257922319328
+    },
+    {
+      "smiles": "NCSCOOSC1=c2onc(SS)c2=CC=[SH]1SCl",
+      "fitness": 0.0875777339461057,
+      "novelty": 0.9148382614159799
+    },
+    {
+      "smiles": "CSOCSSNSCC1=c2onc(SO)c2=NN=[SH]1CSSC",
+      "fitness": 0.10177687571942602,
+      "novelty": 0.9302630492739937
+    },
+    {
+      "smiles": "CNc1cnnc2c(OOCl)n[nH]c12",
+      "fitness": 0.5835521701057194,
+      "novelty": 0.897240082549481
+    },
+    {
+      "smiles": "CNCCNOCCS1=c2onc(CN)c2=CN=[SH]1NNS",
+      "fitness": 0.08711951015392143,
+      "novelty": 0.9107511250897109
+    },
+    {
+      "smiles": "CCc1nncc2c([IH]NCl)n[nH]c12",
+      "fitness": 0.6619777528129406,
+      "novelty": 0.8999546536663646
+    },
+    {
+      "smiles": "NSc1nnnc2c(O)c[nH]c12",
+      "fitness": 0.5388349919210169,
+      "novelty": 0.8994010918959889
+    },
+    {
+      "smiles": "NNC1=NN=[SH]C2=S1ON=C2[IH]ON",
+      "fitness": 0.1656996918286555,
+      "novelty": 0.9272344058920265
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:04.339458+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 76,
+  "novelty_archive_size": 1000,
+  "generation": 267,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSC(NCCCS)c1nnnc2c(C)nncc12",
+  "best_fitness": 0.4737537483531284,
+  "avg_novelty": 0.8987809522191019,
+  "population": [
+    {
+      "smiles": "NON(OOOCCl)C1=NN=NS2=C1N=NN=C2NCl",
+      "fitness": 0.1850932769217404,
+      "novelty": 0.90391576323417
+    },
+    {
+      "smiles": "OCCCNC(SS)c1nnnc2c(OCl)nnnc12",
+      "fitness": 0.28170078617415484,
+      "novelty": 0.8929847730502788
+    },
+    {
+      "smiles": "CSC(NCCCS)c1nnnc2c(C)nncc12",
+      "fitness": 0.4737537483531284,
+      "novelty": 0.8910070929460983
+    },
+    {
+      "smiles": "CS[SH](CCCOCF)C1=NN=NS2=C1N=NN=S2SCF",
+      "fitness": 0.2801642691780245,
+      "novelty": 0.9034012645410492
+    },
+    {
+      "smiles": "OCOCNC(OS)c1nnnc2c(OCl)nnnc12",
+      "fitness": 0.25336155887795037,
+      "novelty": 0.8955783269182834
+    },
+    {
+      "smiles": "CCC(CCSSCl)C1=NN=NC2=S1N=NC=S2NNF",
+      "fitness": 0.2119261579238429,
+      "novelty": 0.8947757557856105
+    },
+    {
+      "smiles": "CCC(CCSCCl)C1=NN=NC2=S1N=NC=S2NCCl",
+      "fitness": 0.286551595117966,
+      "novelty": 0.9028234432711161
+    },
+    {
+      "smiles": "CO[SH](NCCNCl)C1=NN=NS2=C1N=NN=C2SCl",
+      "fitness": 0.29611099848727107,
+      "novelty": 0.8932927536671335
+    },
+    {
+      "smiles": "NNN(OOONCl)C1=NN=NS2=C1N=NN=C2OCl",
+      "fitness": 0.15750790656985217,
+      "novelty": 0.9113330595530356
+    },
+    {
+      "smiles": "OCCCNC(SS)c1nnnc2c(SCl)nnnc12",
+      "fitness": 0.28902113810993785,
+      "novelty": 0.8986972892242449
+    }
+  ]
+}

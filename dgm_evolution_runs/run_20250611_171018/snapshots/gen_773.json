@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:13:33.751631+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8344677552932087,
+  "generations_since_best": 186,
+  "novelty_archive_size": 1000,
+  "generation": 773,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNc1nnnc2c(S)nsc12",
+  "best_fitness": 0.6654206048427033,
+  "avg_novelty": 0.9206737809672637,
+  "population": [
+    {
+      "smiles": "CNC1=NOS2=S(SCOSO[Se]CSCNCOSOCO)[SH](SCCNCO)=NN=C12",
+      "fitness": 0.02560855333491559,
+      "novelty": 0.9242004014991145
+    },
+    {
+      "smiles": "OCNSCS[SH]1=NN=C2C(CS)=NOS2=S1SCOSO[Se]CSCNCCSOCO",
+      "fitness": 0.019481267009318085,
+      "novelty": 0.9241842625861669
+    },
+    {
+      "smiles": "NNc1nnnc2c(S)nsc12",
+      "fitness": 0.3423565575237698,
+      "novelty": 0.9136086711973886
+    },
+    {
+      "smiles": "CCSSSNCNCSS[SH]1=N[SH]=c2c(SS)nsc2=C1NNCSNNNNNOONF",
+      "fitness": 0.00906068945174204,
+      "novelty": 0.92519342429947
+    },
+    {
+      "smiles": "OCNSCS[SH]1=NN=C2C(NS)=NOS2=S1SCOOO[Se]CSCNCOCOSOCl",
+      "fitness": 0.011543436083974188,
+      "novelty": 0.9237166484626629
+    },
+    {
+      "smiles": "COc1nsc2c1=[SH]N=[SH](SOCNCNSNSSC)C=2NNONCCOCNNNOONF",
+      "fitness": 0.005489493141583819,
+      "novelty": 0.9252438313702294
+    },
+    {
+      "smiles": "CNc1nnnc2c(O)nsc12",
+      "fitness": 0.6579518023211821,
+      "novelty": 0.9112606386368035
+    },
+    {
+      "smiles": "CCSSSNCNCOS[SH]1=N[SH]=c2c(OS)nsc2=C1NNNOCCNCNNNOONF",
+      "fitness": 0.005839111648861234,
+      "novelty": 0.9230221299241388
+    },
+    {
+      "smiles": "CCSSSNCNOOS[SH]1=N[SH]=c2c(OS)nsc2=C1NNNOCCNCNNNOONF",
+      "fitness": 0.005745893927635055,
+      "novelty": 0.9238290055595046
+    },
+    {
+      "smiles": "CNc1nnnc2c(S)nsc12",
+      "fitness": 0.6654206048427033,
+      "novelty": 0.9124787961371588
+    }
+  ]
+}

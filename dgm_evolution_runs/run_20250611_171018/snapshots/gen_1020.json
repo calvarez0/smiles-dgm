@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:15:05.653158+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.9383145699660123,
+  "generations_since_best": 91,
+  "novelty_archive_size": 1000,
+  "generation": 1020,
+  "mutation_strategy": "llm",
+  "best_smiles": "CC12CNCNN1ONNC2SCl",
+  "best_fitness": 0.47001712125322564,
+  "avg_novelty": 0.9664986667031459,
+  "population": [
+    {
+      "smiles": "N1ON2NOOSC2OS1",
+      "fitness": 0.2987121852409512,
+      "novelty": 0.9742374607850398
+    },
+    {
+      "smiles": "CC12COSNC1CNNO2",
+      "fitness": 0.3371072646467708,
+      "novelty": 0.9694932495887434
+    },
+    {
+      "smiles": "CC12CNCNN1ONNC2SCl",
+      "fitness": 0.47001712125322564,
+      "novelty": 0.9542480183366029
+    },
+    {
+      "smiles": "OS12CNSOC1CNNC2SF",
+      "fitness": 0.4024388390680418,
+      "novelty": 0.9585035645277686
+    },
+    {
+      "smiles": "OSC1CNNN2CCCNC12O",
+      "fitness": 0.3349986307535421,
+      "novelty": 0.9630310869894712
+    },
+    {
+      "smiles": "SC1NCN[SH]2CCNNC12S",
+      "fitness": 0.27095699826321007,
+      "novelty": 0.976100196277364
+    },
+    {
+      "smiles": "OC12NCCCC1COCC2S",
+      "fitness": 0.4699795605706062,
+      "novelty": 0.9689738591114931
+    },
+    {
+      "smiles": "OC12NCCCN1CNNC2S",
+      "fitness": 0.29328379216477996,
+      "novelty": 0.9666126958169668
+    },
+    {
+      "smiles": "OS12NCCNC1NCNC2S",
+      "fitness": 0.29011165057775745,
+      "novelty": 0.9718178382159078
+    },
+    {
+      "smiles": "OS12CNSNC1CNNC2SF",
+      "fitness": 0.42673265910459107,
+      "novelty": 0.9619686973821017
+    }
+  ]
+}

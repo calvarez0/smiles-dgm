@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:11.875066+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 115,
+  "novelty_archive_size": 1000,
+  "generation": 306,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNNNOC(CN)c1ncnc2c(C)nnnc12",
+  "best_fitness": 0.35252037092089683,
+  "avg_novelty": 0.893269469625116,
+  "population": [
+    {
+      "smiles": "CNNNOC(CN)c1ncnc2c(C)nnnc12",
+      "fitness": 0.35252037092089683,
+      "novelty": 0.8793109089671407
+    },
+    {
+      "smiles": "CNCNCC(NO)c1nnnc2c(N)nnnc12",
+      "fitness": 0.2148108327158788,
+      "novelty": 0.8835498103275741
+    },
+    {
+      "smiles": "NOC(CNNOCOF)c1cnnc2c(ONCF)cnnc12",
+      "fitness": 0.17136156735390268,
+      "novelty": 0.8953575598022252
+    },
+    {
+      "smiles": "CNCCNC(ON)C1=CN=NS2=C(C)N=[SH]N=C12",
+      "fitness": 0.18228179230456218,
+      "novelty": 0.8867293781355193
+    },
+    {
+      "smiles": "NON(CNNOCNF)c1cnnc2c(ONOCF)cnnc12",
+      "fitness": 0.12366263077880295,
+      "novelty": 0.8977435607627956
+    },
+    {
+      "smiles": "NNC(CNOONNF)c1cnnc2c(NNCF)nnnc12",
+      "fitness": 0.05651711828350057,
+      "novelty": 0.891784117007892
+    },
+    {
+      "smiles": "FCNNc1cnnc2c(C(CNNOCNF)OS)cnnc12",
+      "fitness": 0.05942040547508338,
+      "novelty": 0.9006475804415556
+    },
+    {
+      "smiles": "FCNNS1=CN=Nc2c(C(CNNOCNF)NS)cnnc21",
+      "fitness": 0.05299902360624689,
+      "novelty": 0.9005041347590619
+    },
+    {
+      "smiles": "CNNCOC(SN)C1=NC=NC2=C(C)N=NN=[SH]12N",
+      "fitness": 0.14749954347043115,
+      "novelty": 0.8952401020157321
+    },
+    {
+      "smiles": "FCNNc1cnnc2c(C(CONOCNF)OS)cnnc12",
+      "fitness": 0.0705638312668858,
+      "novelty": 0.901827544031663
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:09.747598+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 106,
+  "novelty_archive_size": 1000,
+  "generation": 297,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNNCOC(CN)c1ncnc2c(C)nnnc12",
+  "best_fitness": 0.33572603573971777,
+  "avg_novelty": 0.8942552305283448,
+  "population": [
+    {
+      "smiles": "CNC(CCSOCNF)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.1632819527207032,
+      "novelty": 0.8965031058334194
+    },
+    {
+      "smiles": "CNCCNN(NN)C1=CN=NS2=C(C)N=[SH]N=C12",
+      "fitness": 0.14712897737113426,
+      "novelty": 0.8984321970656177
+    },
+    {
+      "smiles": "NNC(CNNOCNF)c1cnnc2c(NNCl)cnnc12",
+      "fitness": 0.08727381783764378,
+      "novelty": 0.9007345144995261
+    },
+    {
+      "smiles": "CNNCOC(CN)c1ncnc2c(C)nnnc12",
+      "fitness": 0.33572603573971777,
+      "novelty": 0.8822069306699396
+    },
+    {
+      "smiles": "CNNCNC(ON)c1ncnc2c(N)nnnc12",
+      "fitness": 0.21423006757214452,
+      "novelty": 0.8779848579006995
+    },
+    {
+      "smiles": "NOC(CCNOCNF)c1cnnc2c(NNCF)cnnc12",
+      "fitness": 0.11852661192553797,
+      "novelty": 0.9011148446478602
+    },
+    {
+      "smiles": "CNCCNC(NN)C1=CN=NS2=C(C)N=[SH]N=C12",
+      "fitness": 0.11467609148603088,
+      "novelty": 0.9006612178558796
+    },
+    {
+      "smiles": "CNCNNC(CO)c1nnnc2c(N)nnnc12",
+      "fitness": 0.20704424547497988,
+      "novelty": 0.8880312283859345
+    },
+    {
+      "smiles": "NNN(CCNOCNO)c1cnnc2c(NNF)cnnc12",
+      "fitness": 0.08286857568431812,
+      "novelty": 0.8996520156229796
+    },
+    {
+      "smiles": "CNCNNN(NS)c1nnnc2c(C)nnnc12",
+      "fitness": 0.17227661358781848,
+      "novelty": 0.8972313928015913
+    }
+  ]
+}

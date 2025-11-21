@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:11:02.840837+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 67,
+  "novelty_archive_size": 1000,
+  "generation": 258,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CSC(CCCCCl)c1nnnc2c(C)nncc12",
+  "best_fitness": 0.6031942745618776,
+  "avg_novelty": 0.8980847805941362,
+  "population": [
+    {
+      "smiles": "CO[SH](SCCSCl)C1=NN=NS2=C1N=NN=S2SCl",
+      "fitness": 0.2752281845483904,
+      "novelty": 0.9087161818433457
+    },
+    {
+      "smiles": "NOC(OOOCCl)C1=NN=NS2=C1N=NN=C2CCl",
+      "fitness": 0.18593738637032312,
+      "novelty": 0.9115392257739479
+    },
+    {
+      "smiles": "CS[SH](CCCOCF)C1=NN=NS2=C1N=NN=S2SCl",
+      "fitness": 0.288017789889359,
+      "novelty": 0.8990283256206817
+    },
+    {
+      "smiles": "COC(CSCNS)c1nnnc2c1[SH]=NN=S2CSO",
+      "fitness": 0.22929473122895114,
+      "novelty": 0.8917914399920617
+    },
+    {
+      "smiles": "CNS1=CN=Nc2c(C(CCNCCl)SC)nnnc21",
+      "fitness": 0.3435943768396725,
+      "novelty": 0.892625112993283
+    },
+    {
+      "smiles": "OCNCCC(OS)C1=NN=NS2=C1N=NN=C2OCl",
+      "fitness": 0.2207956789312803,
+      "novelty": 0.9047736882130967
+    },
+    {
+      "smiles": "CSC(CCSCCl)c1nnnc2c1N=NC=S2NCl",
+      "fitness": 0.34061667976768517,
+      "novelty": 0.8944326317828716
+    },
+    {
+      "smiles": "CSC(CCCCCl)c1nnnc2c(C)nncc12",
+      "fitness": 0.6031942745618776,
+      "novelty": 0.8900922155778326
+    },
+    {
+      "smiles": "CSN(CNNCS)c1nnnc2c1[SH]=NN=S2CSCl",
+      "fitness": 0.16874655321902546,
+      "novelty": 0.8957962995193259
+    },
+    {
+      "smiles": "CSC(CCSCCl)c1nnnc2c1N=NC=S2NO",
+      "fitness": 0.33679212815824805,
+      "novelty": 0.892052684624917
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+Evolution Summary - Generation 690
+==========================================
+
+Run ID: 20250611_180213
+Generation: 690
+Timestamp: 2025-06-11T23:04:35.977218+00:00
+
+BEST MOLECULE FOUND:
+- SMILES: FSCC12SCCCC1NCCC2SF
+- Fitness: 0.8451
+- Found in Generation: 71
+- Generations since found: 619
+
+ALL-TIME BEST FITNESS: 0.8451
+
+OPEN-ENDED EVOLUTION STATUS:
+- Plateau length: 619 generations
+- Plateau threshold: 30 generations
+- Status: 🚨 LONG PLATEAU - Seeking novelty
+- Novelty archive size: 1000 stepping stones
+- Highly novel molecules preserved: 1000
+
+CURRENT EVOLUTION PARAMETERS:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+- Novelty Push Interval: 25
+- Diversity Restart Interval: 200
+
+CURRENT PROMPT:
+Modify molecule '{smiles}' with a creative but strategic change to improve drug-likeness. Return only SMILES.
+
+BEST PERFORMING PROMPT (achieved fitness 0.6773):
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+PERFORMANCE HISTORY (last 10 generations):
+- All-time best fitness: [0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415, 0.845131158229415]
+- Average novelty: [0.9301860859905673, 0.9296525952081509, 0.9296360278660801, 0.9310022975170599, 0.9312519547771103, 0.9311245040111504, 0.930662522952782, 0.93214927065459, 0.9316702737181085, 0.930651097874061]
+
+ARCHIVE STATISTICS:
+- Total molecules explored: 6900
+- Novel molecules (novelty ≥ 0.7): 1000
+- Top molecules found: 10
+- Chemical diversity maintained: High
+
+TOP 5 MOLECULES FOUND SO FAR:
+1. FSCC12SCCCC1NCCC2SF (fitness: 0.8451, gen: 71)
+2. FSCC12SCCCC1NCCC2SF (fitness: 0.8451, gen: 72)
+3. OS1=NN=Nc2c1cc1ncnnc1c2OF (fitness: 0.8365, gen: 314)
+4. OS1=NN=Nc2c1cc1ncnnc1c2OF (fitness: 0.8365, gen: 315)
+5. OS1=NN=Nc2c1cc1ncnnc1c2OF (fitness: 0.8365, gen: 316)
+
+STANLEY'S OPEN-ENDED PRINCIPLES IN ACTION:
+✓ Novelty preservation (stepping stones archive)
+✓ Diversity injection during plateaus
+✓ Adaptive selection pressure
+✓ Creative exploration when stuck
+✓ Multiple starting points for divergent evolution

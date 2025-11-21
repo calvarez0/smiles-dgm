@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:09.487160+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.778955062144714,
+  "generation": 160,
+  "mutation_strategy": "llm",
+  "best_smiles": "CNN1COCCN1C(=O)c1nn(C)cc1SC",
+  "best_fitness": 0.7761713843472531,
+  "avg_novelty": 0.8924598446136539,
+  "population": [
+    {
+      "smiles": "CSOCC1=NN(N)N=NC=C1SCOF",
+      "fitness": 0.4470235274891447,
+      "novelty": 0.8730602281817684
+    },
+    {
+      "smiles": "Cn1nc(SS)c(C(=S)N2CCOCN2Cl)n1",
+      "fitness": 0.3795187666732423,
+      "novelty": 0.9196080109765572
+    },
+    {
+      "smiles": "CSc1cn(C)nc1C(=O)N1CCNNN1NOCl",
+      "fitness": 0.502780107619644,
+      "novelty": 0.8961558958820772
+    },
+    {
+      "smiles": "CNN1COCCN1C(=O)c1nn(C)cc1SC",
+      "fitness": 0.7761713843472531,
+      "novelty": 0.909444533675981
+    },
+    {
+      "smiles": "CSOCC1=NN(C)N=NC=C1NCOF",
+      "fitness": 0.5661646306905022,
+      "novelty": 0.8683522382423976
+    },
+    {
+      "smiles": "Cn1cc(SN)c(C(=O)N2CCNCN2N)n1",
+      "fitness": 0.4362217904211488,
+      "novelty": 0.9103986615975722
+    },
+    {
+      "smiles": "CNN1COCCN1C(=O)c1nn(C)cc1SC",
+      "fitness": 0.7761713843472531,
+      "novelty": 0.908660309821181
+    },
+    {
+      "smiles": "CSONC1=NN(N)N=NC=C1SCOF",
+      "fitness": 0.33317246051134125,
+      "novelty": 0.864867750218014
+    },
+    {
+      "smiles": "CSc1cn(C)nc1C(=O)N1CCNNN1NOS",
+      "fitness": 0.24654571753941715,
+      "novelty": 0.9001434007672651
+    },
+    {
+      "smiles": "CSOCC1=NN(C)N=NC=S1NCOF",
+      "fitness": 0.44688856668775373,
+      "novelty": 0.8739074167737255
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Evolution Summary - Generation 10
+==========================================
+
+Run ID: 20250611_165550
+Generation: 10
+Timestamp: 2025-06-11T21:55:55.775010+00:00
+
+Best Molecule Found:
+- SMILES: CSc1ccccc1CO
+- Fitness: 0.6564
+- Found in Generation: 10
+
+All-Time Best Fitness: 0.6564
+
+Current Evolution Parameters:
+- Population Size: 10
+- LLM Mutation Interval: 10
+- Prompt Refinement Interval: 50
+
+Current Prompt:
+You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.
+
+Performance History (last 10 generations):
+- Fitness: [0.514729544768675, 0.5163288713332986, 0.5163288713332986, 0.5203935557471561, 0.5203935557471561, 0.6016313477055436, 0.6016313477055436, 0.6016313477055436, 0.6016313477055436, 0.656447579791292]
+- Novelty: [0.6528391053391054, 0.6960350111296219, 0.7372270166472072, 0.7755875347003074, 0.8089987070846535, 0.8349755939630521, 0.8415064233403082, 0.8520466898745653, 0.8653597009062658, 0.8438044191361707]
+
+Archive Size: 100 molecules explored

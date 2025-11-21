@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-06-11T21:47:09.298112+00:00",
+  "current_prompt": "You are a chemistry expert specializing in drug design.  Given the molecule SMILES '{smiles}', propose a diverse set of 3-5  mutations (single atom/functional group changes), prioritizing modifications that enhance drug-likeness while maintaining structural novelty. Return only a space-separated list of valid SMILES strings representing these mutations.  Prioritize mutations with predicted improved Lipinski parameters.",
+  "all_time_best_fitness": 0.778955062144714,
+  "generation": 158,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CNN1CNCCN1C(=O)c1nn(C)cc1SC",
+  "best_fitness": 0.7217850129738861,
+  "avg_novelty": 0.8992749138244079,
+  "population": [
+    {
+      "smiles": "CSc1cn(C)nc1C(=S)N1CCNCN1N",
+      "fitness": 0.43796362248480486,
+      "novelty": 0.9121731034047498
+    },
+    {
+      "smiles": "CNN1CNCCN1C(=S)c1nn(C)cc1SC",
+      "fitness": 0.6004511885356525,
+      "novelty": 0.9102025753848407
+    },
+    {
+      "smiles": "CSOCC1=NN(C)N=NC=C1NCOF",
+      "fitness": 0.5661646306905022,
+      "novelty": 0.8697741256364764
+    },
+    {
+      "smiles": "CSONC1=NN(C)N=NC=C1SCSF",
+      "fitness": 0.4751671059992563,
+      "novelty": 0.8613609850297499
+    },
+    {
+      "smiles": "CNN1CNCCN1C(=O)c1nn(C)cc1SC",
+      "fitness": 0.7217850129738861,
+      "novelty": 0.9092545549769523
+    },
+    {
+      "smiles": "CSc1nn(C)nc1C(=S)N1CCOCN1Cl",
+      "fitness": 0.4554515369943243,
+      "novelty": 0.9228257171960874
+    },
+    {
+      "smiles": "CSOCC1=NN(C)N=NC=C1SCOF",
+      "fitness": 0.5454393935130434,
+      "novelty": 0.8726278829486032
+    },
+    {
+      "smiles": "CSc1cn(C)nc1C(=O)N1CCNNN1N",
+      "fitness": 0.44773716901298394,
+      "novelty": 0.9123697933587841
+    },
+    {
+      "smiles": "Cn1cc(SN)c(C(=O)N2CCNCN2N)n1",
+      "fitness": 0.4362217904211488,
+      "novelty": 0.9141182745766248
+    },
+    {
+      "smiles": "CNN1CNCCN1C(=S)c1nn(C)cc1SN",
+      "fitness": 0.49657206833734735,
+      "novelty": 0.9080421257312107
+    }
+  ]
+}

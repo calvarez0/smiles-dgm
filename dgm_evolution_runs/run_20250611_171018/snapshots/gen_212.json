@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-06-11T22:10:54.941297+00:00",
+  "current_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
+  "all_time_best_fitness": 0.8184621049073034,
+  "generations_since_best": 21,
+  "novelty_archive_size": 1000,
+  "generation": 212,
+  "mutation_strategy": "genetic",
+  "best_smiles": "CCCN(CC)c1nnnc2c(O)nnnc12",
+  "best_fitness": 0.7987766969494807,
+  "avg_novelty": 0.8905669762393099,
+  "population": [
+    {
+      "smiles": "CC1=C2N=NC=C(OSNSSCSSCF)[SH]2(ONONS)=[SH]N=N1",
+      "fitness": 0.04051779693589274,
+      "novelty": 0.8912543444407764
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(NCNSSOONCCl)[SH]2(COOCO)=N[SH]=[SH]1",
+      "fitness": 0.01298868857450593,
+      "novelty": 0.9026290556022804
+    },
+    {
+      "smiles": "NC1=C2N=[SH][SH]=C(NCNSSOONSCl)[SH]2(CONCO)=N[SH]=[SH]1F",
+      "fitness": 0.014295682232653767,
+      "novelty": 0.8969138634787603
+    },
+    {
+      "smiles": "CCN(CSCCF)c1nnnc2c(N)nnnc12",
+      "fitness": 0.590681900221511,
+      "novelty": 0.8775136929800332
+    },
+    {
+      "smiles": "NS1=C2N=[SH][SH]=C(NCNCSOONSCl)[SH]2(COOCO)=N[SH]=[SH]1",
+      "fitness": 0.016942870511510996,
+      "novelty": 0.9061172286471486
+    },
+    {
+      "smiles": "CCSN(CC)c1nnnc2c(S)nnnc12",
+      "fitness": 0.649959092536747,
+      "novelty": 0.8908826374604136
+    },
+    {
+      "smiles": "CCCN(CC)c1nnnc2c(O)nnnc12",
+      "fitness": 0.7987766969494807,
+      "novelty": 0.88646197965284
+    },
+    {
+      "smiles": "CCN(CSCCF)c1nnnc2c(O)nnnc12",
+      "fitness": 0.5965609009238646,
+      "novelty": 0.8735552963452293
+    },
+    {
+      "smiles": "CC1=C2N=NC=C(SSNSSCSSCF)[SH]2(ONONS)=[SH]N=N1",
+      "fitness": 0.049772414538870505,
+      "novelty": 0.8934701610154863
+    },
+    {
+      "smiles": "NC1=C2N=[SH]C=C(NCNSSOONSCl)[SH]2(COOCO)=N[SH]=[SH]1F",
+      "fitness": 0.01813005170003792,
+      "novelty": 0.8868715027701309
+    }
+  ]
+}
