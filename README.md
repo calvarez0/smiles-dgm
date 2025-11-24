@@ -223,10 +223,10 @@ SwissADME provides comprehensive evaluation of pharmacokinetics, drug-likeness, 
    - **Drug-likeness**: Lipinski, Ghose, Veber, Egan, and Muegge filters
    - **Medicinal Chemistry**: PAINS alerts and synthetic accessibility
 
-![BOILED-Egg Plot](egg.png)
+![BOILED-Egg Plot](images/egg.png)
 *Figure 1: BOILED-Egg plot showing gastrointestinal absorption (white region) and blood-brain barrier penetration (yellow region) predictions. The red dot indicates a P-glycoprotein non-substrate (PGP-), suggesting the molecule won't be actively effluxed.*
 
-![Molecular Properties](molecule.png)
+![Molecular Properties](images/molecule.png)
 *Figure 2: Comprehensive molecular property analysis showing physicochemical properties, water solubility predictions, pharmacokinetics, drug-likeness scores, and medicinal chemistry metrics. The bioavailability radar (top) provides a quick visual assessment of six key drug-like properties.*
 
 #### 2. SwissTargetPrediction (https://www.swisstargetprediction.ch/)
@@ -242,10 +242,10 @@ SwissTargetPrediction estimates the most probable macromolecular targets of a sm
 4. Click "Predict targets" to run analysis
 5. Review predicted targets ranked by probability
 
-![Target Classes](target_classes.png)
+![Target Classes](images/target_classes.png)
 *Figure 3: Distribution of predicted target classes. In this example, kinases represent 73.3% of predicted targets, followed by proteases (13.3%), indicating the molecule's likely mechanism of action involves kinase inhibition.*
 
-![Target Predictions](similarity.png)
+![Target Predictions](images/similarity.png)
 *Figure 4: Top predicted molecular targets with probability scores and known active compounds. Green bars indicate high confidence predictions. The table shows specific kinases (ROCK2, LIMK1/2, PIM family) and proteases (CTSC, DPP4) as likely targets, with links to ChEMBL database entries for validation.*
 
 ### Interpreting Results
