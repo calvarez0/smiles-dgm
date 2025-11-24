@@ -202,6 +202,95 @@ Key parameters (modify in source):
 - `PLATEAU_THRESHOLD`: Generations without improvement to trigger novelty focus (default: 30)
 - `MIN_NOVELTY_THRESHOLD`: Minimum Tanimoto distance for "interesting" molecules (default: 0.7)
 
+## Validation with Online Tools
+
+### SwissADME and SwissTargetPrediction
+
+After generating novel molecules, you can validate their drug-like properties and predict potential biological targets using Swiss Institute of Bioinformatics' web tools:
+
+#### 1. SwissADME (https://www.swissadme.ch/)
+
+SwissADME provides comprehensive evaluation of pharmacokinetics, drug-likeness, and medicinal chemistry friendliness of small molecules.
+
+**How to use:**
+1. Navigate to https://www.swissadme.ch/
+2. Paste your generated SMILES string(s) in the input box (one per line)
+3. Click "Run" to analyze
+4. Review the comprehensive report including:
+   - **BOILED-Egg plot**: Visual prediction of gastrointestinal absorption and brain penetration
+   - **Bioavailability Radar**: Six physicochemical properties for oral bioavailability
+   - **Pharmacokinetics**: ADME predictions
+   - **Drug-likeness**: Lipinski, Ghose, Veber, Egan, and Muegge filters
+   - **Medicinal Chemistry**: PAINS alerts and synthetic accessibility
+
+![BOILED-Egg Plot](images/egg.png)
+*Figure 1: BOILED-Egg plot showing gastrointestinal absorption (white region) and blood-brain barrier penetration (yellow region) predictions. The red dot indicates a P-glycoprotein non-substrate (PGP-), suggesting the molecule won't be actively effluxed.*
+
+![Molecular Properties](images/molecule.png)
+*Figure 2: Comprehensive molecular property analysis showing physicochemical properties, water solubility predictions, pharmacokinetics, drug-likeness scores, and medicinal chemistry metrics. The bioavailability radar (top) provides a quick visual assessment of six key drug-like properties.*
+
+#### 2. SwissTargetPrediction (https://www.swisstargetprediction.ch/)
+
+SwissTargetPrediction estimates the most probable macromolecular targets of a small molecule based on similarity to known bioactive molecules.
+
+**How to use:**
+1. Navigate to https://www.swisstargetprediction.ch/
+2. Either:
+   - Draw your molecule using the integrated structure editor, or
+   - Paste the SMILES string directly
+3. Select organism (Homo sapiens for human targets)
+4. Click "Predict targets" to run analysis
+5. Review predicted targets ranked by probability
+
+![Target Classes](images/target_classes.png)
+*Figure 3: Distribution of predicted target classes. In this example, kinases represent 73.3% of predicted targets, followed by proteases (13.3%), indicating the molecule's likely mechanism of action involves kinase inhibition.*
+
+![Target Predictions](images/similarity.png)
+*Figure 4: Top predicted molecular targets with probability scores and known active compounds. Green bars indicate high confidence predictions. The table shows specific kinases (ROCK2, LIMK1/2, PIM family) and proteases (CTSC, DPP4) as likely targets, with links to ChEMBL database entries for validation.*
+
+### Interpreting Results
+
+#### Key Metrics to Evaluate:
+
+**From SwissADME:**
+- **Lipinski's Rule of Five**: All parameters should be within limits for oral bioavailability
+- **Bioavailability Score**: Higher scores (0.55-1.0) indicate better oral bioavailability
+- **Synthetic Accessibility**: Lower scores (1-4) indicate easier synthesis
+- **PAINS Alerts**: Should be 0 for drug candidates (avoid promiscuous binders)
+- **LogP (lipophilicity)**: Optimal range 0-3 for most drugs
+- **TPSA**: <140 Ų for good oral absorption
+
+**From SwissTargetPrediction:**
+- **Probability Score**: >0.5 indicates high confidence predictions
+- **Target Class Distribution**: Helps understand mechanism of action
+- **Known Actives**: Number of similar compounds with confirmed activity
+- **Target Diversity**: Multiple target classes may indicate polypharmacology
+
+### Validation Workflow
+
+1. **Initial Screening**: Extract top molecules from evolution (check `molecules/` directory)
+2. **ADME Analysis**: Run SwissADME to filter molecules with poor drug-like properties
+3. **Target Prediction**: Use SwissTargetPrediction for promising candidates
+4. **Iterative Refinement**: Feed validation results back into prompt refinement for targeted evolution
+
+### Example Analysis
+
+For the molecule shown in the screenshots (SMILES: `CSC1CONNN1C(=C)c1nn(nc1CC)C`):
+
+**Strengths:**
+- Good water solubility (Log S = -2.70)
+- High GI absorption predicted
+- Favorable bioavailability score (0.55)
+- No PAINS or Brenk alerts
+- Reasonable synthetic accessibility (4.22)
+
+**Considerations:**
+- Not BBB permeant (may be desirable depending on target)
+- Multiple kinase targets predicted (potential for both efficacy and side effects)
+- Molecular weight (270 Da) leaves room for optimization
+
+This validation data can inform the next evolution cycle by updating the mutation prompts to maintain favorable properties while exploring chemical space.
+
 ## Limitations and Future Directions
 
 ### Current Limitations
@@ -246,4 +335,4 @@ MIT License - See LICENSE file for details
 
 ## Acknowledgments
 
-This implementation builds upon ideas from the open-ended evolution community, particularly the work of Kenneth Stanley, Joel Lehman, Sakana AI and the broader artificial life research community. The molecular evaluation components leverage the excellent RDKit library and the chemical informatics community's contributions.
+This implementation builds upon ideas from the open-ended evolution community, particularly the work of Kenneth Stanley, Joel Lehman, and the broader artificial life research community. The molecular evaluation components leverage the excellent RDKit library and the chemical informatics community's contributions.
