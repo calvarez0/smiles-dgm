@@ -337,4 +337,4 @@ MIT License - See LICENSE file for details
 
 This implementation builds upon ideas from the open-ended evolution community, particularly the work of Kenneth Stanley, Sakana AI, Jeff Clune, Joel Lehman, and the broader artificial life research community. The molecular evaluation components leverage the excellent RDKit library and the chemical informatics community's contributions.
 
-This readme was largely AI-generated. This is an on-going project. I love to be open about science :)
+This readme was largely AI generated. This is an on-going project. I'm a strong believer in open science. 
