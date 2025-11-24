@@ -4,6 +4,12 @@
 
 This program implements an open-ended evolutionary system for molecular discovery that combines principles from Darwinian evolution, Gödel's incompleteness theorem (through self-modifying prompts), and Kenneth Stanley's novelty search paradigm. The system evolves molecular structures through a hierarchical mutation strategy, balancing exploitation of high-fitness molecules with exploration of novel chemical space to avoid local optima and discover diverse, high-quality drug-like compounds.
 
+![BOILED-Egg Plot](images/egg.png)
+*Figure 1: BOILED-Egg plot showing gastrointestinal absorption (white region) and blood-brain barrier penetration (yellow region) predictions. The red dot indicates a P-glycoprotein non-substrate (PGP-), suggesting the molecule won't be actively effluxed.*
+
+![Molecular Properties](images/molecule.png)
+*Figure 2: Comprehensive molecular property analysis showing physicochemical properties, water solubility predictions, pharmacokinetics, drug-likeness scores, and medicinal chemistry metrics. The bioavailability radar (top) provides a quick visual assessment of six key drug-like properties.*
+
 ## Scientific Background
 
 ### Theoretical Foundation
@@ -222,12 +228,6 @@ SwissADME provides comprehensive evaluation of pharmacokinetics, drug-likeness, 
    - **Pharmacokinetics**: ADME predictions
    - **Drug-likeness**: Lipinski, Ghose, Veber, Egan, and Muegge filters
    - **Medicinal Chemistry**: PAINS alerts and synthetic accessibility
-
-![BOILED-Egg Plot](images/egg.png)
-*Figure 1: BOILED-Egg plot showing gastrointestinal absorption (white region) and blood-brain barrier penetration (yellow region) predictions. The red dot indicates a P-glycoprotein non-substrate (PGP-), suggesting the molecule won't be actively effluxed.*
-
-![Molecular Properties](images/molecule.png)
-*Figure 2: Comprehensive molecular property analysis showing physicochemical properties, water solubility predictions, pharmacokinetics, drug-likeness scores, and medicinal chemistry metrics. The bioavailability radar (top) provides a quick visual assessment of six key drug-like properties.*
 
 #### 2. SwissTargetPrediction (https://www.swisstargetprediction.ch/)
 
