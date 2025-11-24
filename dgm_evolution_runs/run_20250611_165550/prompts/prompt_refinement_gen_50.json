@@ -1,9 +1,0 @@
-{
-  "generation": 50,
-  "old_prompt": "You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.",
-  "new_prompt": "You are a chemistry assistant specializing in unconventional molecular modifications.  Given molecule SMILES '{smiles}', propose a mutation aiming for a significant increase in novelty while maintaining chemical validity. Prioritize modifications involving unusual ring systems, heteroatoms (beyond O, N, S), or strained ring structures. Return only the new, valid SMILES string.",
-  "performance_summary": "\n    Generation 50 Performance Analysis:\n    \n    CURRENT STATUS:\n    - All-time best fitness: 0.7641\n    - Best molecule: OSCc1nnncc1CSCF (found in gen 40)\n    - Generations since last improvement: 10\n    \n    RECENT PERFORMANCE (last 49 generations):\n    - Average fitness: 0.6999\n    - Fitness trend (slope): 0.004585\n    - Average novelty: 0.8438  \n    - Novelty trend (slope): 0.001534\n    \n    PROMPT HISTORY:\n    - Best performing prompt: \"You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (o...\"\n    - Best prompt achieved fitness: 0.7641 (gen 40)\n    - Current prompt: \"You are a chemistry assistant. Given the molecule SMILES '{smiles}', propose exactly one mutation (one atom/functional group change) and return only the new valid SMILES string. Do not include any extra text or explanation.\"\n    - Current prompt has been used for 10 generations without finding a better molecule\n    \n    PLATEAU ANALYSIS:\n    Recent progress detected.\n    ",
-  "generations_since_best": 10,
-  "plateau_detected": false,
-  "timestamp": "2025-06-11T21:56:01.228333+00:00"
-}
